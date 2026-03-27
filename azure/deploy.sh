@@ -52,77 +52,18 @@ set_subscription() {
     fi
 }
 
-# Create resource group
-create_resource_group() {
-    print_status "Creating resource group: $RESOURCE_GROUP"
-    az group create \
-        --name "$RESOURCE_GROUP" \
-        --location "$LOCATION" \
-        --tags Environment=Production Project=JA-BizTown Owner=DevOps
-}
-
-# Create Azure Container Registry
-create_acr() {
-    print_status "Creating Azure Container Registry: $ACR_NAME"
-    az acr create \
-        --resource-group "$RESOURCE_GROUP" \
-        --name "$ACR_NAME" \
-        --sku Premium \
-        --admin-enabled true
-}
-
-# Create Storage Account
-create_storage_account() {
-    print_status "Creating Storage Account: $STORAGE_ACCOUNT_NAME"
-    az storage account create \
-        --resource-group "$RESOURCE_GROUP" \
-        --name "$STORAGE_ACCOUNT_NAME" \
-        --sku Standard_LRS \
-        --kind StorageV2 \
-        --https-only true
-}
-
-# Create Key Vault
-create_key_vault() {
-    print_status "Creating Key Vault: $KEYVAULT_NAME"
-    az keyvault create \
-        --resource-group "$RESOURCE_GROUP" \
-        --name "$KEYVAULT_NAME" \
-        --location "$LOCATION" \
-        --enable-soft-delete true \
-        --enable-purge-protection true
-}
-
-# Store secrets in Key Vault
-store_secrets() {
-    print_status "Storing secrets in Key Vault..."
-    
-    # SQL Server password
-    if [ -n "$SQL_ADMIN_PASSWORD" ]; then
-        az keyvault secret set \
-            --vault-name "$KEYVAULT_NAME" \
-            --name "sql-admin-password" \
-            --value "$SQL_ADMIN_PASSWORD"
-    fi
-    
-    # Application Insights key (if provided)
-    if [ -n "$APPINSIGHTS_INSTRUMENTATIONKEY" ]; then
-        az keyvault secret set \
-            --vault-name "$KEYVAULT_NAME" \
-            --name "appinsights-instrumentation-key" \
-            --value "$APPINSIGHTS_INSTRUMENTATIONKEY"
-    fi
-}
-
 # Build and push Docker images
 build_and_push_images() {
     print_status "Building and pushing Docker images..."
-    
+
+    # Get ACR name/login server from Terraform outputs to avoid drift
+    cd ../terraform
+    ACR_LOGIN_SERVER=$(terraform output -raw container_registry_login_server)
+    ACR_NAME=$(echo "$ACR_LOGIN_SERVER" | cut -d '.' -f1)
+    cd ../azure
+
     # Login to ACR
     az acr login --name "$ACR_NAME"
-    
-    # Get ACR login server
-    ACR_LOGIN_SERVER=$(az acr show --resource-group "$RESOURCE_GROUP" --name "$ACR_NAME" --query loginServer --output tsv)
     
     # Build and push frontend image
     print_status "Building frontend image..."
@@ -179,20 +120,11 @@ main() {
     check_azure_login
     set_subscription
     
-    # Create Azure resources
-    create_resource_group
-    create_acr
-    create_storage_account
-    create_key_vault
-    
-    # Store secrets
-    store_secrets
-    
+    # Deploy infrastructure first (creates ACR/AppServices/SQL consistently)
+    deploy_terraform
+
     # Build and push images
     build_and_push_images
-    
-    # Deploy infrastructure
-    deploy_terraform
     
     # Provide DNS instructions
     configure_dns_instructions

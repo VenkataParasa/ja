@@ -44,11 +44,6 @@ resource "azurerm_mssql_server" "jabiztown" {
   version                      = "12.0"
   administrator_login          = var.sql_admin_username
   administrator_login_password = var.sql_admin_password
-  
-  azuread_administrator {
-    login_username = azuread_group.jabiztown_admins.display_name
-    object_id      = azuread_group.jabiztown_admins.object_id
-  }
 
   tags = {
     Environment = "Production"
@@ -117,6 +112,8 @@ resource "azurerm_linux_web_app" "frontend" {
     "DOCKER_REGISTRY_SERVER_USERNAME" = azurerm_container_registry.jabiztown.admin_username
     "DOCKER_REGISTRY_SERVER_PASSWORD" = azurerm_container_registry.jabiztown.admin_password
     "WEBSITES_PORT"                   = "3000"
+    "REACT_APP_API_URL"               = "https://${azurerm_linux_web_app.backend.default_hostname}"
+    "REACT_APP_ENVIRONMENT"           = "production"
   }
 
   tags = {
@@ -153,6 +150,7 @@ resource "azurerm_linux_web_app" "backend" {
     http2_enabled     = true
     min_tls_version   = "1.2"
     ftps_state        = "Disabled"
+    health_check_path = "/health"
     
     application_stack {
       docker_image     = "${azurerm_container_registry.jabiztown.login_server}/jabiztown-api:latest"
@@ -167,6 +165,7 @@ resource "azurerm_linux_web_app" "backend" {
     "WEBSITES_PORT"                   = "8080"
     "ASPNETCORE_ENVIRONMENT"          = "Production"
     "ConnectionStrings__DefaultConnection" = "Server=tcp:${azurerm_mssql_server.jabiztown.fully_qualified_domain_name},1433;Initial Catalog=${azurerm_mssql_database.jabiztown.name};User ID=${var.sql_admin_username};Password=${var.sql_admin_password};Encrypt=true;TrustServerCertificate=false;Connection Timeout=30;"
+    "CORS__AllowedOrigins__0"         = "https://${azurerm_linux_web_app.frontend.default_hostname}"
   }
 
   tags = {
@@ -174,13 +173,6 @@ resource "azurerm_linux_web_app" "backend" {
     Project     = "JA BizTown"
     Component   = "Backend"
   }
-}
-
-# Azure AD Group for Admins
-resource "azuread_group" "jabiztown_admins" {
-  display_name     = "JA BizTown Admins"
-  security_enabled = true
-  description      = "Administrators for JA BizTown resources"
 }
 
 # Application Insights
@@ -211,36 +203,3 @@ resource "azurerm_log_analytics_workspace" "jabiztown" {
   }
 }
 
-# Output values
-output "resource_group_name" {
-  value = azurerm_resource_group.jabiztown.name
-}
-
-output "container_registry_login_server" {
-  value = azurerm_container_registry.jabiztown.login_server
-}
-
-output "container_registry_admin_username" {
-  value = azurerm_container_registry.jabiztown.admin_username
-}
-
-output "container_registry_admin_password" {
-  value = azurerm_container_registry.jabiztown.admin_password
-  sensitive = true
-}
-
-output "frontend_app_url" {
-  value = azurerm_linux_web_app.frontend.default_hostname
-}
-
-output "backend_app_url" {
-  value = azurerm_linux_web_app.backend.default_hostname
-}
-
-output "sql_server_fqdn" {
-  value = azurerm_mssql_server.jabiztown.fully_qualified_domain_name
-}
-
-output "sql_database_name" {
-  value = azurerm_mssql_database.jabiztown.name
-}
