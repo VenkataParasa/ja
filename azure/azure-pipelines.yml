@@ -1,0 +1,365 @@
+# JA BizTown Azure DevOps Pipeline
+# This pipeline builds, tests, and deploys the JA BizTown application to Azure
+
+trigger:
+  branches:
+    include:
+    - main
+    - develop
+  tags:
+    include:
+    - v*
+
+pr:
+  branches:
+    include:
+    - main
+    - develop
+
+variables:
+  # Azure Resource Group
+  resourceGroupName: 'rg-jabiztown-prod'
+  location: 'East US'
+  
+  # Container Registry
+  containerRegistry: 'crjabiztownprod.azurecr.io'
+  imageRepositoryFrontend: 'jabiztown-frontend'
+  imageRepositoryBackend: 'jabiztown-api'
+  
+  # App Services
+  frontendAppName: 'app-jabiztown-frontend-prod'
+  backendAppName: 'app-jabiztown-backend-prod'
+  
+  # Build configuration
+  buildConfiguration: 'Release'
+  dockerfilePath: '$(Build.SourcesDirectory)'
+  tag: '$(Build.BuildId)'
+
+stages:
+- stage: Validate
+  displayName: 'Validate and Lint'
+  jobs:
+  - job: Validate
+    displayName: 'Validate Terraform'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: TerraformInstaller@0
+      displayName: 'Install Terraform'
+      inputs:
+        terraformVersion: 'latest'
+    
+    - task: TerraformTaskV4@4
+      displayName: 'Terraform Init'
+      inputs:
+        provider: 'azurerm'
+        command: 'init'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+        backendServiceArm: 'azure-service-connection'
+        backendAzureRmResourceGroupName: '$(resourceGroupName)'
+        backendAzureRmStorageAccountName: 'stjabiztownprod'
+        backendAzureRmContainerName: 'terraform-state'
+        backendAzureRmKey: 'terraform.tfstate'
+    
+    - task: TerraformTaskV4@4
+      displayName: 'Terraform Validate'
+      inputs:
+        provider: 'azurerm'
+        command: 'validate'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+
+- stage: Build
+  displayName: 'Build and Test'
+  dependsOn: Validate
+  jobs:
+  - job: BuildFrontend
+    displayName: 'Build Frontend'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: NodeTool@0
+      displayName: 'Install Node.js'
+      inputs:
+        versionSpec: '18.x'
+    
+    - script: |
+        cd web-app
+        npm ci
+        npm run build
+        npm test
+      displayName: 'Build and Test Frontend'
+    
+    - task: Docker@2
+      displayName: 'Build Frontend Image'
+      inputs:
+        containerRegistry: 'azure-container-registry'
+        repository: '$(imageRepositoryFrontend)'
+        command: 'build'
+        Dockerfile: 'web-app/Dockerfile'
+        buildContext: '$(Build.SourcesDirectory)'
+        tags: |
+          $(tag)
+          latest
+    
+    - task: Docker@2
+      displayName: 'Push Frontend Image'
+      inputs:
+        containerRegistry: 'azure-container-registry'
+        repository: '$(imageRepositoryFrontend)'
+        command: 'push'
+        tags: |
+          $(tag)
+          latest
+
+  - job: BuildBackend
+    displayName: 'Build Backend'
+    pool:
+      vmImage: 'windows-latest'
+    steps:
+    - task: UseDotNet@2
+      displayName: 'Install .NET SDK'
+      inputs:
+        packageType: 'sdk'
+        version: '8.x'
+    
+    - script: |
+        cd api
+        dotnet restore
+        dotnet build --configuration $(buildConfiguration)
+        dotnet test --configuration $(buildConfiguration) --no-build --verbosity normal
+      displayName: 'Build and Test Backend'
+    
+    - task: Docker@2
+      displayName: 'Build Backend Image'
+      inputs:
+        containerRegistry: 'azure-container-registry'
+        repository: '$(imageRepositoryBackend)'
+        command: 'build'
+        Dockerfile: 'api/Dockerfile'
+        buildContext: '$(Build.SourcesDirectory)'
+        tags: |
+          $(tag)
+          latest
+    
+    - task: Docker@2
+      displayName: 'Push Backend Image'
+      inputs:
+        containerRegistry: 'azure-container-registry'
+        repository: '$(imageRepositoryBackend)'
+        command: 'push'
+        tags: |
+          $(tag)
+          latest
+
+- stage: DeployInfra
+  displayName: 'Deploy Infrastructure'
+  dependsOn: Build
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  jobs:
+  - job: DeployInfrastructure
+    displayName: 'Deploy Azure Infrastructure'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: TerraformInstaller@0
+      displayName: 'Install Terraform'
+      inputs:
+        terraformVersion: 'latest'
+    
+    - task: TerraformTaskV4@4
+      displayName: 'Terraform Init'
+      inputs:
+        provider: 'azurerm'
+        command: 'init'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+        backendServiceArm: 'azure-service-connection'
+        backendAzureRmResourceGroupName: '$(resourceGroupName)'
+        backendAzureRmStorageAccountName: 'stjabiztownprod'
+        backendAzureRmContainerName: 'terraform-state'
+        backendAzureRmKey: 'terraform.tfstate'
+    
+    - task: TerraformTaskV4@4
+      displayName: 'Terraform Plan'
+      inputs:
+        provider: 'azurerm'
+        command: 'plan'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+        environmentServiceNameAzureRM: 'azure-service-connection'
+    
+    - task: TerraformTaskV4@4
+      displayName: 'Terraform Apply'
+      inputs:
+        provider: 'azurerm'
+        command: 'apply'
+        workingDirectory: '$(System.DefaultWorkingDirectory)/terraform'
+        environmentServiceNameAzureRM: 'azure-service-connection'
+
+- stage: DeployApp
+  displayName: 'Deploy Applications'
+  dependsOn: DeployInfra
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  jobs:
+  - job: DeployFrontend
+    displayName: 'Deploy Frontend'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: AzureWebAppContainer@1
+      displayName: 'Deploy Frontend to Azure App Service'
+      inputs:
+        azureSubscription: 'azure-service-connection'
+        appName: '$(frontendAppName)'
+        azureContainerRegistry: '$(containerRegistry)'
+        imageName: '$(containerRegistry)/$(imageRepositoryFrontend):$(tag)'
+        resourceGroupName: '$(resourceGroupName)'
+    
+    - task: AzureAppServiceSettings@1
+      displayName: 'Configure Frontend Settings'
+      inputs:
+        azureSubscription: 'azure-service-connection'
+        appName: '$(frontendAppName)'
+        resourceGroupName: '$(resourceGroupName)'
+        appSettings: |
+          [
+            {
+              "name": "REACT_APP_API_URL",
+              "value": "https://$(backendAppName).azurewebsites.net",
+              "slotSetting": false
+            },
+            {
+              "name": "REACT_APP_ENVIRONMENT",
+              "value": "production",
+              "slotSetting": false
+            }
+          ]
+
+  - job: DeployBackend
+    displayName: 'Deploy Backend'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: AzureWebAppContainer@1
+      displayName: 'Deploy Backend to Azure App Service'
+      inputs:
+        azureSubscription: 'azure-service-connection'
+        appName: '$(backendAppName)'
+        azureContainerRegistry: '$(containerRegistry)'
+        imageName: '$(containerRegistry)/$(imageRepositoryBackend):$(tag)'
+        resourceGroupName: '$(resourceGroupName)'
+    
+    - task: AzureAppServiceSettings@1
+      displayName: 'Configure Backend Settings'
+      inputs:
+        azureSubscription: 'azure-service-connection'
+        appName: '$(backendAppName)'
+        resourceGroupName: '$(resourceGroupName)'
+        appSettings: |
+          [
+            {
+              "name": "ASPNETCORE_ENVIRONMENT",
+              "value": "Production",
+              "slotSetting": false
+            },
+            {
+              "name": "ConnectionStrings__DefaultConnection",
+              "value": "$(sqlConnectionString)",
+              "slotSetting": false
+            }
+          ]
+
+- stage: ConfigureDNS
+  displayName: 'Configure DNS'
+  dependsOn: DeployApp
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  jobs:
+  - job: ConfigureCustomDomain
+    displayName: 'Configure Custom Domain'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: AzureCLI@2
+      displayName: 'Add Custom Domain'
+      inputs:
+        azureSubscription: 'azure-service-connection'
+        scriptType: 'bash'
+        scriptLocation: 'inlineScript'
+        inlineScript: |
+          # Add custom domain to frontend app
+          az webapp config hostname add \
+            --resource-group $(resourceGroupName) \
+            --name $(frontendAppName) \
+            --hostname ja.symphonize.net
+          
+          echo "Custom domain added. Please configure DNS with your registrar:"
+          echo "Type: CNAME"
+          echo "Name: ja"
+          echo "Value: $(frontendAppName).azurewebsites.net"
+
+- stage: Test
+  displayName: 'Integration Tests'
+  dependsOn: DeployApp
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  jobs:
+  - job: IntegrationTests
+    displayName: 'Run Integration Tests'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: NodeTool@0
+      displayName: 'Install Node.js'
+      inputs:
+        versionSpec: '18.x'
+    
+    - script: |
+        # Install test dependencies
+        npm install -g newman
+        
+        # Run API tests
+        newman run tests/api-tests.postman_collection.json \
+          --environment tests/azure-environment.postman_environment.json \
+          --reporters cli,junit \
+          --reporter-junit-export TestResults.xml
+      displayName: 'Run API Integration Tests'
+    
+    - task: PublishTestResults@2
+      displayName: 'Publish Test Results'
+      inputs:
+        testResultsFiles: 'TestResults.xml'
+        testRunTitle: 'Integration Tests'
+        mergeTestResults: true
+        publishRunAttachments: true
+
+- stage: Security
+  displayName: 'Security Scans'
+  dependsOn: Build
+  jobs:
+  - job: ContainerScan
+    displayName: 'Container Security Scan'
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: Docker@2
+      displayName: 'Pull Images for Scanning'
+      inputs:
+        containerRegistry: 'azure-container-registry'
+        command: 'pull'
+        arguments: '$(containerRegistry)/$(imageRepositoryFrontend):$(tag)'
+    
+    - task: Docker@2
+      displayName: 'Pull Backend Image for Scanning'
+      inputs:
+        containerRegistry: 'azure-container-registry'
+        command: 'pull'
+        arguments: '$(containerRegistry)/$(imageRepositoryBackend):$(tag)'
+    
+    - task: ContainerStructureTest@0
+      displayName: 'Container Structure Tests'
+      inputs:
+        dockerImage: '$(containerRegistry)/$(imageRepositoryFrontend):$(tag)'
+        configFiles: 'tests/container-tests.yaml'
+    
+    - task: ContainerStructureTest@0
+      displayName: 'Backend Container Structure Tests'
+      inputs:
+        dockerImage: '$(containerRegistry)/$(imageRepositoryBackend):$(tag)'
+        configFiles: 'tests/container-tests.yaml'

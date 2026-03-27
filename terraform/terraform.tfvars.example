@@ -1,0 +1,17 @@
+# Azure Region
+location = "East US"
+
+# SQL Server Configuration
+sql_admin_username = "jabiztown_admin"
+sql_admin_password = "YourSecurePassword123!"
+
+# Custom Domain
+domain_name = "ja.symphonize.net"
+
+# Tags
+tags = {
+  Environment = "Production"
+  Project     = "JA BizTown"
+  Owner       = "DevOps Team"
+  CostCenter  = "IT-001"
+}

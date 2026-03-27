@@ -1,0 +1,101 @@
+# Azure-specific Docker Compose for development and testing
+# This file is optimized for Azure Container Instances or Azure Kubernetes Service
+
+version: '3.8'
+
+services:
+  # SQL Server for Azure
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: jabiztown-sqlserver-azure
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Developer
+      - SA_PASSWORD=${SA_PASSWORD}
+      - MSSQL_DATA_DIR=/var/opt/mssql/data
+      - MSSQL_LOG_DIR=/var/opt/mssql/log
+      - MSSQL_BACKUP_DIR=/var/opt/mssql/backup
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+      - ../scripts/setup.sql:/docker-entrypoint-initdb.d/setup.sql
+    networks:
+      - jabiztown-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P ${SA_PASSWORD} -Q 'SELECT 1'"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+      start_period: 60s
+
+  # .NET Core Web API for Azure
+  api:
+    build:
+      context: ../api
+      dockerfile: Dockerfile
+      target: final
+    image: jabiztown-api:azure-latest
+    container_name: jabiztown-api-azure
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=JABizTown;User Id=sa;Password=${SA_PASSWORD};TrustServerCertificate=true;Encrypt=false;
+      - ASPNETCORE_URLS=http://+:8080
+      - ApplicationInsights__InstrumentationKey=${APPINSIGHTS_INSTRUMENTATIONKEY}
+    ports:
+      - "8080:8080"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    networks:
+      - jabiztown-network
+    restart: unless-stopped
+    volumes:
+      - ../api/logs:/app/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # React Native for Web Frontend for Azure
+  web:
+    build:
+      context: ../web-app
+      dockerfile: Dockerfile
+      target: production
+    image: jabiztown-frontend:azure-latest
+    container_name: jabiztown-web-azure
+    environment:
+      - REACT_APP_API_URL=http://api:8080
+      - REACT_APP_ENVIRONMENT=production
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    networks:
+      - jabiztown-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  sqlserver_data:
+    driver: azure_file
+    driver_opts:
+      share_name: jabiztown-sql-data
+      storage_account_name: ${STORAGE_ACCOUNT_NAME}
+      storage_account_key: ${STORAGE_ACCOUNT_KEY}
+
+networks:
+  jabiztown-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

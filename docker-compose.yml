@@ -1,0 +1,65 @@
+services:
+  # SQL Server 2022 for Linux
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: jabiztown-sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Developer
+      - SA_PASSWORD=${SA_PASSWORD}
+      - MSSQL_DATA_DIR=/var/opt/mssql/data
+      - MSSQL_LOG_DIR=/var/opt/mssql/log
+      - MSSQL_BACKUP_DIR=/var/opt/mssql/backup
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+      - ./scripts/setup.sql:/docker-entrypoint-initdb.d/setup.sql
+    networks:
+      - jabiztown-network
+    restart: unless-stopped
+
+  # .NET Core Web API
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: jabiztown-api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver,1433;Database=JABizTown;User Id=sa;Password=${SA_PASSWORD};TrustServerCertificate=true;
+      - ASPNETCORE_URLS=http://+:8080
+    ports:
+      - "8080:8080"
+    depends_on:
+      - sqlserver
+    networks:
+      - jabiztown-network
+    restart: unless-stopped
+    volumes:
+      - ./api/logs:/app/logs
+
+  # React Native for Web Frontend with Nginx
+  web:
+    build:
+      context: ./web-app
+      dockerfile: Dockerfile
+    container_name: jabiztown-web
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+    networks:
+      - jabiztown-network
+    restart: unless-stopped
+
+volumes:
+  sqlserver_data:
+    driver: local
+
+networks:
+  jabiztown-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.25.0.0/16
