@@ -1,0 +1,1717 @@
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+1 
+JA BizTown Request for Proposal  
+Vendor Question Responses  
+March 27, 2026  
+This document provides responses to questions submitted by prospective respondents during 
+the RFP process. The clarifications and information included are intended to support a shared 
+understanding of the RFP requirements and to ensure consistent interpret ation across all 
+interested parties.  
+1. Outcome -Based Success Criteria and Measurement Framework  
+How does JA define measurable success for the BizTown simulation redevelopment —both in 
+terms of student learning outcomes (e.g., financial literacy gains, civic engagement indicators) 
+and operational performance (e.g., simulation uptime, staff efficiency)?  Will JA partner with us to 
+establish baseline metrics during Discovery and track them through pilot and beyond launch?  
+JA Response: JA defines measurable success for the JA BizTown simulation redevelopment 
+across both student learning outcomes and operational performance.  
+From a student impact perspective, our primary goal is for participants to leave their JA BizTown 
+experience with a deeper understanding of teamwork, how businesses operate, and the value of 
+every role within an organization. We aim to see measurable growt h in financial literacy at both 
+the personal and business levels, as well as increased confidence in applying those concepts in 
+real-world scenarios. Additionally, we prioritize outcomes related to character development, 
+including ethical decision -making, responsibility, and effective collaboration. These outcomes 
+may be assessed through a combination of pre - and post -experience evaluations, educator 
+feedback, and student self -reflection.  
+From an operational standpoint, success is defined by a seamless and reliable simulation 
+experience. This includes minimal to no system lag, strong and stable connectivity between 
+student devices and administrative controls, and smooth integration across a ll components of 
+the simulation. Efficiency for staff is also critical, with intuitive systems that streamline facilitation 
+and reduce manual intervention.  
+JA fully intends to partner with the selected vendor to establish baseline metrics during the 
+Discovery phase and collaboratively define key performance indicators. We expect to track 
+these metrics through pilot implementation and beyond launch to ensure c ontinuous 
+improvement and long -term success.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+2 
+2. Discovery Phase Scope and Decision Authority  
+The RFP references several items to be “determined during Discovery,” including XP point 
+weighting, gamification scope, AI feature boundaries, security standards, and admin role 
+definitions. Can JA clarify the expected duration and structure of the Discove ry phase, and 
+confirm that the selected vendor will have direct access to stakeholders with decision -making 
+authority to finalize these open requirements? Additionally, how does JA envision managing 
+scope changes that emerge from Discovery findings?  
+JA Response: JA’s Discovery phase is already actively underway and is a critical component of 
+our preparation for the BizTown redevelopment. This phase primarily consists of JA USA staff 
+conducting site visits to observe JA BizTown programs across the country, as well as facilitating 
+strategy sessions with local JA Area staff. These efforts are focused on gathering insights 
+related to the overall program experience, simulation design, and supporting software systems.  
+We anticipate that this Discovery work will be substantially complete by the time a vendor is 
+selected. At that point, we will have a well -informed set of requirements and priorities that will 
+allow us to move efficiently into design and development. While  JA has defined core 
+requirements for the simulation, we fully expect to collaborate closely with the selected vendor 
+to refine how those requirements are best executed —particularly in areas such as gamification, 
+AI feature boundaries, and system design.  
+The selected vendor will have direct access to key JA USA stakeholders, including individuals 
+with decision -making authority, to ensure alignment and timely resolution of open questions. We 
+view this as a highly collaborative partnership and will prioritiz e consistent communication and 
+structured touchpoints throughout the project.  
+Regarding scope management, JA intends to establish a clear governance process in 
+partnership with the vendor. This will include prioritization of features, documentation of agreed -
+upon requirements, and a structured approach to evaluating and approving an y scope changes 
+that emerge from Discovery insights or early development phases. Our goal is to remain flexible 
+where it adds value, while maintaining alignment with project timelines, budget, and overall 
+objectives.  
+3. AI Strategy and Integration Roadmap  
+The RFP mentions AI -generated business slogans and CEO speech transcription as specific 
+features, and the previous Finance Park RFP referenced an AI chatbot API that JA is 
+developing independently. Can JA outline the broader AI strategy for BizTown —includi ng which 
+AI capabilities JA expects the vendor to build versus integrate, what guardrails exist for age -
+appropriate AI interactions with 5th –6th graders, and whether there is appetite for AI -infused 
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+3 
+capabilities beyond what is listed (such as adaptive difficulty, intelligent tutoring prompts, or 
+predictive analytics for staff dashboards)?  
+JA Response: JA’s approach to AI within the JA BizTown simulation is intentionally targeted, 
+age-appropriate, and closely aligned to the educational goals of the program.  
+At this time, JA expects the specified AI capabilities, such as business slogan generation and 
+CEO speech transcription, to be built directly into the simulation software as embedded, task -
+specific tools. These features are designed to support discrete stu dent activities (e.g., marketing 
+or leadership exercises) rather than serve as open -ended AI experiences. Consistent with this 
+approach, JA BizTown will not include a general -purpose chatbot.  
+We are prioritizing strong guardrails to ensure all AI interactions are appropriate for 5th –6th 
+grade students. This includes limiting AI outputs to structured, a three strike system, context -
+specific prompts; avoiding open -ended or unsupervised interactio ns; and ensuring outputs are 
+safe, relevant, and aligned with educational objectives. Additional considerations such as 
+content moderation, privacy protections, and compliance with student data regulations will also 
+be essential.  
+While the AI features outlined in the RFP represent the current required scope, JA is open to 
+exploring additional AI -enabled capabilities in partnership with the selected vendor. Any such 
+enhancements would need to clearly support the learning objectives,  remain developmentally 
+appropriate, and fit within the overall simulation experience.  
+Overall, JA views AI as a tool to enhance, not replace, the hands -on, collaborative nature of the 
+JA BizTown experience, and we look forward to working with the vendor to implement these 
+capabilities thoughtfully and responsibly.  
+4. Value -Driven Pricing and Phased Delivery Options  
+Given the breadth of the BizTown redevelopment —spanning a full -stack mobile application, 
+CMS, three dashboard systems, paper -based fallback, AI features, gamification, accessibility 
+compliance, and multi -site management for 100+ facilities —does JA have a p referred approach 
+to phased delivery that prioritizes the highest -value capabilities for the January 2027 pilot while 
+allowing lower -priority features to be delivered incrementally? Is JA open to a value -driven 
+pricing model where cost is tied to delivered  outcomes and milestone acceptance rather than 
+purely time -and-materials?  
+JA Response: yes JA is open to different pricing models.  
+5. End-to-End Platform Ownership and Post -Launch Stewardship  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+4 
+The RFP mentions a continuing support arrangement with an annual upgrade/revision cycle. 
+Can JA describe the envisioned post -launch operating model —specifically, who will own 
+production monitoring and incident response (Tier 1/2/3 support), how enhancement  requests 
+will be prioritized and funded, and whether JA envisions the selected vendor serving as a long -
+term platform steward or transitioning to an internal team? What SLA expectations does JA 
+have for system availability, especially during peak simulati on periods?  
+JA Response: JA expects to create monitoring with the vendor.   JA expects the vendor to own 
+troubleshooting and training of JA USA Technical staff.   When the product goes live, we expect 
+that the alerts and monitors will let JA USA handle most incidents with escalation s to vendor for 
+some continuing period of time.   We expect system availability to be 100% during peak times 
+(M-F, 8 AM to 7 PM ET).  
+6. Multi -Site Architecture and National -to-Local Configuration Strategy  
+The CMS requirements describe a national master template with local site -level customization 
+layers supporting 100+ facilities, version history, rollback, and the ability to push national 
+updates without overwriting local changes. Can JA provide more detai l on the current 
+customization patterns across JA Areas —for example, how many distinct configuration 
+variations exist today, how frequently local areas modify their setups, and what the most 
+common customization conflicts are when national changes are push ed? Is there an 
+expectation for the vendor to architect a configuration inheritance model, or should local and 
+national configurations remain fully independent?  
+JA Response: JA Areas currently operate with a high degree of flexibility in how their JA 
+BizTown simulations are configured. Local sites are able to customize nearly all aspects of their 
+experience, including business types, job roles, and individual job tasks. In add ition, Areas can 
+adjust operational variables such as tax rates, student salaries, scheduling elements (e.g., 
+break timing and structure), and other simulation parameters.  
+In practice, most JA Areas make updates to their configurations a few times per year, primarily 
+during the summer and the next largest window being over holiday breaks in the winter. These 
+changes are typically driven by factors such as onboarding new busi ness sponsors, introducing 
+or refining job roles and tasks, or correcting issues identified during program delivery. Areas are 
+typically customizing 100 -150 job roles within the simulation. While there is significant variation 
+across sites today, we do not  currently experience frequent conflicts related to national updates, 
+largely because those updates have historically been limited.  
+As part of the redevelopment, however, JA’s goal is to move toward a more standardized and 
+consistent national experience, while still preserving the ability for local Areas to incorporate 
+meaningful, but more controlled, customization. We anticipate a mod el where core elements of 
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+5 
+the simulation are defined and maintained at the national level, with clearly designated layers for 
+local configuration.  
+Accordingly, JA expects the selected vendor to architect a configuration model that supports this 
+balance, most likely through a structured inheritance or layering approach. This would allow 
+national updates to be deployed efficiently while preserving appr oved local customizations and 
+minimizing conflicts. JA also expects local Area CMS to have the ability to be cloned and 
+duplicated. Key capabilities such as version control, change tracking, and rollback will be 
+important to ensure stability and transparen cy across both national and local levels.  
+Overall, the intent is to reduce unnecessary variability, improve scalability across locations, and 
+enable a more streamlined process for maintaining and evolving the JA BizTown experience 
+over time.  
+7. Real -Time Transaction Architecture and Network Resilience  
+The RFP emphasizes real -time transaction synchronization across student checking accounts, 
+business accounts, financial institutions, and dashboards —all operating over facility WiFi that 
+may be unreliable. Can JA clarify expectations for transaction consis tency in degraded network 
+conditions? Should the system support local -first or offline -capable operation with eventual 
+synchronization, or is persistent connectivity assumed? Additionally, what are the performance 
+benchmarks for transaction throughput duri ng peak activity (e.g., shopping breaks with 150 
+students transacting simultaneously)?  
+JA Response:  JA recognizes that reliable real -time transaction processing is critical to the JA 
+BizTown simulation, particularly during high -activity periods, and that facility WiFi conditions 
+may vary.  
+The system is expected to support offline -capable or “local -first” operation with eventual 
+synchronization. Student devices should be able to continue key activities (e.g., purchases, 
+deposits, payments) even in the event of temporary connectivity disrupti ons, with data syncing 
+seamlessly once connectivity is restored. At the same time, JA is not expecting or requiring a 
+traditional on -premise/local server solution; vendors should propose architectures that balance 
+resilience with a cloud -based or hybrid ap proach.  
+From a consistency standpoint, the system should prioritize accuracy and reconciliation across 
+all entities, including student checking accounts, business accounts, and financial institution 
+dashboards, once synchronization occurs. The user experience shou ld remain smooth and 
+intuitive, with minimal visible disruption during transient network issues.  
+In terms of performance, JA expects the platform to handle peak activity levels efficiently. At a 
+typical facility, there may be approximately 150 students participating, with around 30 students 
+transacting simultaneously during shopping periods. Within a 10-minute window, this can result 
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+6 
+in roughly 500 transaction events. The system should be designed to support on the order of 
+50–100 transactions per second during peak load without noticeable lag or degradation in user 
+experience.  
+Overall, the expectation is a highly responsive, resilient system that maintains data integrity 
+while accommodating real -world network variability across all JA locations.  
+8. Accessibility -First Design and Compliance Validation  
+The RFP requires WCAG 2.2 AA compliance, VPATs for each theme/section, visual/text/read -
+aloud modes, and no reliance on sound or fast reaction times. Can JA clarify whether these 
+accessibility requirements extend equally to all interfaces (student app, CMS , staff/volunteer 
+dashboards, teacher portal), and what testing methodology JA expects —autoated scanning, 
+manual expert audit, user testing with individuals who have disabilities, or a combination? Does 
+JA have an existing relationship with an accessibilit y auditor, or should the vendor include third -
+party auditing in the proposal?  
+JA Response:  Accessibility requirements apply to all interfaces aside from the JA Area Staff 
+(though we expect basic compliance for that group as well).   JA has a relationship with an 
+external auditor who support running a VPAT and those costs.   We typically test with  a 
+combination of automated scanning, and manual expert audits.  
+9. Pilot Strategy, Feedback Integration, and Launch Readiness Criteria  
+The RFP indicates pilot testing with advisory JA Areas from January through March 2027, 
+followed by updates and a June 2027 launch. Can JA define the specific launch readiness 
+criteria that must be met before the system goes to production —including accepta ble defect 
+thresholds, performance benchmarks, minimum pilot participation, and stakeholder sign -off 
+requirements? How does JA envision the feedback loop during pilot —will there be structured 
+sprint cycles dedicated to pilot remediation, and what is the es calation path if pilot findings 
+reveal scope that was not anticipated during Discovery?  
+JA Response:  JA has defined a set of launch readiness criteria to ensure the JA BizTown 
+platform is stable, performant, and aligned with user needs prior to full production release.  
+Launch Readiness Criteria  
+1. Functional Completeness & Accessibility  
+● Pilot Phase:  Core end -to-end experiences are functional for primary audiences 
+(students, volunteers, staff), with accessibility aligned to key WCAG considerations (e.g., 
+color contrast, reflow/orientation).  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+7 
+● Initial Release:  Fully functional experience for all user groups, with strict WCAG 
+compliance  across the platform.  
+2. Acceptable Defect Thresholds  
+● Pilot Phase:  Acceptable defect levels will be collaboratively defined with the vendor but 
+should reflect a realistic, usable experience for end users in a live simulation 
+environment.  
+● Initial Release:  No known critical or high -severity defects; only minor or cosmetic issues 
+may remain, as approved by JA stakeholders.  
+3. Performance Benchmarks  
+● Pilot Phase:  
+○ Stable performance under typical simulation conditions (80 –150 students, 14 –20 
+businesses)  
+○ No major latency impacting core workflows (e.g., transactions, role -based 
+activities, dashboard updates)  
+● Initial Release:  
+○ Consistent, low -latency performance during peak activity (e.g., shopping periods)  
+○ Ability to handle expected transaction volumes (as defined in prior requirements) 
+without degradation  
+○ Reliable operation in environments with variable WiFi, including degraded -mode 
+functionality  
+4. Minimum Pilot Participation  
+The pilot will include:  
+● 10–15 JA Areas  
+● 3–5 simulations per Area  
+● 14–20 businesses per simulation  
+● 80–150 students per simulation  
+This scale is intended to validate performance, usability, and operational readiness across a 
+representative cross -section of locations.  
+5. Stakeholder Sign -Off 
+Formal sign -off will be required prior to launch and will include:  
+● JA USA product and program leadership  
+● Key functional stakeholders (e.g., UX, content, operations)  
+● Validation that the platform meets defined requirements established during Discovery 
+and Design phases  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+8 
+Pilot Feedback Loop & Remediation Approach  
+JA envisions a structured and iterative feedback loop during the pilot phase, including:  
+● Regular feedback cycles with participating JA Areas to capture insights from students, 
+volunteers, and staff  
+● Defined sprint cycles dedicated to pilot remediation, prioritizing critical fixes and high -
+impact improvements  
+● Use of a shared bug/issue tracking system (vendor -provided or mutually agreed upon) to 
+document, prioritize, and resolve issues  
+To proactively reduce major scope changes, JA is engaging an advisory group of JA Areas 
+throughout Discovery and Design to ensure alignment with end -user needs before pilot begins.  
+Scope Changes & Escalation Path  
+If pilot findings surface unanticipated needs or gaps:  
+● Issues will be triaged and categorized (e.g., defect vs. enhancement vs. scope change)  
+● Critical issues impacting core functionality or user experience will be prioritized for 
+resolution prior to launch  
+● Non-critical enhancements may be deferred to post -launch phases, based on impact 
+and timeline considerations  
+● Any material scope changes will follow a defined governance process, including 
+stakeholder review, prioritization, and alignment on timeline and budget implications  
+10. Vendor In -Person Immersion and Stakeholder Engagement Model  
+The RFP mentions that the selected vendor should volunteer in -person at a JA BizTown 
+simulation in May 2026 before project kickoff. Can JA describe the full stakeholder engagement 
+model expected throughout the project —including how frequently in -person ses sions will occur, 
+which JA team members (product ownership, UX, content, evaluation, technical) will be 
+available and at what commitment level, and whether JA expects the vendor’s leadership team 
+(not just delivery staff) to participate in key milestone re views? This helps us plan our 
+engagement architecture around JA’s operating rhythm.  
+JA Response:  JA is committed to a highly collaborative and structured stakeholder 
+engagement model throughout the JA BizTown redevelopment.  
+The project will begin with an in -person kickoff in May 2026, which will also include the 
+selected vendor participating in a live JA BizTown simulation experience. This is 
+intended to provide critical context and alignment before development begins.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+9 
+Throughout the project, JA expects:  
+● Weekly Working Sessions:  
+ A standing 2 -hour weekly meeting focused on project updates, progress reviews, and 
+key decision points. Core JA participants will include members of the project team such 
+as Product Ownership, Project Management, UX/UI, and other relevant contributors as 
+needed.  
+● Vendor Leadership Engagement:  
+ JA expects the vendor’s leadership team, not just delivery staff, to be actively involved 
+at key milestones. This includes participation in major reviews and strategic checkpoints, 
+as well as a recurring 30 -minute leadership sync following the weekly work ing session to 
+ensure alignment, escalation management, and decision -making continuity.  
+● Pre-Read Expectations:  
+ To ensure productive discussions, JA requests that all materials requiring review (e.g., 
+designs, deliverables, decisions) be shared at least 24 hours in advance of scheduled 
+meetings. This allows the JA team to come prepared with feedback and approvals.  
+● In-Person Engagements:  
+ While the majority of collaboration will occur virtually, JA anticipates select in -person 
+sessions at key phases (e.g., kickoff, major milestone reviews, pilot readiness), as 
+mutually agreed upon.  
+● Roles and Availability:  
+ JA will provide consistent access to key stakeholders across product, UX, content, 
+evaluation, and technical perspectives, with engagement levels scaled based on project 
+phase and needs.  
+● Vendor Responsibilities:  
+ The vendor will be expected to lead overall project orchestration, including maintaining 
+the meeting cadence, setting agendas, documenting outcomes, and managing 
+stakeholder sign -offs and approvals.  
+Overall, JA is looking for a proactive, well -organized partnership with clear communication, 
+strong leadership alignment, and a shared commitment to delivering a high -quality product.  
+ 
+11. What are the current BizTown pain points you are trying to solve for in this new 
+version?  
+ 
+JA response: JA’s primary motivation for redeveloping the JA BizTown simulation is to 
+modernize both the experience and the technology so that it better reflects today’s, and 
+tomorrow’s, world of work.  
+ 
+One of the most significant pain points is that the current simulation model is outdated and no 
+longer aligned with how modern businesses operate. For example, elements such as a 
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+10 
+traditional newspaper business do not reflect the digital -first media landscape students are 
+familiar with. We want the simulation to incorporate more relevant, forward -looking concepts 
+such as digital marketing, modern communication channels, and contempo rary business 
+operations.  
+ 
+Current JA BizTown Simulation Software (Billing):  
+ 
+ 
+Another key challenge is the current user interface, which is heavily text -based and not 
+optimized for how 5th and 6th grade students learn and engage. The experience does not fully 
+leverage interactive, visual, or intuitive design principles that support engagement and 
+comprehension for this age group. As a result, there is an opportunity to significantly improve 
+usability, accessibility, and overall student engagement.  
+ 
+Additionally, the existing platform lacks the flexibility and scalability needed to support a 
+consistent, high -quality experience across JA locations nationwide, while still allowing for 
+meaningful local customization. Operationally, this can create ineffi ciencies for staff and 
+inconsistencies in program delivery.  
+ 
+In the new version, JA is seeking a solution that blends real -world relevance (e.g., point -
+of-sale systems, digital financial tools, and modern business practices) with an 
+engaging, age -appropriate user experience. The goal is to create a simulation that i s 
+intuitive, immersive, and aligned with both educational best practices and the evolving 
+workforce landscape.  
+
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+11 
+ 
+12. How should the real -time transaction engine handle conflicts and failures?  
+ 
+With 150 students transacting simultaneously across an interconnected economy, what 
+happens when: a student tries to buy something but the business account is frozen? A payroll 
+submission happens while a purchase is deducting from the same business account ? The 
+network drops mid -transaction? What are the acceptable latency thresholds for cross -system 
+updates?  
+ 
+JA response:  JA would expect that the system will gracefully handle contention between 
+transactions.   We would expect latency thresholds to be in the low seconds (1 -2). 
+13. What is the scope of the "Canva -like" digital marketing tool?  
+ 
+Building a design tool with template editing, text/image manipulation, and cross -device sharing 
+is a significant engineering effort on its own. What are the minimum viable features? Is this 
+drag-and-drop with templates, or do students need to create from s cratch? What asset library is 
+provided? How sophisticated does cross -device sharing need to be (real -time collaboration vs. 
+export -and-share)?  
+ 
+JA response:  JA envisions the “Canva -like” digital marketing tool as a guided, age -appropriate 
+design experience rather than a fully open -ended or professional -grade design platform. The 
+focus is on enabling students to successfully create a simple, effective advertis ement within the 
+context of the simulation.  
+ 
+The minimum viable features for this tool include:  
+• A structured, step -by-step “design mission” that guides students through the creation process 
+and ensures their advertisement includes key elements (e.g., business name, slogan, visual, 
+and clear message).  
+• A template -based design approach, where students select from pre -built layouts rather than 
+creating designs from scratch.  
+• The ability to add and edit text, including at minimum their business name and AI -generated or 
+student -created slogan.  
+• The ability to select or change background images or simple design elements.  
+• Access to a curated asset library of images, with the ability for JA Area administrators to 
+upload and manage assets via the CMS.  
+ 
+From a functionality standpoint, the tool should prioritize ease of use, clarity, and speed over 
+advanced design capabilities such as complex layering, precision editing, or fully freeform drag -
+and-drop systems.  
+ 
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+12 
+Regarding sharing, JA’s primary requirement is that students can easily publish or display their 
+final advertisement within the simulation so it can be viewed by other participants (e.g., 
+displayed digitally throughout the town experience). We are flexible  on the technical approach to 
+achieve this and do not require real -time collaboration. A simple and reliable publish or export -
+and-display workflow is sufficient for the MVP.  
+ 
+Overall, the goal is to provide a lightweight, intuitive tool that supports learning objectives and 
+creativity without introducing unnecessary complexity.  
+ 
+Example design:  
+ 
+ 
+ 
+14. How does the screen sharing feature work technically?  
+ 
+When the CFO does a loan application visible to all team members: is this a real -time 
+screen mirror (like a cast)? Or a shared state view where all devices show the same app 
+state? Does this need to work over the facility's potentially spotty WiFi? How man y 
+simultaneous screen -share sessions (one per business = 14 –20)? 
+ 
+JA response:  JA envisions this feature as a real -time screen -sharing experience, where the 
+CFO’s device is effectively mirrored to other team members so they can observe the loan 
+application process as it is being completed.  
+ 
+
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+13 
+This capability should support multiple concurrent sessions, with the expectation that each 
+business within the simulation (approximately 14 –20 per facility) may be running its own screen -
+sharing session simultaneously.  
+ 
+The feature must function reliably within a typical facility WiFi environment. While JA will work to 
+ensure adequate network infrastructure, the solution should be designed with resilience in mind, 
+accounting for potential variability in connectivity and b andwidth. Vendors are encouraged to 
+consider approaches that optimize performance under these conditions (e.g., efficient 
+streaming, low -latency updates, or alternative architectures that achieve a similar real -time 
+shared experience).  
+ 
+From a user perspective, the experience should be seamless and require minimal setup or 
+intervention from students or staff.  
+ 
+While JA has described this as a screen -mirroring experience, we are open to alternative 
+technical approaches, such as shared state views, if they can deliver the same real -time 
+visibility, reliability, and ease of use within the simulation environment.  
+ 
+ 
+15. What offline/degraded -network capabilities are expected?  
+The JAFP Q&A revealed facility WiFi can be spotty with 200 concurrent users. BizTown's real -
+time transaction requirements are much heavier. Should the app queue transactions locally and 
+sync when connectivity returns? What's the fallback if real -time sync isn't possible? Is the paper -
+based version the only offline fallback, or do you want a degraded -but-functional digital mode?  
+ 
+JA’s response:  JA does not view JA BizTown’s transaction requirements as materially heavier 
+than those of JA Finance Park; however, we recognize that network variability is a real 
+consideration across facilities.  
+JA expects the platform to support a degraded -but-functional digital mode rather than relying on 
+a full reversion to paper -based operations. In situations where connectivity is limited or 
+temporarily unavailable, the system should allow core activities, su ch as transactions, to 
+continue with minimal disruption to the student experience.  
+16. Are Phases 8 and 12 (Business Scenarios) optional for MVP?  
+ 
+In the JAFP Q& A, vendors asked if optional phases could be deferred. The business scenario 
+system (ethical dilemmas, XP consequences, CMS -configurable donation amounts) is a 
+substantial feature. Can this be post -launch?  
+ 
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+14 
+JA response:  Because the Business Scenarios phase encompasses “character education” that 
+is required for the grant that is funding this project, this is a feature that should be included for 
+the initial pilot launch.  
+ 
+17. What is the radio/music integration requirement exactly?  
+ 
+The RFP mentions "music/radio software integrated into the software with the ability to connect 
+to the facility's A/V system." Does this mean: (a) a music player UI in the app that outputs to 
+speakers via Bluetooth/AirPlay? (b) A streaming interface? (c) J ust a list of slogans that can be 
+read aloud? What about music licensing? Is there an existing A/V setup at facilities?  
+JA response:  JA’s goal for the radio/music integration is to provide a streamlined, centralized 
+solution that replaces the fragmented approaches currently used across JA Areas.  
+Today, many facilities include a “radio station” storefront where music is played throughout the 
+space; however, there is no standardized or integrated system to support this, creating 
+operational challenges. The redevelopment aims to solve this by embeddi ng a simple, reliable 
+audio management capability directly within the simulation software.  
+At a minimum, JA envisions:  
+● A built -in “DJ Dashboard” within the application that allows a student DJ to:  
+○ Select and play music from a predefined, curated playlist  
+○ Start/stop and switch tracks easily during the simulation  
+● Audio output that integrates with the facility’s existing A/V system (e.g., via a central 
+machine connected to speakers)  
+● Microphone integration that allows the student DJ to make live announcements (e.g., 
+reading business slogans or messages) over the same speaker system  
+JA is flexible on the exact technical implementation (e.g., local playback vs. streaming 
+interface), as long as the experience is seamless and reliable for end users. Most facilities 
+already have some form of A/V infrastructure in place, though configurati ons may vary, so the 
+solution should be adaptable to different setups.  
+From a scope perspective, this is not intended to be a full -featured music streaming platform. 
+The expectation is a controlled environment with a predefined set of audio tracks. 
+Considerations such as music licensing will need to be addressed, and JA is op en to vendor 
+guidance on best practices or recommended approaches in this area.  
+Overall, the priority is ease of use, consistency across locations, and a more engaging, realistic 
+radio experience within the JA BizTown simulation.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+15 
+18. Is the design style still 2.5D isometric low poly, or should BizTown have a different 
+look?  
+ 
+The JAFP Q&A confirmed 2.5D isometric low poly for Finance Park. BizTown targets a 
+younger audience (ages 9 –12 vs 12 –18). Should the visual style be different? More 
+playful? The RFP mentions "modern, age -appropriate interface aligned with today's 
+financial  applications" — which suggests more realistic than gamified.  
+ 
+JA response:  JA will provide input on design style that is grade -appropriate, in -line with 
+our Experiential Learning Centers (JA BizTown, JA Finance Park, and more), and align 
+with our brand.   We expect mood boards or style tiles to together align on approach to 
+color , font, illustration style, photo style as needed.   We do not anticipate a 3D 
+world.   Artwork will either be 2.5D or isometric, TBD.  
+ 
+ 
+19. What NFC hardware is available at facilities?  
+The RFP says to "explore ability to use NFC as payment." Do facilities have NFC readers? Are 
+the tablets NFC -capable? Is this a nice -to-have or a requirement? What about device 
+compatibility across iOS and Android NFC capabilities?  
+ 
+JA response:  JA anticipates that facilities will be equipped with a mix of iOS and Android 
+tablets, many of which will have built -in NFC capabilities. Additionally, some locations may 
+choose to procure simple external NFC readers that can connect to tablets or compute rs, 
+depending on their specific setup.  
+At this time, NFC functionality is considered a nice-to-have enhancement rather than a core 
+requirement for the JA BizTown simulation. Vendors are encouraged to explore its feasibility 
+and potential value within the experience, but it is not required for the MVP.  
+Given the variability in device types and configurations across JA locations, any proposed NFC 
+solution should account for cross -platform compatibility (iOS and Android) and differing 
+hardware capabilities. Flexibility and graceful degradation (e.g., alter native payment methods) 
+will be important to ensure a consistent experience across all sites.  
+20. What are the AI feature requirements in detail?  
+ 
+Two AI features are mentioned: (1) sales strategy slogans and (2) CEO speech transcription. 
+For #1: is this a text generation API call, or a more interactive experience? For #2: is this 
+speech -to-text transcription, or AI -assisted speech writing? Will JA p rovide the AI service (as 
+they did for JAFP's chatbot), or is this vendor scope?  
+ 
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+16 
+JA response: JA’s approach to AI within the JA BizTown simulation is intentionally targeted, 
+age-appropriate, and closely aligned to the program’s educational goals.  
+At a high level, JA expects the specified AI capabilities to be built and integrated by the vendor 
+as part of the simulation software. These are not intended to be open -ended AI experiences, but 
+rather embedded, task -specific tools that support defined stu dent activities.  
+1. Sales Strategy / Slogan Generation  
+This feature is envisioned as a guided text generation experience, not a fully open prompt -
+based interface. Students may input a small amount of structured information (e.g., business 
+type, target audience, product), and the system will generate a limited set of slogan options for 
+selection or light iteration. The experience should be:  
+● Highly scaffolded and easy to use for 5th –6th grade students  
+● Constrained in output (e.g., a few options vs. unlimited regeneration)  
+● Aligned to the educational objective of understanding marketing fundamentals  
+2. CEO Speech Feature  
+This is intended to be speech -to-text transcription, not AI -generated speech writing. The goal is 
+for students to deliver a short speech (e.g., to their business or the broader town), which is then 
+transcribed and potentially displayed within the simulatio n. The emphasis is on:  
+● Supporting student expression and presentation skills  
+● Providing a record or display of what was said  
+● Not generating or replacing the student’s original content  
+AI Guardrails and Student Safety  
+JA places a strong emphasis on guardrails to ensure all AI interactions are appropriate for 5th –
+6th grade users. Expectations include:  
+● Structured, context -specific inputs and outputs (no open -ended chat experiences)  
+● A “three -attempt” or similarly limited retry system to prevent misuse  
+● Content moderation and filtering to ensure safe, relevant outputs  
+● Compliance with student data privacy and protection standards  
+JA BizTown will not include a general -purpose chatbot.  
+AI Ownership and Flexibility  
+Unlike prior initiatives, JA is not prescribing a specific AI service for vendor use at this time. 
+Vendors may propose appropriate AI approaches or integrations as part of their solution, 
+provided they meet JA’s requirements for safety, reliability, and ed ucational alignment.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+17 
+While the features outlined above represent the required MVP scope, JA is open to exploring 
+additional AI -enabled capabilities in partnership with the selected vendor. Any enhancements 
+must clearly support learning outcomes, remain developmentally appropri ate, and fit within the 
+structured nature of the simulation.  
+Overall, JA views AI as a tool to enhance, not replace, the hands -on, collaborative JA BizTown 
+experience, and expects thoughtful, responsible implementation from the selected vendor.  
+21. Is Node.js still acceptable as a backend alternative?  
+JA accepted Node.js for JAFP. Does this carry over to JABT? If we're building on the same 
+stack as Finance Park, this may already be decided.  
+ 
+JA response:  Yes node.js is an acceptable option moving forward.  
+22. How differentiated should the role -based UIs be?  
+The evaluation criteria mention CEOs in suits, creative CMOs, math -focused CFOs. How far 
+should role differentiation go? Different color schemes per role? Different dashboard 
+layouts? Different feature access? Or just different task lists with the same UI shell?  
+ 
+JA response:  Visually they do not necessarily need to be differentiated, however they will be by 
+overall UI (for example one has a POS system with its own navigation, another has a Payroll 
+system). We will want to have a custom graphic that can be added in a CMS for ea ch 
+storefront/business to give a more realistic experience for students.    
+ 
+23. What does "shared device" mean in context?  
+The gamification section mentions "shared -device environments" and "be usable on shared 
+devices." Does this mean a single device is shared between multiple students (rotating), or 
+that the business dashboard is displayed on a shared screen? This significan tly impacts 
+session management and authentication design.  
+ 
+JA response:  Please disregard “shared device”. It has been determined that a one device per 
+user model will be utilized going forward.  
+24. Should the volunteer dashboard show when and why to intervene automatically?  
+The RFP says "the platform must clearly define when and why a volunteer should intervene, 
+minimizing ambiguity." Does this mean: automated alerts when a business is struggling? A 
+rules engine that flags specific situations? Or just a static guide with deci sion trees?  
+ 
+JA response: JA’s primary goal for the volunteer dashboard is to provide clear, real -time 
+visibility into what each business is doing, rather than prescribing exactly when or why a 
+volunteer should intervene.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+18 
+The intent is for volunteers to be able to quickly understand business performance, student 
+activity, and potential issues through intuitive visual indicators or summaries. This visibility 
+should enable volunteers to use their own judgment to support stude nts as needed.  
+To clarify, JA does not require:  
+● Automated alerts that dictate when intervention must occur  
+● A rules engine that flags or enforces specific intervention scenarios  
+● Prescriptive workflows or decision trees for volunteer actions  
+Instead, the focus is on:  
+● Transparency into business operations and progress  
+● Simple, easy -to-interpret dashboards  
+● Empowering volunteers with information, not instructions  
+Based on this clarification, the referenced language in the RFP regarding explicitly defining 
+when and why volunteers should intervene can be considered non -essential and may be 
+removed.  
+25. Is this a fixed -bid project like JAFP?  
+The JAFP Q&A referenced this as a "fixed -bid project." Given BizTown's significantly larger 
+scope and many features marked as TBD for discovery, is this still fixed -bid? How will scope 
+changes during discovery be handled? This project is more dynamic than JAFP.  
+JA response: JA is open to different pricing models but this project also has fixed funding. The 
+work should not exceed 1M for initial release.  
+26. What is the budget range or constraint?  
+JA declined to share budget for JAFP. BizTown has substantially more complexity. Any 
+budget guidance would help right -size the proposal — especially for features like the digital 
+marketing tool, radio integration, and screen sharing that could range from s imple to very 
+complex implementations.  
+JA response: see response above.  
+27. What does the in -person volunteer experience look like logistically?  
+The milestone table shows "Vendor Volunteers In -Person for a JA BizTown Simulation" in 
+May 2026. Is this a prerequisite before project kickoff or concurrent?  
+  
+JA response: The goal for the in -person volunteer experience would be that the volunteering 
+happens concurrent with the in -person kick off meeting. This circumstance will depend on the 
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+19 
+location of the vendor selected and the proximity of a JA Area with a JA BizTown space to the 
+location where the in -person kickoff will be held.  
+28. Is the June 2027 timeline realistic given scope?  
+BizTown has significantly more complexity than Finance Park (POS, banking, payroll, billing, 
+marketing tool, voting, radio, screen sharing, business scenarios, team building) but has the 
+same general timeframe. Is there flexibility in the timeline, or are certain modules acceptable 
+for post -launch? We anticipate the proposed timeline being tight.  
+  
+JA response: While the overall project timeline is intentionally aggressive, it is critical that the 
+initial release delivers the agreed -upon core scope and foundational capabilities. JA recognizes 
+the need to balance speed with quality and will work closely with the s elected vendor to clearly 
+define priorities, confirm requirements, and align on delivery expectations for the initial release. 
+Through regular check -ins and collaborative planning, JA and the vendor will ensure scope 
+decisions are transparent,  achievable within the timeline, and positioned to support future 
+enhancements without compromising the success of the first launch.  
+29. Are data privacy regulations resolved yet?  
+For JAFP, JA said they were "still determining" FERPA/COPPA and state -specific 
+regulations. A year later for JABT, has this been resolved? This is especially important for 
+BizTown since the audience is younger (ages 9 –12), which may trigger additional COPP A 
+requirements.  
+  
+JA response: This should not be an issue as we will not be asking students for email 
+addresses or any other personal identifying information.  
+  
+30. How does the "customizable  free space" for local tasks work?  
+The module list includes a customizable  free space for JA Areas to add unique tasks" with 
+guidelines (character limit, design, etc.). What types of tasks are envisioned? Is this a simple 
+text/instruction display, or does it need interactive elements? How much creative freedom do 
+local areas expe ct? 
+ 
+JA response: JA envisions the “customizable free space” as a lightweight, structured way for 
+local JA Areas to incorporate location -specific tasks into the simulation, primarily tied to their 
+unique business sponsors and job roles.  
+An example of a task would be: “Visit each business in the town and share your company’s 
+service offering with the CEO.”  These tasks are intended to reinforce real -world behaviors such 
+as communication, sales, and collaboration, and would typically occur during the Business 
+Operations phase of the simulation.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+20 
+From a functionality standpoint, this feature is expected to be simple and non -interactive. 
+Specifically:  
+● Tasks will be presented as text -based instructions, with the option to include supporting 
+images  
+● No complex interactivity (e.g., form inputs, branching logic, or system -driven validation) 
+is required  
+● The experience should be easy for JA Area staff to configure and for students to 
+understand quickly  
+In terms of flexibility, JA does want to enable local customization, but within clearly defined 
+guardrails to maintain a consistent national experience. These include:  
+● Character limits to prevent overly long or complex instructions  
+● Predefined templates or standardized layouts to ensure visual consistency  
+● Basic formatting controls rather than full design freedom  
+Overall, the goal is to strike a balance between local relevance and national consistency, 
+allowing Areas to add meaningful, context -specific content without introducing complexity or 
+design variability into the student experience.  
+31. Simulation & Experience Design  
+How standardized is the BizTown simulation across JA Areas? Are businesses, roles, and 
+workflows consistent nationally, or configurable per site?  
+JA response: Across JA Areas, most JA BizTown schedules and flows look similar, but all 
+businesses, job roles, and tasks are unique to that JA Area because they reflect the local 
+economy and sponsors.  
+32. What are the non -negotiable learning outcomes the platform must preserve?  
+JA response: From a student impact perspective, our primary goal is for participants to leave 
+their JA BizTown experience with a deeper understanding of teamwork, how businesses 
+operate, and the value of every role within an organization. We aim to see measurable growt h in 
+financial literacy at both the personal and business levels, as well as increased confidence in 
+applying those concepts in real -world scenarios. Additionally, we prioritize outcomes related to 
+character development, including ethical decision -making, responsibility, and effective 
+collaboration. These outcomes may be assessed through a combination of pre - and post -
+experience evaluations, educator feedback, and student self -reflection.  
+33. Are there multiple simulation variants today that we should account for?  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+21 
+JA response: The main variance between local Area simulations is the difference in the roles 
+and businesses. Otherwise, the schedule and flows of the day look similar.  
+34. What are the primary pain points in the current BizTown experience (digital and 
+physical)?  
+JA response: JA’s primary motivation for redeveloping the JA BizTown simulation is to 
+modernize both the experience and the technology so that it better reflects today’s, and 
+tomorrow’s, world of work.  
+ 
+One of the most significant pain points is that the current simulation model is outdated and no 
+longer aligned with how modern businesses operate. For example, elements such as a 
+traditional newspaper business do not reflect the digital -first media landsca pe students are 
+familiar with. We want the simulation to incorporate more relevant, forward -looking concepts 
+such as digital marketing, modern communication channels, and contemporary business 
+operations.  
+ 
+Current JA BizTown Simulation Software (Billing):  
+ 
+ 
+Another key challenge is the current user interface, which is heavily text -based and not 
+optimized for how 5th and 6th grade students learn and engage. The experience does not fully 
+leverage interactive, visual, or intuitive design principles that support engagement and 
+comprehension for this age group. As a result, there is an opportunity to significantly improve 
+usability, accessibility, and overall student engagement.  
+
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+22 
+ 
+Additionally, the existing platform lacks the flexibility and scalability needed to support a 
+consistent, high -quality experience across JA locations nationwide, while still allowing for 
+meaningful local customization. Operationally, this can create ineffi ciencies for staff and 
+inconsistencies in program delivery.  
+ 
+In the new version, JA is seeking a solution that blends real -world relevance (e.g., point -of-sale 
+systems, digital financial tools, and modern business practices) with an engaging, age -
+appropriate user experience. The goal is to create a simulation that i s intuitive, immersive, and 
+aligned with both educational best practices and the evolving workforce landscape.  
+35. Are there any existing user research insights or evaluations we can leverage?  
+JA response: Yes, we have some existing evaluations from JA BizTown as well as summaries 
+and findings from recent strategy and discovery sessions with JA Areas.  
+36. How do you envision team -building exercises being supported within the platform?  
+JA response: The main goals of the team building exercise are:  
+- Allow for an opportunity for the students to learn more about the business they 
+are working in.  
+- Create time for the students in the business to get to know each other and start 
+the day with working as a team.  
+- Instill the idea that all roles in the team are important and required for the smooth 
+running of the business.  
+JA is flexible with the means to this end. The platform could simply provide instructions for the 
+team -building exercise that the students are doing in more of a hands -on way, or the team 
+building exercise could be fully built into the software.  
+37. User Roles & Experience Model Can you provide a high -level view of user roles (students, 
+teachers, volunteers, simulation managers, admins) and their responsibilities?  
+JA response:  
+Simulation Managers:  
+▪ Typically, full -time JA Area staff  
+▪ Responsible for - 
+●Customizing/localizing CMS  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+23 
+●Creating simulation templates  
+●Setting up and activating simulations  
+●Leading day -of volunteer training  
+●Leading day -of simulation experience with students, volunteers, teachers, and staff  
+●All physical and digital assets in JA BizTown  
+  
+Volunteers:  
+▪ Volunteer types  
+●Corporate - volunteering as part of their organization  
+●Parent - parents of students attending JA BizTown  
+●Community - volunteering as part of local community groups (chambers,  
+leadership groups, colleges, etc.)  
+▪ Volunteer roles  
+●Mentors and guides students through their JA BizTown day by providing them  
+guidance on their job tasks, answering their questions about what it means to  
+have a job, and adding in their own personal experience to enhance the learning  
+Opportunities.  
+Educators:  
+○ May also be impromptu volunteers  
+○ Deliver 12 lessons of curriculum prior to the on -site simulation experience  
+○ Check for understanding with students throughout day and aligning JA BizTown visit to  
+curriculum  
+○ Monitor student behavior and engagement  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+24 
+Students:  
+○ Elementary and Middle School - 5th through 6th grade  
+○ Participate in onsite 4hrs simulation where they are led by a JA Staff member on the 
+microphone providing instructions, consult with their volunteers for guidance, and use what 
+they’ve learned in the curriculum and recommendations within the software and  from their 
+volunteer to make wise financial decisions. Students make all decisions to run a successful 
+business including applying for a loan, submitting payroll, voting, and making purchasing 
+decisions.  
+38. Should each role have a distinct interface, or a shared interface with role -based 
+variations?  
+JA response:  Visually they do not necessarily need to be differentiated, however they will be by 
+overall UI (for example one has a POS system with its own navigation, another has a Payroll 
+system). We will want to have a custom graphic that can be added in a CMS for ea ch 
+storefront/business to give a more realistic experience for students.    
+39. To what extent should experiences (especially dashboards and workflows) be 
+customized per role?  
+JA response: see above response  
+40. Are there established guidelines for designing for ages 9 –12 (reading level, 
+interaction complexity, attention span)?  
+JA response: Reading level is expected to be two grades lower than the target audience, so 
+3rd grade reading level is our expectation. The text in the simulation should be short and 
+concise; no long paragraphs of text.    
+The design should be simple, have a clear hierarchy and information design in addition to 
+obvious buttons and behavior which uses principles of proximity and persistence.  
+41. Should the experience prioritize simplicity and clarity, or real -world business accuracy, 
+where trade -offs exist?  
+JA response: The experience should be a simple and clear version of real -world business 
+experiences. For example, this is a sample design of what the POS system could look like:  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+25 
+ 
+This image shows features that can be included in a real -world POS system, including the store 
+catalog, current order, and pricing. This information is presented in a simple and clear way that 
+is easy to understand for 5th and 6th grade students.  
+42. What level of onboarding is expected:  
+o guided step -by-step flows,  
+o contextual help,  
+o or facilitator -led instruction?  
+JA response: The system shouldn’t require extensive onboarding to be understood by students 
+and volunteers. Some tasks such as sending pills, completing payroll, and setting up the POS 
+system can include step -by-step flows/tips as the student is completing them for the  first time. 
+All tasks, though, should be intuitive to a 5th and 6th grade learner and should not require 
+intensive instruction from the system, a volunteer, or a staff member.  
+Additionally, a JA Admin Staff training manual is expected. This manual should provide in depth 
+information on all administrative functions in the simulation and in the CMS (CMS User Guide) 
+as well as in depth information on all functions in the simulation  itself (Simulation User Guide). 
+All manuals should be geared towards JA Area staff  
+
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+26 
+43. How should the system handle errors (e.g., failed transactions):  
+o visible and educational for students, or managed behind the scenes?  
+JA response: If a transaction does not go through for a certain reason (ie. student does not 
+have enough funds in their account, business does not have enough funds in their account, 
+etc.), the reason for the failed transaction should be explained to the student via a pop-up. We 
+want students to be aware of why a transaction failed and be able to provide tips and solutions 
+to complete a successful transaction next time.  
+44. Can you share more about the physical simulation environment:  
+o device usage (shared vs individual),  
+o student movement,  
+o environmental factors (noise, transitions)?  
+JA response: The physical JA BizTown simulation space varies Area to Area, but typically, the 
+simulation space is:  
+● Comprised of 14 -20 business storefronts  
+● A main “city center” area where students gather  
+● About 8 -10k square feet  
+Within this space, currently, there are 2 -3 devices per business. In the current model, not every 
+student needs a device. Some students are able to complete their job roles from simple 
+checklists on clipboards. Throughout the day, students are moving throu ghout the space to 
+complete their job tasks, make purchasing decisions at other businesses, going to the bank, 
+vote, etc. During the day, music is playing, announcements are being made over the A/V 
+system by the JA staff, students are working together in t heir businesses and talking with each 
+other and their volunteers.  
+45. For the Radio, what are the standardized hardware specifications for the facility's A/V 
+systems across the ~98 local JA Areas, or will the software need to accommodate a 
+wide variety of legacy local audio systems?  
+JA response: There is not a standardized hardware specification for facility’s A/V systems. 
+Systems range from a simple bluetooth speaker with accompanying microphone and iPad to 
+built in speakers throughout the space connected to radio station -style equipment. Therefo re, 
+the software will need to accommodate a wide variety of audio systems.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+27 
+46. To meet the WCAG 2.2 AA requirement, does JA USA require a third -party 
+accessibility audit to certify compliance, or is a vendor self -authored VPAT sufficient?  
+We require a third party audit and have a third party vendor we will provide.  
+47. Will JA USA provide a complete digital asset library (logos, UI icons, sponsor 
+graphics) at kickoff, or should we include comprehensive UX/UI visual asset creation 
+in our design budget?  
+JA response: JA will provide a JA BizTown product logo.  
+JA Local areas will need the ability to upload local sponsor logos in the CMS to appear in the 
+appropriate locations on the UI.  
+Design vendor will provide UX/UI style guide based on design decisions in our design process. 
+All original design assets created by the vendor will be provided to JAUSA in original formats.  
+48. Are dashboards intended to support real -time decision -making during simulations, or 
+primarily as post -action summaries?  
+JA response: Dashboards should provide real -time accurate insight into the business success 
+so that students, volunteers, and admin are able to make real -time decisions and actions 
+throughout the day.  
+Additionally, the dashboards should provide post -simulation reports for (1) the students in the 
+business to reflect on their day and (2) for the educators to review and see the success of their 
+students post -simulation.  
+49. What level of visualization is expected (simple metrics vs interactive analytics)?  
+JA response: JA expects to see more interactive visualization that tell a story graphically 
+around the transactions and actions that are occurring in the business. These transactions 
+include, but aren’t limited to:  
+● Business XPs  
+● Transactions coming in and going out of the business (sales, billing, loan payoff, etc.)  
+● Settings sales price (to pay back loan)  
+● Business finances and financial health  
+50. Are there reference examples or benchmarks for the desired level of dashboard 
+sophistication?  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+28 
+In the new version, JA is seeking a solution that blends real -world relevance (e.g., point -of-sale 
+systems, digital financial tools, and modern business practices) with an engaging, age -
+appropriate user experience. The goal is to create a simulation that i s intuitive, immersive, and 
+aligned with both educational best practices and the evolving workforce landscape.  
+51. Regarding the leaderboard system, will JA USA provide the exact mathematical 
+formula and balancing logic for Experience Points (XPs), or is the vendor expected to 
+design and balance this virtual economy?  
+JA response: JA will provide the actions that will cause a business or individual to gain or lose 
+XPs and would like to work together with the vendor to determine what the exact logic and 
+formula should look like based on the software.  
+52. The RFP outlines a comprehensive long -term vision for the platform. To align our 
+approach with your rollout plan, can you clarify how you envision phasing the 
+capabilities across pilot and subsequent releases?  
+o    For the Jan –Mar 2027 pilot, which capabilities are expected to be fully production -
+ready?  
+JA Response:  JA expects to have a version that can effectively be tested based upon defined 
+scope.  
+o    Are there areas you anticipate delivering in a simplified form for pilot and expanding 
+post-pilot?  
+JA Response: pilot is intended to validate assumptions, reduce implementation risk, and inform 
+scalable decision ‑making prior to full deployment.  
+•         If we were to prioritize a lean but high -impact pilot, which areas would you consider 
+most critical:  
+o    core student simulation experience  
+o    operational dashboards  
+o    CMS/configuration flexibility  
+•         Are there specific areas you already anticipate phasing post -pilot?  
+•         For the pilot, should we assume full simulation fidelity across all businesses, or a 
+simplified subset of workflows?  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+29 
+•         The "Scope of Work" section provides a brief, high -level summary of deliverables 
+required to launch (Front -end simulation, CMS, Paper -based solution, and Dashboards) . 
+However, the "Simulation Requirements" and "Technical Requirements" sections d etail 
+extensive, complex functionalities —such as AI integrations, A/V connectivity, digital 
+marketing tools, and gamification leaderboards. Can you confirm if the brief list under 
+"Scope of Work" represents a phased Minimum Viable Product (MVP) for the pil ot/initial 
+release, or is the vendor strictly expected to deliver every granular feature detailed 
+throughout the entire RFP by the June 2027 launch?  
+JA Response: We will work closely with the chosen vendor to determine MVP for pilot and 
+phasing of delivery against the initial release. As noted above pilot is critical to the success of 
+this project so JA is committed to working closely with the chosen vendor to ensu re success.  
+52. For AI capabilities (e.g., slogan generation, speech transcription): Will JA provide an 
+AI tenant (e.g., Azure OpenAI), or should the vendor include provider selection and 
+costs?  
+JA response: The vendor should provide selection and costs to build the structured AI features 
+into the software.  
+53. For the digital marketing tool:  
+o Should we assume a template -driven experience with limited 
+customization, or is there an expectation of more advanced editing 
+capabilities, such as Canva?  
+JA response:  JA envisions the “Canva -like” digital marketing tool as a guided, age -appropriate 
+design experience rather than a fully open -ended or professional -grade design platform. The 
+focus is on enabling students to successfully create a simple, effective advertis ement within the 
+context of the simulation.  
+ 
+The minimum viable features for this tool include:  
+• A structured, step -by-step “design mission” that guides students through the creation 
+process and ensures their advertisement includes key elements (e.g., business name, slogan, 
+visual, and clear message).  
+• A template -based design approach, where students select from pre -built layouts rather 
+than creating designs from scratch.  
+• The ability to add and edit text, including at minimum their business name and AI -
+generated or student -created slogan.  
+• The ability to select or change background images or simple design elements.  
+• Access to a curated asset library of images, with the ability for JA Area administrators to 
+upload and manage assets via the CMS.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+30 
+ 
+From a functionality standpoint, the tool should prioritize ease of use, clarity, and speed over 
+advanced design capabilities such as complex layering, precision editing, or fully freeform drag -
+and-drop systems.  
+ 
+Regarding sharing, JA’s primary requirement is that students can easily publish or display their 
+final advertisement within the simulation so it can be viewed by other participants (e.g., 
+displayed digitally throughout the town experience). We are flexible  on the technical approach to 
+achieve this and do not require real -time collaboration. A simple and reliable publish or export -
+and-display workflow is sufficient for the MVP.  
+ 
+Overall, the goal is to provide a lightweight, intuitive tool that supports learning objectives and 
+creativity without introducing unnecessary complexity.  
+ 
+Example design:  
+ 
+54. For cross -device collaboration (e.g., CFO screen sharing):  
+o Should this be real -time mirroring or synchronized data views?  
+JA response: This should be real -time mirroring, but JA is flexible to the means to get to this 
+end. 
+55. For payments:  
+
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+31 
+o Should we assume specific hardware integrations, or device -native 
+approaches (QR/NFC) for the pilot?  
+JA response: It should be assumed that there will be various hardware integrations across 
+Areas for the pilot. The device -native approaches (NFC), are a “nice to have” feature and not 
+required for the MVP.  
+56. For POS:  
+o Is the system expected to support physical peripherals (printers/drawers), 
+or remain fully digital?  
+JA response: The POS system is not expected to support physical peripherals. The system will 
+be fully digital with the addition of hardware to either use a tap -to-pay device and/or a debit card 
+reader.  
+57. On Azure:  
+o Should the vendor define the architecture, or deploy into a pre -configured 
+environment?  
+JA’s response: JA will work with the vendor to deploy the architecture and get it deployed into 
+JA’s environment.  
+58. For real -time behavior:  
+o Is strict real -time synchronization required, or is a near real -time/event -
+based model acceptable for the pilot?  
+JA response: Strict real -time synchronization is required for the pilot to retain the integrity and 
+seamless running of the simulation.  
+59. To inform database scaling and ensure stability for 5,000 concurrent users running 
+micro -transactions, does JA USA have an estimated transactions -per-second (TPS) 
+peak during the active 'Business Operations' phases?  
+JA response: In terms of performance, JA expects the platform to handle peak activity levels 
+efficiently. At a typical facility, there may be approximately 150 students participating, with 
+around 30 students transacting simultaneously during shopping periods. Within a 10-minute 
+window, this can result in roughly 500 transaction events. The system should be designed to 
+support on the order of 50 –100 transactions per second during peak load without noticeable lag 
+or degradation in user experience.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+32 
+60. Since JA USA will host the Azure DevOps project, will our developers be granted 
+elevated permissions to configure the CI/CD pipelines, or will a JA USA DevOps 
+engineer handle pipeline creation?  
+JA’s response: JA BizTown developers will be granted permissions to create CI/CD pipelines.  
+61. Should the CMS support:  
+o configuration of predefined templates, or rule -based simulation logic?  
+JA response: The CMS should support a configuration of predefined templates determined by 
+JA. 
+62. Can local JA Areas:  
+o configure templates only, or create new workflows?  
+JA response: Local JA Areas should be able to configure and create templates, but also create 
+new workflows, including, but not limited to, creating local job tasks, businesses, and job role 
+names.  
+63. Can you define the maximum technical complexity allowed for the CMS 'free space'? 
+Are these strictly static text and image checklists, or will admins expect to build 
+custom interactive logic?  
+JA response: JA envisions the “customizable free space” as a lightweight, structured way for 
+local JA Areas to incorporate location -specific tasks into the simulation, primarily tied to their 
+unique business sponsors and job roles.  
+An example of a task would be: “Visit each business in the town and share your company’s 
+service offering with the CEO.”  These tasks are intended to reinforce real -world behaviors such 
+as communication, sales, and collaboration, and would typically occur during the Business 
+Operations phase of the simulation.  
+From a functionality standpoint, this feature is expected to be simple and non -interactive. 
+Specifically:  
+● Tasks will be presented as text -based instructions, with the option to include supporting 
+images  
+● No complex interactivity (e.g., form inputs, branching logic, or system -driven validation) 
+is required  
+● The experience should be easy for JA Area staff to configure and for students to 
+understand quickly  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+33 
+In terms of flexibility, JA does want to enable local customization, but within clearly defined 
+guardrails to maintain a consistent national experience. These include:  
+● Character limits to prevent overly long or complex instructions  
+● Predefined templates or standardized layouts to ensure visual consistency  
+● Basic formatting controls rather than full design freedom  
+Overall, the goal is to strike a balance between local relevance and national consistency, 
+allowing Areas to add meaningful, context -specific content without introducing complexity or 
+design variability into the student experience.  
+64. Do the 'unique sponsorship update requirements' for local facilities require building 
+custom code/UI for specific sponsors, or simply swapping out logos and hex colors 
+via the CMS?  
+JA response: There would not need to be custom code built for each unique sponsor. Areas 
+would need the ability to add logos, change colors, override some text to include the business 
+name, and utilize the customized “free space” to add any unique tasks to the business .  
+65. For the pilot, would it be acceptable to start with a limited set of templates and 
+expand later?  
+JA response: It is acceptable to start with a limited set of templates if those limited templates 
+provide all necessary features and functionality.  
+66. What is the expected technical proficiency of CMS users?  
+JA response: The CMS is used by JA staff who typically do not have an advanced technical 
+background. The staff who use the CMS are commonly staff who have a focus in education and 
+planning as opposed to technology. We expect there to be a learning curve with the creati on of 
+a new CMS, but the technology should not be so advanced that it is challenging to use for JA 
+staff.   
+67. For content (tutorials, scenarios, messaging):  
+o Will JA provide finalized content, or should this be included in scope?  
+JA response: JA will provide content.  
+68. Will translated content (e.g., Spanish) be provided?  
+JA response: JA will look to the vendor to provide translated content.  
+69.  For paper -based fallback:  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+34 
+o Can we assume a simplified operational version, or should it fully 
+replicate the simulation logic?  
+JA response: A simplified operational version is acceptable.  
+70.  Is this a clean -slate implementation, or should we plan to migrate historical data, 
+configurations, or reporting datasets?  
+JA response: JA considers this to be a clean -slate implementation.  
+71.  Are students treated as session -based users or persistent users across simulations?  
+JA response: Students who participate in the simulation will only need access to the simulation 
+for that 3 -5 hour day, so they can be treated as session -based users.  
+72.  For reporting: should we focus on Power BI data readiness, or build in -app reporting 
+dashboards?  
+JA response: The goal is to have in -app reporting dashboards - but will need to have ability to 
+export from CMS and imported back into PowerBI  
+73.  Are there existing KPIs or reporting structures that must be preserved?  
+JA response: JA USA will need to view data in an aggregate manner - and also be able to filter 
+down individually by JA Area and by individual simulation to view data.   
+74.  How will applications be distributed across facilities: public app stores or managed 
+via MDM?  
+JA response: Both. Areas will need to download it from the app store - and also manage 
+through their MDM.  
+75.  What are the minimum device/OS requirements?  
+JA response: The smallest device used will be a tablet - no smartphones will be used to 
+complete the simulation. Will need to function on devices that have been purchased within the 
+past 5 years.  
+76. For pilot, how many JA Areas, students, and businesses should we plan to support?  
+JA response: The expected pilot will consist of 10 -15 JA Areas, 3 -5 simulations per Area, 14 -
+20 businesses per Area, and 80 -150 students per simulation.  
+76. Is the expectation a full -scale or controlled rollout?  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+35 
+JA response: The expectation is a controlled rollout to select Areas for pilot, following a full -
+scaled initial release, then full release.  
+77.  During pilot simulations, is vendor support expected during live sessions, or post -
+session only?  
+JA response: Vendor is expected to be on -site, in -person during live pilot sessions.Vendor is 
+not expected to be in person for all pilots. JA USA will work with vendor to identify pilot 
+Areas/locations. Will also need to be available in an instant for other pilots they  are not on -site. 
+78.  Could you clarify the expected cadence for on -site collaboration across the 
+discovery, pilot, and rollout phases?  
+JA response: The main in -person requirement is for the kick -off meeting and volunteering in 
+May 2026. Will be expected to be on -site during pilot. Will be expected to be available at an 
+instant during the first few weeks of initial release.  
+79.  How do you envision collaboration between JA’s internal teams (education, design, 
+technology) and the vendor? Should we assume a collabora tive model for this 
+initiative, or do you envision any changes in how design ownership and decision -
+making will be structured?  
+JA response:  Yes, the vendor will first provide user flows, black and white wireframe to gain 
+consensus with the JA team on key prioritized components on the screen.  JA UX/UI will provide 
+feedback along with other stakeholders. The vendor will also provide fully deve loped visual 
+designs on all templated screens.  JA Visual Design lead provides feedback along with other 
+stakeholders. In addition we reserve the right to access the source file at any time in order to 
+provide suggestions/mockups along the way.  
+80.  Given  the RFP’s emphasis on a structured design approach, we’d like to understand 
+how you envision sequencing the work. Should we assume a phased approach 
+across discovery, design, build, and pilot, or a more consolidated delivery model?  
+JA response: We expected a consolidated delivery model following the schedule of pilot, then 
+initial release, then full release.  
+JA is committed to a highly collaborative and structured stakeholder engagement model 
+throughout the JA BizTown redevelopment.  
+The project will begin with an in -person kickoff in May 2026, which will also include the 
+selected vendor participating in a live JA BizTown simulation experience. This is 
+intended to provide critical context and alignment before development begins.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+36 
+Throughout the project, JA expects:  
+● Weekly Working Sessions:  
+ A standing 2 -hour weekly meeting focused on project updates, progress reviews, and 
+key decision points. Core JA participants will include members of the project team such 
+as Product Ownership, Project Management, UX/UI, and other relevant contributors as 
+needed.  
+● Vendor Leadership Engagement:  
+ JA expects the vendor’s leadership team, not just delivery staff, to be actively involved 
+at key milestones. This includes participation in major reviews and strategic checkpoints, 
+as well as a recurring 30 -minute leadership sync following the weekly work ing session to 
+ensure alignment, escalation management, and decision -making continuity.  
+● Pre-Read Expectations:  
+ To ensure productive discussions, JA requests that all materials requiring review (e.g., 
+designs, deliverables, decisions) be shared at least 24 hours in advance of scheduled 
+meetings. This allows the JA team to come prepared with feedback and approvals.  
+● In-Person Engagements:  
+ While the majority of collaboration will occur virtually, JA anticipates select in -person 
+sessions at key phases (e.g., kickoff, major milestone reviews, pilot readiness), as 
+mutually agreed upon.  
+● Roles and Availability:  
+ JA will provide consistent access to key stakeholders across product, UX, content, 
+evaluation, and technical perspectives, with engagement levels scaled based on project 
+phase and needs.  
+● Vendor Responsibilities:  
+ The vendor will be expected to lead overall project orchestration, including maintaining 
+the meeting cadence, setting agendas, documenting outcomes, and managing 
+stakeholder sign -offs and approvals.  
+Overall, JA is looking for a proactive, well -organized partnership with clear 
+communication, strong leadership alignment, and a shared commitment to delivering a 
+high-quality product.  
+81.  For the pilot phase, should the focus be on validating the core simulation experience 
+and workflows, or on delivering a broader, feature -complete solution?  
+JA response: The core simulation experience and workflows will be proved valid during the 
+development process with input from our advisory committee and potential end users. The pilot 
+will deliver a broad feature complete solution.  
+82.  To help us right -size the approach, are there any budget expectations or guardrails, 
+particularly for the pilot phase?  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+37 
+JA response:  See above response on budget  
+83.  For third -party  services (AI, Expo, etc.), should ongoing costs be included within the 
+vendor scope, or managed separately by JA?  
+JA response: Third -party services will be managed separately by JA.  
+Will JA USA provide the Apple Developer Enterprise and Google Play Console accounts, 
+or does the vendor need to initiate and manage the setup of these accounts?  
+JA response: If it is determined that the simulation software should be app -based, JA will 
+provide Google Play and Apple Developer accounts.   
+84. From your perspective, what will differentiate a strong partner for this initiative 
+beyond meeting the stated requirements?  
+JA response: In addition to everything stated in the RFP, a strong developer should have 
+excellent planning and communication, and should bring their expertise of development, design, 
+and product management to make the product an overall better experience. Additionally , a 
+vendor with an education technology background and experience with the basic principles of 
+learning design and designing for younger students would stand out.  
+85.  Are there specific areas you plan to prioritize during evaluation (e.g., design 
+approach, scalability, collaboration model, cost structure)?  
+JA response: We complete a holistic evaluation and all areas are viewed as equal.  
+86. For the in -person Project Kickoff and the Vendor Volunteer simulation observation, is 
+the vendor expected to cover their own travel expenses, and what are the preferred 
+locations for these visits?  
+JA Response:  Travel expenses will be covered by JA and the kick off location will be 
+determined that best meets the JA and vendor participation. Likely a JA BizTown JA Area that’s 
+convenient for the team.  
+ 
+87. Beyond standard operational KPIs, how will the success of the user experience 
+specifically be measured (e.g., engagement metrics, learning outcomes, task 
+completion rates, or ease of use)  
+JA response: As part of our product strategy outcomes, we must report on engagement and 
+learning outcomes. This is a crucial part of our internal Evaluation group’s responsibility and 
+they will work with the vendor and the JA team to collect this information formally. For UX, JA 
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+38 
+will primarily consider ease of use, engagement metrics, ease of understanding, student 
+excitement of visuals, and above referenced learning outcomes.  
+88. Are you open to vendors responding as prime and including subcontractors for 
+specified capabilities within a bid proposal?  
+JA response: We are not interested in bringing on subcontractors for this project.  
+89. To what  extent will various stakeholders from Junior Achievement USA be involved 
+throughout the process?  
+JA response:  JA is committed to a highly collaborative and structured stakeholder engagement 
+model throughout the JA BizTown redevelopment.  
+The project will begin with an in -person kickoff in May 2026, which will also include the selected 
+vendor participating in a live JA BizTown simulation experience. This is intended to provide 
+critical context and alignment before development begins.  
+Throughout the project, JA expects:  
+● Weekly Working Sessions:  
+ A standing 2 -hour weekly meeting focused on project updates, progress reviews, and 
+key decision points. Core JA participants will include members of the project team such 
+as Product Ownership, Project Management, UX/UI, and other relevant contributors as 
+needed.  
+● Vendor Leadership Engagement:  
+ JA expects the vendor’s leadership team, not just delivery staff, to be actively involved 
+at key milestones. This includes participation in major reviews and strategic checkpoints, 
+as well as a recurring 30 -minute leadership sync following the weekly work ing session to 
+ensure alignment, escalation management, and decision -making continuity.  
+● Pre-Read Expectations:  
+ To ensure productive discussions, JA requests that all materials requiring review (e.g., 
+designs, deliverables, decisions) be shared at least 24 hours in advance of scheduled 
+meetings. This allows the JA team to come prepared with feedback and approvals.  
+● In-Person Engagements:  
+ While the majority of collaboration will occur virtually, JA anticipates select in -person 
+sessions at key phases (e.g., kickoff, major milestone reviews, pilot readiness), as 
+mutually agreed upon.  
+● Roles and Availability:  
+ JA will provide consistent access to key stakeholders across product, UX, content, 
+evaluation, and technical perspectives, with engagement levels scaled based on project 
+phase and needs.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+39 
+● Vendor Responsibilities:  
+ The vendor will be expected to lead overall project orchestration, including maintaining 
+the meeting cadence, setting agendas, documenting outcomes, and managing 
+stakeholder sign -offs and approvals.  
+Overall, JA is looking for a proactive, well -organized partnership with clear communication, 
+strong leadership alignment, and a shared commitment to delivering a high -quality product.  
+90. Will the selected vendor be collaborating with the same group of stakeholders for the 
+duration of this project?  
+JA response: Yes, the core team for this project will remain consistent.  
+91. Will this internal group be responsible for presenting deliverables and collecting 
+feedback from additional stakeholders within the organization?  
+JA response: The JA USA team is responsible for presenting deliverables and collecting 
+feedback from stakeholders, including, but not limited to JA Area staff, educators, and students.  
+92. Will you please share more about the “Personalization" aspect of the Product Design 
+Expectations section within the shared requirements?  
+JA response: By this, we meant that some roles or businesses have customization, but we do 
+not mean personalization at the individual level. Personalization of businesses including 
+business name, logos, jobs, and tasks.  
+93. What  are the top 3 outcomes you'll use to define "success" for the updated BizTown 
+platform, and what criteria will weigh most heavily in vendor selection?  
+JA response:  The top 3 outcomes JA will use to define success are (1) the defined student 
+learning objectives are met, (2) the software proves a seamless, reliable real -time simulation 
+experience, (3) the product is a scalable national platform with controlled local cu stomization.  
+JA completed a holistic evaluation of vendors and each stated requirement is weighed evenly.  
+94. Is this a complete greenfield build, or is there existing data/content that needs to be 
+migrated from the current simulation software? If so, can you provide documentation 
+of the current system's architecture and data model?  
+JA response:  JA considers this project a complete greenfield build.  
+95. What  is the target budget range for this project? Understanding the investment 
+envelope will help us propose the most impactful phased approach.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+40 
+ 
+JA response:  see previous response about budget  
+ 
+96. The timeline shows "JA Area Training & Site Prep" beginning Nov 2026, before the 
+Jan 2027 pilot. What level of product completeness is expected by Nov 2026? Are the 
+stated project deadlines fixed, or is there flexibility?  
+JA response:  A full, completed product is expected for the January 2027 pilot. In November 
+2026, we expect most of the product to be completed to be able to share with pilot Areas.  
+97. How  do you see MVP pilot vs final product release? What features are must -haves for 
+launch, and what can be planned for later phases? What is JA's tolerance for a 
+phased rollout?  
+JA response:  JA pilots are designed to be completed with the full product with time allotted 
+after the pilot for needed changes and updates. A full -scale rollout is the goal as these pilots will 
+be completed in real simulation spaces with students, volunteers, educator s, and staff.  
+98. Is a staged rollout across locations required or optional, and can different locations 
+operate on different versions simultaneously?  
+JA response:  The pilot will be a planned rollout with 10 -15 JA Areas. During the initial release, 
+Areas will have the option to choose to use the new simulation or the existing simulation. During 
+the full release, all Areas will be asked to use the new simulation.  
+99. Can JA provide access to observe a current simulation day before the May 2026 
+kickoff date?  
+JA response:  This may be able to be arranged depending on the location of the vendor and 
+proximity to a JA Area who is running JA BizTown.  
+100. Which  internal team members and roles (Product Manager, UI Designer, etc.) will 
+collaborate with the selected vendor on the product development?  
+JA response:  The vendor will collaborate with the core JA USA team including the Product 
+Owner, Product Manager, UX/UX Team, Content Team, Technology Team, and Evaluation 
+Team.  
+101. The simulation day schedule includes multiple phases (orientation, trainings, 
+operations rounds, debrief, state of town). Which phases are hardest operationally 
+today and need the most software support?  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+41 
+JA response:  The phases of the simulation day that will need the most software integration and 
+support are the Business Operations phases. During this time, students will be completing their 
+tasks, selling products, purchasing products, voting, paying the business loan , sending and 
+paying bills, etc.  
+Although this phase has that most software integration, each phase in the day will have 
+software reliance.  
+102. What artifacts currently define the simulation logic (e.g., rulebooks, process flows, 
+system specifications)?  
+JA response:  Currently, process flows are what determine the simulation logic.  
+103. Are there any undocumented simulation rules or behaviors currently used in 
+practice?  
+JA response:  There are not.  
+104. Which components of the simulation are strictly fixed and cannot be changed. 
+Which components are open to redesign or simplification?  
+JA response:  The simulation flow is planned and designed by JA and is fixed. JA is open to 
+developer input regarding the means to arrive at the end goals that have been stated in the 
+RFP.  
+105. What are the primary success criteria for the simulation, and which metric 
+determines success at launch (incl. any measurable KPIs)?  
+JA response:  The top 3 outcomes JA will use to define success are (1) the defined student 
+learning objectives are met, (2) the software proves a seamless, reliable real -time simulation 
+experience, (3) the product is a scalable national platform with controlled local cu stomization.  
+106. Should the simulation adapt difficulty for elementary vs middle school students? 
+If yes, which  modules vary?  
+JA response:  No, the simulation will remain that same for 5th and 6th grade students.  
+107. Which onboarding  flows must be implemented within the product, and are 
+interactive tutorials required within the application?  
+JA response:  It is expected that the simulation should not require extensive onboarding and 
+tutorials. For tasks such as POS System, Billing, Loan Payments, and Billing, there should be 
+guided step by step tutorials during the first instance of completing the task.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+42 
+108. The RFP references "two simulations targeted at different audiences" (p.34). Can 
+you clarify what the second simulation is, whether it is in scope for this RFP, and 
+what the key differences are?  
+JA response:  It has been determined that there will be one simulation that is targeted for 5th 
+and 6th grade students.  
+109. Which specific regulations must the system comply with (e.g., FERPA, COPPA), 
+including  any region -specific legal requirements and internal policies?  
+JA response:  This should not be an issue as we will not be asking students for email 
+addresses or any other personal identifying information.  
+110. Regarding  COPPA compliance and student data privacy - what is JA's current 
+approach to parental consent, data retention, and deletion for minors? Should the 
+vendor include compliance architecture in the proposal?  
+JA response:  Parental consent requirements rest with schools. JA retains the data indefinitely. 
+There should be an anonymization process that runs after a simulation reaches a certain age 
+(for example 30 days).  This should be included in the proposal.  
+111. Which  user actions must be logged for audit purposes, what level of detail is 
+required, and how long must audit logs be retained?  
+JA response:  All admin functions should be audited and kept for 30 days. This includes who 
+completed the function, what the function was, and when it occurred. User actions should be set 
+to be logged for troubleshooting purposes and kept for a maximum of 7 days.  
+112. What is the expected device ownership and management model (JA -owned tablets 
+vs facility -sourced)? What MDM solution is in place, and what are the minimum 
+device specs? Does each participant should have device to participate in simulation?  
+JA response:  Each local JA Area owns their own devices. These range from laptops and 
+chromebooks to Android tablets and iPads. Each JA Area determines their own MDM solution; 
+some have MDMs and some do not. Each participant should have a device to participate in the 
+simulation.  
+113. Are JA Areas  responsible for procuring their own tablets and payment scanners, 
+or will JA USA standardize hardware across all sites?  
+JA response:  JA Area are responsible for procuring all of their own hardware and devices. 
+There is not an exact standard across all Areas.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+43 
+114. Will tablets  serve as the primary device for student interactions during onsite 
+simulations, or will there be a combination of laptops, Chromebooks, iPads, and 
+Android tablets depending on the specific JA Area? Is running the application on 
+mobile phones also consider ed? 
+JA response:  Yes, tablets will serve as the main device for student interactions, but there will 
+also be Area who continue to use their laptops, so the software should be flexible to that 
+instance. The simulation will not be run on mobile phones.  
+115. What  is the network infrastructure at typical JA BizTown facilities? Specifically: 
+bandwidth, Wi -Fi capacity for 150+ simultaneous tablet connections, and any existing 
+network hardware standards.  
+JA response:  A typical facility will have bandwidth of 100 Mbps download and 80 Mbps upload.  
+Many exceed this requirement.  For WiFi they will have the capability of handling 1 device per 
+student in the facility (facility sizes differ - with some reaching upwards of 2 10 students).  Device 
+manufacturers are not mandated by JA USA.  
+116. How is authentication established in the existing software? What Identity Provider 
+& SSO technology (e.g., Microsoft Entra ID/Azure AD, Okta, Ping) is in use and 
+preferred?  
+JA response:  Currently we’re using Identify Server 4 to authenticate per device. However, we 
+may want students to use a simpler authentication method.  
+117. How are student accounts created in the system?  
+JA response:  Currently, student accounts are not created. The simulation contains the 
+amalgamation of businesses and job roles. Students are connected to a job role during the 
+payroll process when the CFO types the student name in and selects their job role. We are 
+open to other processes for this, but would like to continue not needing individual student 
+accounts.  
+118. What  authentication methods are required for students and what security level is 
+required (e.g., QR/PIN), including device sharing / impersonation prevention 
+expectations?  
+JA response:  Currently we’re using Identify Server 4 to authenticate per device. However, we 
+may want students to use a simpler authentication method.  
+119. What  is the acceptable latency for real -time interactions, and which parts of the 
+system must operate in real time?  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+44 
+JA response:  All transactions should operate in real time, including payroll, POS, billing, loan 
+application and payment, student accounts, business accounts, etc. Real time interactions 
+should be instant.  
+120. Which operations require strong consistency across users/systems vs. which can 
+tolerate eventual consistency? How should data conflicts be resolved?  
+JA response:  We expect consistency across all systems.  We expect each user, company and 
+transaction to be unique and do not expect there to be data conflicts.  
+121. Are business transactions in simulations allowed to be deleted or edited; and is 
+an immutable audit trail required (and for which events / who can access logs)?  
+JA response:  Business transactions in simulations should be able to be cancelled by JA 
+Admin. There should be a log of all business transactions and personal transactions in the 
+simulation. Businesses (students and volunteers) should be able to see all of their busines s 
+transactions. JA Admin should be able to see all transactions for all students and businesses. 
+These details may need to be kept as a report - but audit trails for individual student 
+transactions do not need to be kept.  
+122. What specific  reports must be generated for students, businesses, and 
+simulations?  
+JA response:  For students, the report should show their finances, transactions, voting, job role, 
+XPs. For businesses, the report should show their financial status, transactions (billing, POS, 
+loan payments), XPs. For simulations, the report should list all of that da ta for each business.  
+123. In what  formats should reports be delivered?  
+JA response:  Reports should be delivered in a sharable PDF format and available on the staff 
+dashboard using easy to read and captivating visuals.  
+124. What  data must be excluded due to privacy constraints, and are aggregated 
+reports sufficient for certain use cases?  
+JA response:  We follow COPPA and do not collect personal information for students under 13. 
+Personal information should be restructured.  
+125. What are the expected peak usage hours across time zones, and how many 
+concurrent users must the system support at peak?  
+JA response:  Peak hours are generally 9AM ET to 3PM PT - with peak times around 10am -
+2pm EST.  We would expect the system to be designed to support 10 - 15K concurrent users.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+45 
+126. How many  simulations are expected to run simultaneously?  
+JA response:  We should plan for 60 -70 simulations running simultaneously.  
+127. What sponsor  interactions must be tracked within the system, what metrics must 
+be reported to sponsors, and are there compliance restrictions related to sponsor 
+tracking?  
+JA response:  The system should track the number of students working in each business each 
+day to provide sponsors with a yearly total, “options” that students picked the most, typical sales 
+price of product/service, and marketing/advertisement created.  
+128. Regarding CMS & Configuration (National vs Local):  
+1. Which configurations must be controlled centrally vs customized locally?  
+2. How should conflicts between global templates and local overrides be 
+handled (precedence / manual vs automated)?  
+3. Who has authority to override configurations?  
+JA response:  We will detail which configurations are available at the local level via the national 
+level.  If a local configuration item is customizable then the local level takes precedence.  If the 
+local configuration item is not customizable, then national takes pre cedence.  
+JA USA National Education staff have the authority to override configurations.  
+129. Should  we consider third -party product integrations that your organization may 
+already be using? What existing integrations does JA maintain (LMS for pre -
+simulation curriculum, volunteer management, ERP, CRM, school data systems)?  
+JA response:  If an existing integrations are required JA will share the necessary API 
+information to integrate.  
+130. The requirement  for stored procedures for all database queries — is this a firm 
+constraint, or would JA consider a hybrid approach if the vendor can justify the 
+technical benefits?  
+JA response:  We would consider modifying this if there is adequate justification for the 
+exception.  
+131. The RFP requires screen ‑sharing (e.g., the CFO completing a business loan 
+application while teammates watch on their devices). Could you clarify:  
+1. Is this a real -time screen mirror, or is synchronized application state 
+acceptable?  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+46 
+2. Where should the shared screen be displayed?  
+1. Only on other students’ tablets within the same business , 
+2. Or also on large facility displays , projectors, or wall ‑mounted monitors?  
+3. Should Simulation Managers have a “broadcast to all” capability for 
+demonstrations?  
+JA response:  JA envisions this feature as a real -time screen -sharing experience, where the 
+CFO’s device is effectively mirrored to other team members so they can observe the loan 
+application process as it is being completed.  
+ 
+This capability should support multiple concurrent sessions, with the expectation that each 
+business within the simulation (approximately 14 –20 per facility) may be running its own 
+screen -sharing session simultaneously.  
+ 
+The feature must function reliably within a typical facility WiFi environment. While JA will 
+work to ensure adequate network infrastructure, the solution should be designed with 
+resilience in mind, accounting for potential variability in connectivity and b andwidth. Vendors 
+are encouraged to consider approaches that optimize performance under these conditions 
+(e.g., efficient streaming, low -latency updates, or alternative architectures that achieve a 
+similar real -time shared experience).  
+ 
+From a user perspective, the experience should be seamless and require minimal setup or 
+intervention from students or staff.  
+ 
+While JA has described this as a screen -mirroring experience, we are open to alternative 
+technical approaches, such as shared state views, if they can deliver the same real -time 
+visibility, reliability, and ease of use within the simulation environment.  
+ 
+132. Should  screen‑sharing support audio narration (e.g., CFO explaining steps), or is 
+this prohibited due to loud/noisy facility environments?  
+JA response:  No audio narration should be included. The facility environments would not allow 
+for this to be successful.  
+133. Is any functionality required to work without internet connectivity; which features 
+must be available offline; and is data synchronization required after reconnection 
+(incl. conflict resolution)?  
+JA response:  JA recognizes that reliable real -time transaction processing is critical to the JA 
+BizTown simulation, particularly during high -activity periods, and that facility WiFi conditions 
+may vary.  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+47 
+The system is expected to support offline -capable or “local -first” operation with eventual 
+synchronization. Student devices should be able to continue key activities (e.g., purchases, 
+deposits, payments) even in the event of temporary connectivity disrupti ons, with data syncing 
+seamlessly once connectivity is restored. At the same time, JA is not expecting or requiring a 
+traditional on -premise/local server solution; vendors should propose architectures that balance 
+resilience with a cloud -based or hybrid ap proach.  
+From a consistency standpoint, the system should prioritize accuracy and reconciliation across 
+all entities, including student checking accounts, business accounts, and financial institution 
+dashboards, once synchronization occurs. The user experience shou ld remain smooth and 
+intuitive, with minimal visible disruption during transient network issues.  
+In terms of performance, JA expects the platform to handle peak activity levels efficiently. At a 
+typical facility, there may be approximately 150 students participating, with around 30 students 
+transacting simultaneously during shopping periods. Within a 10-minute window, this can result 
+in roughly 500 transaction events. The system should be designed to support on the order of 
+50–100 transactions per second during peak load without noticeable lag or degradation in user 
+experience.  
+Overall, the expectation is a highly responsive, resilient system that maintains data integrity 
+while accommodating real -world network variability across all JA locations.  
+134. For the paper -based fallback — is this a full parallel paper simulation, or a 
+simplified backup covering core activities? What exactly must be printable as PDFs, 
+and how should reconciliation work once systems return?  
+JA response:  If the simulation can run in an offline environment, a paper -based fallback is not 
+required.  
+135. The digital marketing tool is "Canva -like" — what's the minimum viable feature set 
+(templates, shapes, image library)? Can you clarify the intended scope to avoid 
+feature creep?  
+JA response:  JA envisions the “Canva -like” digital marketing tool as a guided, age -appropriate 
+design experience rather than a fully open -ended or professional -grade design platform. The 
+focus is on enabling students to successfully create a simple, effective advertise ment within the 
+context of the simulation.  
+ 
+The minimum viable features for this tool include:  
+• A structured, step -by-step “design mission” that guides students through the creation 
+process and ensures their advertisement includes key elements (e.g., business name, slogan, 
+visual, and clear message).  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+48 
+• A template -based design approach, where students select from pre -built layouts rather 
+than creating designs from scratch.  
+• The ability to add and edit text, including at minimum their business name and AI -
+generated or student -created slogan.  
+• The ability to select or change background images or simple design elements.  
+• Access to a curated asset library of images, with the ability for JA Area administrators to 
+upload and manage assets via the CMS.  
+ 
+From a functionality standpoint, the tool should prioritize ease of use, clarity, and speed over 
+advanced design capabilities such as complex layering, precision editing, or fully freeform drag -
+and-drop systems.  
+ 
+Regarding sharing, JA’s primary requirement is that students can easily publish or display their 
+final advertisement within the simulation so it can be viewed by other participants (e.g., 
+displayed digitally throughout the town experience). We are flexible  on the technical approach to 
+achieve this and do not require real -time collaboration. A simple and reliable publish or export -
+and-display workflow is sufficient for the MVP.  
+ 
+Overall, the goal is to provide a lightweight, intuitive tool that supports learning objectives and 
+creativity without introducing unnecessary complexity.  
+ 
+136. Are the AI features (slogan generation, speech transcription) hard requirements 
+for the pilot, or can they be introduced post -launch?  
+JA response:  This is something can be discussed depending on the other features that are 
+available for the pilot.  
+137. The RFP states that the system must support debit cards and debit ‑card swipers. 
+Should these be:  
+1. Fully simulated virtual cards only,  
+2. Or do you expect the system to support real physical debit card hardware 
+interactions? (This affects hardware procurement, SDK integrations, and 
+PCI compliance.)  
+JA response:  In the current version of the simulation, the system supports physical debit cards. 
+The debit cards are coded with the student three digit account number and when the card is 
+swiped, the student account number populates in the POS system.  
+138. Should  NFC payments be implemented as:  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+49 
+1. A simulated “tap ‑to‑pay” event with no actual NFC secure element usage?  
+2. Or should the solution integrate with actual  NFC hardware capabilities on 
+tablets/phones? (Real NFC support significantly impacts device selection 
+and security requirements.)  
+JA response:  JA anticipates that facilities will be equipped with a mix of iOS and Android 
+tablets, many of which will have built -in NFC capabilities. Additionally, some locations may 
+choose to procure simple external NFC readers that can connect to tablets or computer s, 
+depending on their specific setup.  
+At this time, NFC functionality is considered a nice-to-have enhancement rather than a core 
+requirement for the JA BizTown simulation. Vendors are encouraged to explore its feasibility 
+and potential value within the experience, but it is not required for the MVP.  
+Given the variability in device types and configurations across JA locations, any proposed NFC 
+solution should account for cross -platform compatibility (iOS and Android) and differing 
+hardware capabilities. Flexibility and graceful degradation (e.g., alter native payment methods) 
+will be important to ensure a consistent experience across all sites.  
+139. Should  the mobile and web experiences be delivered as fully separate 
+applications, or do you expect a unified codebase where both share logic/UI?  
+ (For instance, relying solely on a web frontend within a mobile WebView may result 
+in suboptimal user experience. Do you intend to avoid this?)  
+JA response:  We don’t expect both a mobile and a web application. The software should run 
+seamlessly on one or the other.  
+140. Should  tablet orientation be locked (portrait/landscape) during simulation to 
+prevent accidental UI disruptions?  
+JA response:  The UI should function in both portrait and landscape view as some students 
+may be working from computers.  
+141. Do you expect support for Bluetooth accessories (thermal printers, barcode 
+scanners, external card readers, etc.)?  
+JA response:  Any accessories most likely will be hardwired, but this is something we can 
+consider.  
+142. Do JA Areas frequently create cus tom visual assets (logos, sponsor images)?  
+ If so, what file sizes and formats must we support?  
+ 
+Junior Achievement JA BizTown Request for Proposal (RFP) Question Responses – Confidential and Proprietary  
+50 
+JA response:  JA Areas are frequently adding their local sponsor logos and visual assets to the 
+CMS to then be populated in the simulation. The vendor can dictate the size and format that is 
+used.  
+143. Disaster  recovery:  
+1. What is the required RTO (Recovery Time Objective) and RPO (Recovery Point 
+Objective)?  
+2. Is full state recovery required after system failure? Is partial data loss 
+acceptable?  
+3. Should simulations resume from the exact previous state after failure? Is 
+restarting a simulation acceptable in certain scenarios?  
+JA response:  JA would expect that the system will gracefully handle contention between 
+transactions.  We would expect latency thresholds to be in the low seconds (1 -2). A full state 
+recovery is expected after system failure. Simulations should resume from the exact pr evious 
+state after failure. Restarting a simulation is not acceptable.  
+ 

@@ -1,0 +1,1958 @@
+ 
+1 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+REQUEST FOR BID PROPOSAL  
+for JA BizTown Simulation Redevelopment  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+March 13 , 202 6 
+ 
+Issued by:  
+Jeannine Reilly VP, Education Delivery and Technology Solutions  
+Julian Arias Associate Vice President – Experiential Learning Centers  
+ 
+ 
+Junior Achievement USA® 12320 Oracle Blvd., Ste 310 Colorado Springs, CO 80921
+
+ 
+2 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  Table of Contents  
+ 
+CONFIDENTIALITY  ................................ ................................ ................................ ................................ ................................ ..............................  4 
+INTRODUCTION  ................................ ................................ ................................ ................................ ................................ ................................ .... 4 
+SUMMARY OF PROJECT  ................................ ................................ ................................ ................................ ................................ .....................  4 
+Project Goal:  ................................ ................................ ................................ ................................ ................................ .............  4 
+Redesign Vision and Core Features of the JA BizTown Simulation:  ................................ ................................ .... 5 
+Background on JA BizTown  ................................ ................................ ................................ ................................ ................  6 
+Simulation Overview  ................................ ................................ ................................ ................................ ............................  7 
+Audience Summary  ................................ ................................ ................................ ................................ ...............................  7 
+JA BizTown Simulation Day Schedule - Future State  ................................ ................................ ...............................  11 
+Simulation Requirements/Module Requirements  ................................ ................................ ................................ .. 15 
+Report Access:  ................................ ................................ ................................ ................................ ................................ ....... 17 
+Gamification Ideas  ................................ ................................ ................................ ................................ ................................ .......................  18 
+Dashboards  ................................ ................................ ................................ ................................ ................................ ............  21 
+Staff/Simulation Dashboard  ................................ ................................ ................................ ................................ ............  21 
+Teacher View  ................................ ................................ ................................ ................................ ................................ .........  22 
+PRODUCT DESIGN REQUIREMENTS  ................................ ................................ ................................ ................................ .........................  23 
+Summary  ................................ ................................ ................................ ................................ ................................ .................  23 
+Overview  ................................ ................................ ................................ ................................ ................................ .................  23 
+Process & Methodology: Design Thinking  ................................ ................................ ................................ ..................  23 
+Deliverables by Phase:  ................................ ................................ ................................ ................................ ................................ ...............  24 
+Product Design Expectations  ................................ ................................ ................................ ................................ ................................ .. 27 
+SCOPE OF WORK  ................................ ................................ ................................ ................................ ................................ ...............................  29 
+TECHNICAL REQUIREMENTS  ................................ ................................ ................................ ................................ ................................ ...... 30 
+Summary  ................................ ................................ ................................ ................................ ................................ .................  30 
+Infrastructure  ................................ ................................ ................................ ................................ ................................ ....... 30 
+Mobile Application Development  ................................ ................................ ................................ ................................ .. 30 
+Backend Development  ................................ ................................ ................................ ................................ .......................  30 
+Frontend Development  ................................ ................................ ................................ ................................ ......................  31 
+Paper -based Version  ................................ ................................ ................................ ................................ ..........................  31 
+Accessibility  ................................ ................................ ................................ ................................ ................................ ...........  31 
+Security Data  ................................ ................................ ................................ ................................ ................................ .........  31 
+Scalability  ................................ ................................ ................................ ................................ ................................ ...............  32 
+Boards and Source Control  ................................ ................................ ................................ ................................ ...............  32 
+ 
+3 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  Agile Methodology  ................................ ................................ ................................ ................................ ...............................  33 
+Deployment  ................................ ................................ ................................ ................................ ................................ ............  33 
+Administrative Capabilities  ................................ ................................ ................................ ................................ .............  33 
+Support and Maintenance  ................................ ................................ ................................ ................................ .................  34 
+Localization  ................................ ................................ ................................ ................................ ................................ ............  34 
+Reporting  ................................ ................................ ................................ ................................ ................................ ................  34 
+Proof of Concept  ................................ ................................ ................................ ................................ ................................ ... 35 
+Documentation  ................................ ................................ ................................ ................................ ................................ ..... 35 
+Eligible Applicants  ................................ ................................ ................................ ................................ ...............................  35 
+SCOPE & PRICING  ................................ ................................ ................................ ................................ ................................ .............................  36 
+PROCESS  ................................ ................................ ................................ ................................ ................................ ..................  36 
+PROPOSAL SCHEDULE & SUBMISSION PROCEDURES  ................................ ................................ .............................  36 
+EVALUATION PROCEDURES  ................................ ................................ ................................ ................................ ................................ ........  37 
+Proposal Content and Evaluation Criteria  ................................ ................................ ................................ ..................  37 
+Interviews  ................................ ................................ ................................ ................................ ................................ ...............  38 
+ADDITIONAL DETAILS  ................................ ................................ ................................ ................................ ................................ ...................  38 
+PROPRIETARY/CONFIDENTIAL INFORMATION  ................................ ................................ ................................ ....... 39 
+APPENDIX  ................................ ................................ ................................ ................................ ................................ ................................ ............  40 
+Character Education Moments in Simulation  ................................ ................................ ................................ ............  44 
+ 
+ 
+ 
+4 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  CONFIDENTIALITY   
+Note that your receipt of this Request for Proposal indicates that representatives of your organization 
+have read and signed a Junior Achievement confidentiality agreement (Non -Disclosure Agreement). All 
+content in this document falls within the confines o f that agreement.  
+ 
+INTRODUCTION   
+Founded in 1919, Junior Achievement® (JA) is the oldest, largest, and fastest growing nonprofit 
+economic education organization in the world. It is the largest partnership linking the private sector with 
+education efforts. Junior Achievement’s educational programs serve as the primary  
+vehicle to advance the organization’s purpose and vision: To inspire and prepare young people to 
+succeed in a global economy. Programs are regularly developed, revised, and enhanced as Junior 
+Achievement helps young people understand the economics of life.  
+Junior Achievement USA has a nationwide presence. It provides content and services to 98 local JA Areas 
+across the country. The JA Areas work with more than 220,000 Volunteers who deliver the content to 
+over 4.6M students.  
+Junior Achievement ensures the effectiveness and relevance of its economic and business education 
+programs by utilizing validated curricula and instructional materials, specific program implementation 
+standards, teacher and volunteer training, and program outcomes evaluations.  
+Additional information about Junior Achievement and its activities can be found at https://www.ja.org/  
+and internationally at https://www.jaworldwide.org/.  
+ 
+SUMMARY OF PROJECT   
+Project Goal:   
+Engage with a software development vendor to build a new elementary/middle school simulation software to be 
+used in a  hands -on, interactive physical experience where students apply classroom learning by operating 
+businesses, managing money, and fulfilling  civic roles in a realistic, simulated community for a day in a physical 
+facility. The physical simulation flow will be shared out by Junior Achievement.  
+ 
+The redeveloped JA BizTown experience will more powerfully reinforce what it means to participate in an 
+economy. Students will clearly see how their actions as employees impact their business, how business decisions 
+influence the broader community, how tax es support civic functions, and how consumers drive economic 
+activity. When employees perform well, businesses succeed. When businesses succeed, communities benefit. 
+When citizens understand taxation and spending, they better grasp civic responsibility. St ronger visual 
+dashboards and real -time feedback tools will make these relationships tangible, helping students internalize the 
+circular flow of the economy in ways that are relevant and memorable.  
+ 
+The redeveloped software will adopt a modern, age -appropriate interface aligned with today’s financial 
+applications. The simulation software supports the running of the businesses in the mock town. Digital banking 
+systems, tap -to-pay functionality, and mod ern processes will reflect real -world financial practices. New student 
+dashboards (such as CEO and CFO student roles) will provide clearer visibility into business performance, 
+empowering students to monitor financial health, track cashflows, and make stra tegic decisions. Staff dashboards 
+will also be overhauled to support real -time adjustments, clearer reporting, and a stronger overall simulation 
+flow.  
+The experience will remain adaptable across devices, ensuring compatibility with traditional desktop 
+environments, tablet -optimized implementations, and fully tablet -friendly models for JA BizTown Mobile. This 
+ 
+5 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  flexibility provides accessibility and supports expansion into more communities nationwide.  
+ 
+Redesign Vision and Core Features of the JA BizTown Simulation:  
+The JA BizTown program introduces upper elementary and middle school students to the world of work, 
+business management, and personal finance through an engaging blend of classroom instruction 
+(curriculum ) and a hands -on, interactive simulation (field -trip st yle). The curriculum includes key 
+instructional units —community and economy, work readiness, financial literacy, and business 
+management —culminating in a fully immersive experience where students run an entire town. The 
+simulation can take place in a permanent  JA facility or a mobile setup (similar to a pop -up trade show 
+exhibit) hosted in schools, community centers, or other shared spaces.  
+JA BizTown is a highly interconnected, real -time simulation environment in which approximately 80 to 
+150 students operate a fully functioning economy for the day. Each student is assigned a specific role 
+within one of roughly 14 to 20 businesses, with 6 –8 students per business. Every participant functions 
+simultaneously as an employee, consumer, voter, and citizen within the simulated community.  
+JA is reimagining the JA BizTown simulation to create a more dynamic, interconnected, and educational 
+experience that better reflects today’s workplaces and technology. The new design will include the 
+following key features:  
+• A unified digital platform that adapts to both onsite and mobile delivery, offering flexible 
+levels of complexity appropriate for elementary and middle school learners.  
+• Engaging modern simulation that supports the physical simul ation  where students take on 
+jobs, manage businesses. The software will feel real to them (but age appropriate)  
+• A storefront -based economy where students manage operations, serve customers, pay 
+expenses, and interact with other businesses to keep their town running smoothly.  
+The simulation system must support a complex web of interdependent financial and operational 
+transactions. Students earn varying wages based on their assigned roles, apply for and manage loans 
+through financial institutions, maintain individual bank account s, and conduct purchases across 
+businesses within the town. Each transaction, whether payroll distribution, loan disbursement, retail 
+purchase, or service payment, must update in real time across multiple systems. For example, when a 
+student makes a purcha se, the transaction must immediately deduct funds from the student’s personal 
+bank account, reflect in the receiving business’s account, and record accurately within the financial 
+institution’s system. This interconnectedness is foundational to maintaining  the integrity and authenticity 
+of the economic simulation.  
+The redevelopment should strengthen and modernize this integrated ecosystem. Key areas of 
+opportunity include enhanced dashboards for students and staff, improved point -of-sale (POS) systems, 
+robust banking functionality, and transparent financial reportin g tools. The system should provide clear, 
+real -time visibility into individual, business, and community -level financial performance while 
+maintaining data accuracy and stability under simultaneous usage.  
+Additionally, the platform should support a one -device -per-student model to expand interactivity and 
+instructional value. This includes capabilities such as digital voting, online loan applications, dynamic 
+financial tracking, and digital marketing creatio n and publication within the simulated environment. The 
+infrastructure must enable these features while preserving seamless cross -system communication.  
+Given the depth of integration required across financial systems, business operations, civic engagement 
+components, and digital content tools, the selected vendor must demonstrate strong full -stack 
+development expertise and experience building scalable, tr ansaction -based systems with real -time data 
+synchronization.  
+ 
+6 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  The redesigned JA BizTown ensures students leave inspired and empowered, with a foundational 
+understanding of how the economy works, how their roles contribute to society and their business, and 
+how decision making  and leadership can shape their future success.  
+Background on JA BizTown  
+JA BizTown is one of Junior Achievement’s Experiential Learning Center programs. Junior Achievement’s 
+Experiential Learning Center programs combine practical applications in real world situations with 
+principles learned in the classroom. Students discover how an economy functions by taking on real -world 
+roles as citizens and employees, managing businesses, personal finances, and community responsibilities 
+in an interactive, simulated town.  
+ 
+JA BizTown gives 5th –6th grade students the opportunity to experience how a community operates and 
+how personal and business finances are connected. After in -class lessons on topics such as financial 
+literacy, business management, and community, students t ake on real -world roles as business leaders, 
+employees, and consumers within a simulated town. They manage bank accounts, write checks, receive 
+paychecks, and run their assigned businesses while providing goods and services to their peers. 
+Throughout the d ay, students complete their job tasks, work to pay off their business loan, and see 
+firsthand how their work contributes to the success of their businesses and community. Volunteers 
+support students as they navigate their roles, offering insight and encour agement to make the experience 
+both educational and inspiring.  
+ 
+The on -site JA BizTown experience is a 4.5 -hour simulation led by JA staff where students operate an 
+entire town, taking on roles as business owners, employees, and citizens. Throughout the day, they apply 
+what they’ve learned in the classroom to make real -world business and personal finance decisions — 
+running their assigned businesses, managing payroll, using debit cards, and participating in the town’s 
+economy.  
+Guided by volunteers and supported by an interactive digital platform, students experience firsthand how 
+jobs, money, and community interconnect. This combination of a physical environment (the immersive 
+town setting) and a cloud -based application allows students to seamlessly engage in business 
+operations, banking, and communications using mobile devices. The result is a dynamic, hands -on 
+experienc e that brings the world of work and free enterprise to life.  
+ 
+The experience incorporates:  
+● A physical environment of business storefronts that serve as workplaces, retail stores, and 
+customer service hubs for students running or visiting businesses during the simulation.  
+ 
+Constituents:  
+● Students – act as business leaders, employees, and consumers, engaging with peers and 
+technology to operate their town.  
+● JA BizTown Staff – lead the 4.5 -hour simulation, typically guiding ~150 students, ~20 volunteers, 
+and ~10 teachers.  
+● Volunteers – mentor and support students as they perform their job duties, manage finances, and 
+make business decisions throughout the day.  
+● Teachers – assist students in connecting the day’s activities to their classroom lessons and 
+monitor participation.  
+ 
+The storefronts provide:  
+● A hands -on simulation of real -world business operations and transactions (i.e., applying for 
+business loans, managing payroll, selling products, and paying expenses).  
+● An opportunity for sponsors to incorporate their brands (i.e., local banks, grocery stores, or utility 
+companies) into the simulation environment.  
+● Function as workplaces, business headquarters, and hubs for civic engagement.  
+ 
+7 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  ● Interactive engagement through digital interfaces — such as debit card payments, budgeting 
+tools, and business management apps.  
+ 
+The digital platform (software modules) allows for:  
+● A detailed and immersive simulation replicating real -world business decision -making.  
+● Administrative control and customization of content through an intuitive content management 
+system (CMS).  
+● Seamless sponsor integration with logos, brand assets, and product imagery woven into the 
+experience.  
+● Interactive dashboards that allow staff to monitor student progress and guide the flow of the 
+simulation.  
+ 
+Simulation Overview  
+ 
+In the JA BizTown experience, the student's objective is to develop work readiness by working in a 
+simulated town with their own business, job, and job tasks.  
+ 
+The steps begin with pre -simulation lessons covering work and career readiness, financial literacy, 
+community and economy, and business management. During the pre -simulation lessons, students also 
+apply, interview, and are hired for the jobs they will have  in the simulation.  
+ 
+During the simulation, students work in one of the various businesses (aka storefronts) and in one of the 
+various jobs within that business. They are paid for all of their hard work in the town and can use that 
+money to shop and purchase items in JA BizTow n to take home.  
+ 
+Student job tasks can be inside their own business, or they could be doing something in town or at 
+another business. All businesses are interconnected within the JA BizTown economy. Supply and demand 
+plays a huge factor in the success of the businesses in the town.  
+ 
+The experience concludes with reflections about the success of the businesses and the challenges 
+students faced and successes they experienced during the day.  
+ 
+As students go through the simulation - they make the connections to transferable skills, how to grow 
+within their organizations, and how to add value to their organizations.  
+ 
+Audience Summary  
+ 
+The audience for JA BizTown is elementary  and middle school students (grades 5-6; age 9 -12) across the 
+country . Students complete a minimum of 12 lessons prior to arriving at a facility for their on -site 
+experience. Students are "hired" for their job before they arrive at the facility, but typically do not know 
+exactly what tasks they will be doing all day.  
+Administrators (Simulation Managers) of JA BizTown set up  simulations, create templates, customize/ 
+localize the experience to their community and local sponsors, create job roles and tasks for each 
+business, and lead the students through the entire 4 hour simulation.  
+ 
+Audience Role Types  
+There are numerous roles involved in the success of this experience.  
+ 
+Simulation Preparation:  
+ 
+● Local Area Admins  
+ 
+8 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  o Set up and customize simulated experiences with storefronts, jobs, and storefront activities.  
+o Support volunteer training (though some areas may also have a specific role of Volunteer 
+Trainers)  
+Day Of:  
+ 
+● Simulation Managers  
+▪ Typically,  full-time JA Area staff  
+▪ Responsible for - 
+● Customizing/localizing CMS  
+● Creating simulation templates  
+● Setting up and activating simulations  
+● Leading day -of volunteer training  
+● Leading day -of simulation experience with students, volunteers, teachers, and staff  
+● All physical and digital assets in JA BizTown  
+ 
+● Simulation Specialist  
+▪ Typically,  part -time JA Area staff  
+▪ Responsible for - 
+● Preparing and setting up physical simulation space  
+● Supporting Simulation Manager with day -of simulation experience with students, 
+volunteers, teachers, and staff  
+● Supporting Simulation Manager with all physical and digital assets in JA BizTown  
+ 
+● Volunteers  
+▪ Volunteer types  
+● Corporate - volunteering as part of their organization  
+● Parent - parents of students attending JA BizTown  
+● Community - volunteering as part of local community groups (chambers, 
+leadership groups, colleges, etc. ) 
+▪ Volunteer roles  
+● Mentors and guides students through their JA BizTown day by providing them 
+guidance on their job tasks, answering their questions about what it means to 
+have a job, and adding in their own personal experience to enhance the learning 
+opportunities.  
+ 
+● Educators  
+○ May also be impromptu volunteers  
+○ Deliver 12 lessons of curriculum prior to the on -site simulation experience  
+○ Check for understanding with students throughout day and aligning JA BizTown visit to 
+curriculum  
+○ Monitor student behavior and engagement  
+ 
+● Students  
+○ Elementary and Middle School - 5th through  6th grade  
+○ Participate in onsite 4hrs simulation where they are led by a JA Staff member on the 
+microphone providing instructions, consult with their volunteers for guidance, and use 
+ 
+9 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  what they’ve learned in the curriculum and recommendations within the software and 
+from their volunteer to make wise financial decisions. Students make all decisions to run a 
+successful business including applying for a loan, submitting payroll, voting , and making 
+purchasing decisions.  
+ 
+Learning Objectives  
+ 
+● Career Readiness & Workplace Skills  
+o Students discover the connection between education, training, and career opportunities.  
+o Students identify their personal strengths, interests, and skills as they relate to potential 
+careers.  
+o Students experience the hiring process, including job applications and interviews.  
+o Students understand workplace roles, responsibilities, and the importance of teamwork 
+and communication.  
+o Students demonstrate professional behaviors such as time management, accountability, 
+and collaboration.  
+ 
+● Business Management & Entrepreneurship  
+o Students learn how businesses operate and compete in a market economy.  
+o Students understand the roles of CEOs, CFOs, and employees in running a business 
+successfully.  
+o Students develop and implement a business plan that includes setting goals, managing 
+expenses, and serving customers.  
+o Students recognize how customer service, marketing, and innovation influence business 
+success.  
+o Students experience how supply and demand affect business decisions and profitability.  
+ 
+● Financial Literacy & Money Management  
+o Students learn to use a checking account and manage deposits and withdrawals.  
+o Students understand how to track personal and business expenses.  
+o Students experience earning a paycheck, understanding gross vs. net pay, and budgeting 
+within their means.  
+o Students recognize the importance of saving and making responsible spending 
+decisions.  
+o Students connect personal and business financial responsibility to business success and 
+community well -being.  
+ 
+● Digital Literacy & Modern Work Tools  
+o Students navigate a digital workspace that mirrors modern office tools (email, 
+messaging, project boards, online banking).  
+o Students learn responsible and professional online communication.  
+ 
+● Decision -Making & Critical Thinking  
+o Students apply problem -solving strategies to challenges that arise in the workplace 
+and economy.  
+o Students make informed decisions about spending, saving, and business operations.  
+o Students reflect on how their choices affect their business, coworkers, and the larger 
+JA BizTown community.  
+o Students recognize that success often depends on collaboration, adaptability, and 
+ethical decision -making.  
+ 
+ 
+10 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  ● Civic & Economic Understanding  
+o Students understand the concept of a community as an interdependent system of 
+citizens, businesses, and government.  
+o Students recognize how taxes, voting, and civic participation contribute to community 
+success.  
+o Students explore how local government supports businesses and citizens through 
+services and infrastructure.  
+o Students identify how economic choices affect businesses and the overall economy.  
+ 
+ 
+● Community & Citizenship  
+o Students understand how businesses and citizens contribute to a healthy, thriving 
+community.  
+o Students explore how philanthropy, volunteering, and social responsibility strengthen 
+communities.  
+o Students learn to balance personal success with civic duty and shared prosperity.  
+ 
+11 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  JA BizTown Simulation Day Schedule - Future State  
+ 
+1. Student Arrival and Welcome  
+Duration: 15 minutes  
+Overview: Students are welcomed into the simulation environment and oriented to the expectations, 
+procedures, and logistics for the day. This phase includes a review of safety protocols (restrooms, 
+emergency procedures, lunch procedures, movement expectati ons), behavioral norms, and device 
+usage guidelines. Facilitators assess student readiness through brief knowledge checks that connect 
+prior in -class instruction to the simulation experience. This ensures students understand both 
+operational expectations a nd the purpose of their participation in JA BizTown.  
+ 
+Students will:  
+● Demonstrate understanding of logistical expectations and behavioral norms for the 
+simulation day.  
+● Activate prior knowledge gained during in -class JA BizTown curriculum lessons.  
+● Recognize that the simulation is an application -based learning experience, not a 
+standalone event.  
+● Enter the experience with clarity, confidence, and a shared understanding of 
+expectations.  
+ 
+Simulation Modules Used: N/A  
+ 
+2. Opening Town Meeting  
+Duration: 15 minutes  
+Overview: The day formally begins with a structured town meeting led by the Simulation Manager. 
+During this ceremony, leadership roles are acknowledged, including CEOs, public safety officials, 
+educators, and volunteers. Students collectively recite the Ci tizens’ Pledge, reinforcing civic 
+responsibility and shared community values. This gathering establishes the tone of professionalism, 
+responsibility, and community interdependence that will guide the simulation.  
+ 
+Students will:  
+● Recognize and respect formal leadership roles within a community structure.  
+● Understand the importance of civic identity and shared responsibility.  
+● Experience the connection between leadership, governance, and community 
+success.  
+● Develop an appreciation for public recognition and accountability within structured 
+systems.  
+ 
+Simulation Modules Used: N/A  
+ 
+3. New Hire Orientation  
+Duration: 30 minutes  
+Overview: Students transition into their assigned businesses for a structured “New Hire Orientation.” 
+During this time, business teams participate in guided introductions, learn about their company’s 
+mission and operations, review specific job responsibili ties, and discuss workplace expectations. 
+Financial reminders (paychecks, taxes, and financial accountability) are reinforced. A purposeful team -
+building activity aligned to the company’s function helps students understand collaboration within a 
+business c ontext.  
+ 
+Students will:  
+● Understand the purpose, function, and structure of their assigned business.  
+● Identify and internalize the responsibilities of their individual job role.  
+ 
+12 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  ● Develop awareness of professional workplace norms and expectations.  
+● Recognize the interdependence of job roles and how each contributes to business 
+success.  
+● Experience intentional team building that reflects real -world workplace 
+collaboration.  
+ 
+Simulation Modules Used: Surveys, Team Building Exercise  
+ 
+4. Trainings  
+Duration: 20 minutes  
+Overview: Students participate in focused micro -trainings aligned to essential business competencies: 
+marketing, leadership, customer service, and visual merchandising. These sessions provide practical, 
+actionable strategies that students immediately apply  during business operations. Instruction is 
+interactive and scenario -based to reinforce application rather than passive learning.  
+ 
+Students will:  
+● Understand foundational marketing psychology and persuasive messaging 
+techniques.  
+● Identify essential components of effective advertising.  
+● Develop leadership behaviors including delegation, recognition, and accountability.  
+● Demonstrate effective customer service practices, including professionalism and 
+responsiveness.  
+● Understand how visual presentation influences consumer purchasing decisions.  
+● Apply training concepts directly to real -time business operations.  
+ 
+Simulation Modules Used: Digital Marketing Tool  
+ 
+5. Business Opening  
+Duration: 20 minutes  
+Overview: Businesses formally prepare to open operations. The Chief Financial Officer (CFO) completes 
+the business loan application process on a shared device interface visible to all team members, 
+reinforcing transparency and collective understanding. Upo n approval, the team receives confirmation 
+and proceeds to payroll verification, where employees review and confirm their W -2 information 
+before final CFO submission. Teams then collaboratively determine product price and strategies.  
+ 
+Students will:  
+● Understand the purpose and implications of securing a business loan.  
+● Recognize how startup capital supports operational success.  
+● Demonstrate attention to detail in financial documentation and payroll processes.  
+● Develop accountability for personal financial information.  
+● Analyze pricing strategies and understand how price impacts revenue, demand, and 
+profitability.  
+● Experience shared financial decision -making within a business context.  
+ 
+Simulation Modules Used: Business Loan, Student Payment, Point of Sales System, Student Payroll  
+ 
+6. Lunch  
+Duration: 20 minutes  
+Overview: Lunch  
+ 
+Students will: Break for students to eat Lunch (Operational break; informal peer interaction and 
+community building.)  
+ 
+13 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary   
+Simulation Modules Used: N/A  
+ 
+7. Sales Strategy Round 1  
+Duration: 10 minutes  
+Overview: The Chief Marketing Officer (CMO) leads a structured strategy meeting to prepare for 
+customer interactions. The team establishes sales goals, defines staff roles, and confirms pricing 
+strategies. This planning period encourages deliberate, data -informed decision -making before 
+operations begin.  
+ 
+Students will:  
+● Practice collaborative planning before execution.  
+● Develop leadership skills through facilitated discussion and delegation.  
+● Identify clear sales roles and responsibilities.  
+● Set measurable goals for customer engagement and revenue generation.  
+● Understand the importance of strategic alignment prior to operations.  
+ 
+Simulation Modules Used: Digital Marketing Tool, Point of Sale System  
+ 
+8. Business Operations Round 1  
+Duration: 30 minutes (3 segments of 10 minutes)  
+Overview: Businesses begin active operations. Students engage in product sales, peer shopping, B2B 
+(business -to-business) transactions, and civic participation (voting). The CEO finalizes loan 
+documentation at the bank. Students may also choose to allocate  earnings toward savings. The 
+segmented structure reinforces time management and operational pacing.  
+ 
+Students will:  
+● Apply marketing, sales, and teamwork strategies in real -time.  
+● Complete B2B tasks that reinforce inter -business dependence.  
+● Practice consumer decision -making and personal budgeting.  
+● Engage in civic responsibility through voting participation.  
+● Experience the operational rhythm of a functioning economy.  
+● Strengthen communication, adaptability, and problem -solving skills.  
+ 
+Simulation Modules Used: Point of Sales System, Student Payment (tap -to-pay, debit card), Voting, 
+Business Banking, Student Payment, Billing System  
+ 
+9. Sales Strategy Round 2  
+Duration: 10 minutes  
+Overview: Teams analyze performance data from Round 1 and adjust pricing strategies accordingly. A 
+randomized business scenario introduces a decision -making opportunity (e.g., responding to 
+community needs or allocating charitable contributions), requiring  ethical and strategic evaluation.  
+ 
+Students will:  
+● Interpret sales and profit data to inform decision -making.  
+● Understand how pricing adjustments influence financial outcomes.  
+● Evaluate trade -offs between profitability and community impact.  
+● Demonstrate ethical reasoning in business decision -making.  
+● Experience iterative improvement based on performance feedback.  
+ 
+Simulation Modules Used: Digital Marketing Tool, Point of Sale System, Business Banking  
+ 
+ 
+14 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  10. Business Operations Round 2  
+Duration: 21 minutes (3 segments of 7 minutes)  
+Overview: Businesses implement revised strategies during a second operational round. Students 
+continue sales, shopping, B2B interactions, and civic engagement. This shorter cycle reinforces 
+efficiency, adaptability, and strategic refinement.  
+ 
+Students will:  
+● Apply lessons learned from prior performance analysis.  
+● Demonstrate improved strategic execution.  
+● Complete outstanding B2B and civic responsibilities.  
+● Strengthen financial literacy through continued earning and spending.  
+● Experience how adaptation impacts business outcomes.  
+ 
+Simulation Modules Used: Point of Sales System, Student Payment (tap -to-pay, debit card), Voting, 
+Business Banking, Student Payment , Billing System  
+ 
+11. Business Debrief  
+Duration: 10 minutes  
+Overview: Businesses conduct a structured end -of-day meeting. Students review performance data, 
+analyze successes and areas for growth, complete a post -simulation survey, and receive a summary 
+report of business metrics (e.g., earnings, XP accumulation, st aff performance, income). Each student 
+leads a designated portion of the discussion to reinforce distributed leadership.  
+ 
+Students will:  
+● Analyze quantitative and qualitative measures of business performance.  
+● Reflect on decision -making and teamwork effectiveness.  
+● Practice presentation and facilitation skills.  
+● Engage in constructive evaluation and continuous improvement thinking.  
+● Connect actions taken during the simulation to measurable outcomes.  
+ 
+Simulation Modules Used: Business Banking, Leaderboard  
+ 
+12. Business Closing  
+Duration: 5 minutes  
+Overview: Students clean and reset their business spaces, ensuring materials are organized and 
+prepared for future use.  
+ 
+Students will:  
+● Demonstrate responsibility for shared spaces.  
+● Practice workplace professionalism through proper closure procedures.  
+● Understand the importance of stewardship and organizational care.  
+ 
+Simulation Modules Used: N/A  
+ 
+13. State of the Town  
+Duration: 10 minutes  
+Overview: The Mayor presents voting results and recognizes community achievements. Awards are 
+distributed to top -performing businesses. The Simulation Manager presents leaderboard results and 
+explains the criteria for success, reinforcing the connection be tween decisions and outcomes.  
+ 
+Students will:  
+● Understand how civic participation influences community outcomes.  
+ 
+15 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  ● Recognize characteristics of high -performing businesses.  
+● Reflect on how leadership, collaboration, and strategic decision -making contribute 
+to success.  
+● Celebrate achievements within a structured civic environment.  
+● Internalize the connection between economic systems and community impact.  
+ 
+Simulation Modules Used: Voting, Leaderboard  
+ 
+Note:  For JA Areas who do not have the space for all students to go on lunch at once, the Trainings, 
+Lunch, and Business Opening phases will serve as rotations for ⅓ of the JA BizTown businesses.  
+ 
+ 
+Simulation Requirements/Module Requirements  
+ 
+Roles will be assigned various modules. Some roles will have common modules and there will be some 
+modules that are specific to one or more roles. The JA BizTown simulation software must include the 
+following modules:  
+ 
+● Point of Sale system  
+o Setting sale price for products per storefront and should include a slider that shows 
+profit/loss based on sales price and initial startup loan  
+● Student payment  
+o Each student tablet will have a QR code that acts as their form of payment  
+▪ When a student’s break color is called for their shopping break, their device will 
+switch to their QR code and turn the color of their assigned break (red, yellow, 
+green)  
+▪ Tablets would switch back to their normal job screen when it is no longer their 
+shopping break  
+o Software should also have the ability to function with debit cards and debit card swipers  
+o Explore ability to use NFC as payment.  
+● Digital marketing tool  (similar functionality to Canva, but built into the software)  
+o Must also have the ability to share designs between devices, job roles, and businesses  
+● Banking system  
+● Payroll system  
+o Ability for Areas to choose direct deposit or print paychecks  
+o 2nd paycheck - would be more of a "triggered spot bonus" type setup where the 
+simulation lead can decide to use that as the "2nd payroll" or as a "spot bonus" if they 
+decided to  
+● Loan application and approval system  
+● Billing and bill pay system  
+● Team building exercise  
+▪ leverage software (one -device -per-user) to create a widget for their business all in real -
+time. This will help them better see, understand, and feel how each of their inputs are 
+critical to the team experience and the overall success of their business and  it will 
+engage each student since each NEEDS to pl ay a role.  
+● Business scenario  
+o e.g.: town park gets hit by tornado - every business/CEO receives a pop -up asking if their 
+business wants to contribute to repairs. Businesses have the option to contribute or not. 
+Those that do - money deducted from business accounts, but gain a lot of Experience 
+Points (XPs)  (because they did the right thing). Businesses that don't contribute, get to 
+keep their money, but lose lots of XPs because they didn't support their community.  
+▪ Allow JA Area to put a pre -defined amount in CMS ( possibly  have 3 options 
+ 
+16 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  available to businesses - "we do not want to contribute", and 2 predefined 
+amounts).  
+▪ Individual student contributions - could pop -up after the CEO provides business 
+contributions. Could pop -up on individual student tablets for them to decide if 
+they want to contribute $1 or $2.  
+● Customizable “free space” for JA Areas to add unique tasks  
+o There must be some guidelines within this feature (ie. character limit, design, etc.)  
+● Voting capabilities  
+o Kiosk version and mobile version (for Mayor to walk around and take votes on their 
+device)  
+● Survey and evaluation integration (pre - and post -) 
+▪ Ability to lock 4 -6 questions to all JA Areas  
+▪ Ability for JA Areas to add up to 6 questions  
+▪ Ability to multiple response types (multiple choice, yes/no, free response)  
+● Business dashboard  
+o Spot on the leaderboard  
+o Tips to increase the spot  on the leaderboard  
+o Business transactions  
+o Loan amount  
+o Items competitors are selling and pricing  
+o Profit and loss statements  
+o Profit calculator (revenues minus expenses)  
+o Pie charts and bar graphs  
+● Dashboards  
+o Admin  
+▪ Student reporting view  
+▪ Business reporting view  
+▪ Control the simulation phases  
+▪ Add Experience Points to business accounts  
+▪ Add money to student accounts  
+▪ Add money to business accounts  
+▪ Voting results view  
+o Teacher  
+▪ Quick and easy way to access student and business reports  
+● Motivational guided tips throughout  
+o "Remember  to make a payment towards your business loan! You have $50 in your 
+business account to make a payment towards your loan!"  
+● Business leaderboard based on Experience Points (XPs)  
+o Payment toward loan is made  
+o Loan is applied for  
+o Invoice is paid  
+o Bill is sent  
+o Payroll is complete  
+o Marketing ad was submitted  
+o 2 employees in your business voted  
+o Open a savings account  
+o Employee or business made a donation to the nonprofit organization  
+o For every employee that does pre - and post -surveys  
+o Cleanest storefront  
+o Paid off business loan  
+● Onscreen tutorials  
+o Walk students through key steps:  
+ 
+17 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  ▪ Paying a bill  
+▪ Sending a bill  
+▪ Payroll  
+▪ Paying part of a loan  
+▪ POS usage  
+● AI 
+o Sale strategy - leverage AI to come up with slogans for their business  
+o Transcription - transcribe CEOs speech by having them speak into the tablet and it helps 
+create their speech for them  
+● Radio business  
+o Music/radio software integrated into the software with the ability to connect to the 
+facility’s A/V system  
+o Automatically imports each business’s slogan and gives the DJ the ability to choose which 
+slogans they would like to play or read on -air 
+● Screen share capabilities  
+o Example: ability for the CFO to use their device to complete the business loan application 
+and for the rest of the business employees to be able to see everything the CFO is doing 
+from their device, but not actively press buttons or type.  
+● Evaluation:  
+o The proposed simulation platform must include functionality that allows JA USA staff to 
+configure embedded student response items at both the beginning and the end of the 
+simulation experience. At minimum, the system must support the insertion and editing 
+(including hard -coding, as needed) of at least ten (10) customizable items per survey 
+instance, with space for a minimum of 125 characters per item prompt. The response scale for 
+these items must also be fully editable, allowing JA USA staff to define cust om response 
+options. The system must support up to six (6) response choices per item, with space for a 
+minimum of 25 characters per response option. Response scales may include traditional 
+Likert -type formats (e.g., Agree/Disagree) or alternative response themes (e.g., 
+Confident/Somewhat Confident), and must allow flexibility to accommodate varying 
+evaluation needs.  
+ 
+Teacher Role Requirements  
+ 
+Report Access:   
+At the end of the day, teachers should receive reports on all students who attended JA BizTown. This 
+ensures comprehensive visibility into student progress and the overall experience. The student report 
+should include information on each individual student ’s success in the simulation, but also each 
+business’s success in the simulation. Additionally, reports should be available for voting and 
+evaluations.  
+ 
+These reports can be accessed via QR code or email.  
+ 
+ 
+Volunteer Role Requirements  
+ 
+Dashboard Access:   
+Volunteers should use tablets to access their dashboard, allowing them to visually see student and 
+business success and other relevant information. The dashboard should allow the volunteer to see their 
+business performance including loans, sales, transacti ons, student pay, student purchases, business 
+transactions, profit and loss statements, pie charts, and graphs . Additionally, the platform must clearly 
+define when and why a volunteer should intervene, minimizing ambiguity.  
+ 
+18 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary   
+Volunteer Guide:  
+The volunteer guide should be integrated into the dashboard, providing sample discussion questions 
+and instructions for group activities. This ensures consistency and helps volunteers create organic 
+conversations with students.  
+ 
+Survey Integration:  
+Volunteers should be able to complete surveys at the end of the day to provide feedback on their 
+experience. The survey should capture both positive moments and areas for improvement.  
+User Interface: The dashboard should be designed for tablet use, providing a larger screen for 
+volunteers to see group discussions and interact with students. The interface should be user -friendly 
+and provide clear instructions for volunteers.  
+ 
+Simulation Manager Role Requirements  
+ 
+Centralized Dashboard:  
+The simulation manager should have a single, centralized view of the town’s operational and financial 
+status. The dashboard should show business status (financials, POS transactions, payroll), banking and 
+B2B activity, student role progress, at -a-glance in dicators for risk or bottlenecks (payroll hasn’t been 
+completed, no loan payments have been made, etc.). The simulation manager should also have the 
+ability to make real -time changes in the simulation from storefront changes, swapping students 
+between busi nesses, move the simulation forward with actions automatically completing (e.g.: all 
+students payroll submitting if simulation manager decides to move forward).  
+ 
+Admin Intervention Tool:  
+The simulation manager should be able to correct, adjust, or recover from errors without undermining 
+the student ownership. There should be available admin tools to reverse or edit transactions; reissue 
+paychecks; correct payroll, POS, or banking mistakes from the simulation manager’s laptop, without 
+needing to go into each business or touch each machine to make the change.  
+ 
+User Interface:  
+The dashboard should be designed for ease of use, providing clear visual indicators and allowing the 
+simulation manager to monitor student progress and make necessary adjustments.  
+ 
+Gamification Ideas  
+ 
+Purpose of Gamification in JA BizTown  
+Gamification in JA BizTown must:  
+● Reinforce decision -making, accountability, and cause -and-effect  
+● Reinforce the overall learning  
+● Increase engagement without increasing cognitive load  
+● Support accessibility, equity, and shared -device environments  
+● Enhance —not replace —the human, experiential nature of the simulation  
+Gamification should reward understanding and responsible choices, not speed, competition alone, or 
+superficial completion.  
+ 
+● Business Leaderboard  
+o The Business Leaderboard should be an all-encompassing  view of the most successful 
+business in JA BizTown and should be live, presentable by the JA Area admin on a large 
+screen, and contain a formula that  combines multiple variables.  
+ 
+19 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  ▪ The leaderboard should be based on various factors that represent the business’  
+value:  
+● Financial Health  
+o What percentage of the business loan has been paid off  
+o Profit/revenue the business has made  
+o Setting pricing of products based on minimum viable sales price to 
+pay back loan and generate profit  
+o How fast the business pays off the business loan  
+o How quickly a business has all of their invoices paid  
+o Philanthropic contributions a business makes  
+▪ Students should clearly understand why their business is placed at a certain level on 
+the leaderboard and should be given tips to increase their place on the leaderboard.  
+● Business -Focused Random Scenarios  
+o The Business -Focused Random Scenarios should teach students the ethical ramifications of 
+business decision making and the choice(s) they make during this random scenario could 
+affect their place on the leaderboard.  
+▪ The Business -Focused Random Scenarios should:  
+● be completed by students at a set time so that JA Area staff can plan this time 
+into their day.  
+● be specific to the type of business the students are working in.  
+● have a clear way for the students to correctly or incorrectly make a decision, 
+but should not be incredibly obvious.  
+● should allow for 10 -15 minutes of discussion between the students with 
+some volunteer input where needed.  
+● should clearly explain the reasoning for the correct answer whether the 
+business gets the answer correct or incorrect.  
+▪ e.g.: town park gets hit by tornado - every business/CEO receives a pop -up asking if 
+their business wants to contribute to repairs. Businesses have the option to 
+contribute or not. Those that do - money deducted from business accounts, but gain 
+a lot of Ex perience Points (XPs) (because they did the right thing). Businesses that 
+don't contribute, get to keep their money, but lose lots of XPs because they didn't 
+support their community.  
+● Allow JA Area to put a pre -defined amount in CMS (possibly have 3 options 
+available to businesses - "we do not want to contribute", and 2 predefined 
+amounts).  
+● Individual student contributions - could pop -up after the CEO provides 
+business contributions. Could pop -up on individual student tablets for them 
+to decide if they want to contribute $1 or $2.  
+ 
+● Business Financial Health Indicators  
+o The Business Financial Health Indicators should be visible, on -screen indicators that are 
+easy for students to see on a shared device.  
+▪ Can be pie chart, graph, some sort of modern visual to easily and quickly understand 
+financial health of business.  
+o The Business Financial Health Indicator should reflect:  
+▪ Income versus expenses  
+▪ Loan burden/percentage of loan paid off  
+▪ Predicted loan payoff amount based on sales  
+o The Business Financial Health Indicator should provide actionable tips to the business 
+workers to improve their financial health.  
+ 
+ 
+ 
+20 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  Gamifications Delivery Notes  
+- Use animations to explain abstract concepts  
+- Include gamification elements that align with learning goals  
+- Create realistic simulations for business decision -making  
+- Design reward systems tied to learning milestones (XPs for making good decisions)  
+- Creative  and competitive features to boost engagement  
+- All gamification elements must function in a high -noise environment and not rely on audio  
+- Accessibility first gamification design  
+• Support English/Spanish at minimum  
+• Include visual, text, and optional read -aloud modes  
+• Avoid reliance on sound or fast reaction times  
+• Be usable on shared devices  
+ 
+Content Management System (CMS)  
+1. Overview  
+The CMS will serve as the administrative backend of the JA BizTown simulation platform. It 
+must enable authorized staff to configure, customize, manage, and monitor all aspects of the 
+simulation experience without requiring advanced technical knowledge or vendor intervention.  
+ 
+The CMS must be easy to navigate, easy to edit and localize, easy to setup, and easy to pull 
+reports. The CMS will enable JA Areas to manage local customization by inputting sponsors, 
+logos, careers, payroll, salaries, and other simulation elements while a lso creating templates 
+and setting up simulations. The CMS must include the ability to bulk upload the aforementioned 
+items. The system must also support comprehensive, easy -to-generate reporting that allows 
+users to analyze student experiences based on cr iteria such as simulation type, simulation 
+name, and date.  
+ 
+2. User Roles & Permissions  
+The system must support configurable role -based access, including (but not limited to):  
+● National administrators (super admin)  
+● Local site administrators (admin)  
+● Local site simulation managers  
+ 
+Capabilities should include:  
+● Customizable permission levels  
+● Ability to restrict editing access by site or region  
+● Audit logs tracking changes made by users  
+● Multi -factor authentication options  
+● Ability to rollback changes to a previous version  
+● Ability to “copy and paste” existing localized CMSes  
+● Ability for national configuration (super admin) and ability to push that down to 
+local JA Areas (admin)  
+ 
+3. Simulation Configuration & Customization  
+The CMS must allow staff to:  
+Business & Job Configuration  
+● Add, edit, archive, or duplicate businesses  
+● Modify job titles, job responsibilities, and compensation  
+● Adjust business capacity (number of employees per business)  
+● Customize mission statements and company descriptions  
+Financial Variables  
+ 
+21 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  ● Adjust salary rates  
+● Modify tax rates and withholdings  
+● Set pricing for goods/services  
+● Configure loan terms and interest rates  
+● Set account balances or starting funds  
+Student Experience Controls  
+● Adjust timing of simulation phases  
+● Enable/disable specific modules (e.g., loans, voting, marketing)  
+● Configure rotation schedules  
+● Modify student task lists or checklists  
+Content Customization  
+● Edit on -screen instructions  
+● Modify vocabulary definitions  
+● Adjust reading levels where applicable  
+● Upload local branding (logos, sponsor names)  
+● Add site -specific businesses or sponsors  
+ 
+4. Multi -Site & Template Management  
+The CMS must support:  
+● A national master template  
+● Local site -level customization layers  
+● Ability to push national updates without overwriting local customizations  
+● Version history and rollback functionality  
+● Cloning of site configurations  
+ 
+5. Other requirements  
+● Ability to contain 100+ simulations all with the same abilities  
+● Admins can only access, see, and customize the facilities they are assigned to  
+● Create simulation templates – quick, easy, and intuitive  
+● Ability to make changes real -time in the CMS while a simulation is active  
+● Ability to preview a simulation without having to go through the steps of setting up a 
+simulation  
+● Ability to see uploaded images without needing to activate a simulation  
+● Accessibility and language management (at bare minimum - english and spanish)  
+ 
+This is critical for maintaining consistency while allowing JA Area flexibility.  
+ 
+Dashboards  
+3 types of dashboard - see below for more information.  
+● Staff  
+● Teacher  
+● Volunteer  
+ 
+Staff/Simulation Dashboard  
+● Should monitor individual student progress  
+o Checking account  
+o Savings account  
+o Purchases  
+o Completed activities  
+ 
+22 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  o Voting  
+● Should monitor business progress  
+o Transactions  
+o Inventory tracking  
+o Amount of loan paid off  
+o General financial health  
+o Random scenario response  
+o Business leaderboard and the formula showing why  
+● Admin controls  
+o Send messages  
+o Correct student errors from simulation manager station  
+▪ Correct student names  
+▪ Correct student’s payroll  
+▪ Move students around storefronts easily, as needed  
+o Provide subsidies , bonuses, and XPs to businesses  
+o Add money to student accounts  
+o Push and pause simulation phases forward  
+▪ Trigger activities - e.g.: voting, random scenarios, other  
+ 
+Teacher View  
+● Should provide end of the day reports  
+o Individual student reports  
+o Business reports  
+o Full simulation report  
+● Should be easily accessible to  teachers via QR code or simple login code  
+  
+ 
+23 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary   
+PRODUCT DESIGN REQUIREMENTS   
+Summary  
+ 
+This document outlines the recommended approach, methodology and experience design best practices 
+and requirements for a successful user experience for all roles involved in the simulation software 
+portion of their flagship Experiential Learning Center, JA  BizTown.  
+A successful agency will take a human -centered design approach employing empathy to arrive at a deep 
+understanding and representation of our audiences by role. They will arrive at an engaging, relevant and 
+easy -to-experience environment where software, exp eriential flow design and supportive content 
+management systems and user dashboards will work together to create a meaningful and memorable 
+learning experience.  
+ 
+Overview  
+This document will discuss three portions of the product design approach and deliverables which address 
+the following questions by discipline:  
+● User Experience Design:  
+○ Are we building the right product features to address the vision and pain points identified 
+for each role? If so, are we building it in a way that is easily adopted, used and accessible?  
+● Visual Design:  
+○ Are we building an engaging and relevant experience for each role involved? If so, we are 
+clearly adding motivation to move through the experience in a compelling way? Is it 
+aligning with the overall brand of the organization, as well as branding of the pr oduct 
+itself?  
+● User Experience Research:  
+○ Are we checking our solutions early with end users prior to investing too much time and 
+effort into development utilizing Lean Design principles. Are we incorporating feedback 
+into an iterative software design process?  
+ 
+Process & Methodology: Design Thinking  
+ 
+We recommend an approach that takes advantage of the “double diamond” of the Design Thinking 
+approach with a divergence - conference model.
+ 
+24 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary   
+ 
+We recommend a “Design / Build” approach where the designers and developers are working together 
+throughout the process. B efore diving into detailed code development, it's essential to focus on creating a 
+definition of the behavior as well as low -fidelity clickable wireframes prior to developing a large code 
+base. These elements play a crucial role in the design process by pr oviding a clear understanding of user 
+needs, behaviors, and interactions.  
+ 
+To create a brand -aligned and engaging learning product for tweens/teens, the selected vendor will 
+follow a structured design process that includes the creation of mood boards, style tiles, and user testing. 
+This approach ensures that the final product res onates with the target audience and aligns with our 
+brand identity.  
+ 
+Deliverables by Phase:  
+The process and deliverables described below are recommended by the in -house Experience Design 
+team. You may have a comparable set of processes and deliverables that arrives at similar goals (answers 
+to the questions indicated above). Either way, we would like to understand your specific deliverables in 
+each phase of your design process. NOTE: Definitions of specific deliverables follow in the Deliverables 
+section below.  
+● Research - Discover Phase  
+o While this phase has been done internally by interviewing stakeholders as well as end 
+users, there are some deliverables that will ensure we have a shared understanding of this 
+phase.  
+o User Experience  
+▪ Personas - at least one per role (See Audience Roles)  
+▪ User Journeys - mapped out to show future experience  
+o Visual Design  
+
+ 
+25 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  ▪ Mood Vision Boards / Style Tiles - The internal design team will provide 
+branding direction, JA USA color system as well as initial recommendations but we 
+look to you to bring in the overall design direction  (in addition to the screens 
+provided in the Phases portion by our Product Management team).  
+o User Experience Research  
+▪ Research Plan - Identify the specific problems we want to test early in the design 
+process to ensure we are headed in the right direction.  
+● Research - Definition Phase  
+o User Experience  
+▪ User Stories - These will be the foundation of the functional requirements of the 
+software.  
+▪ Lo-Fidelity Wireframes - These black and white key screens which map out the 
+simulation flow from screen -to-screen including the location of key navigation 
+elements as well as interactive components.  
+▪ Site Maps - Overview of the entire system of screens per role (for each audience 
+type).  
+o Visual Design  
+▪ Style Guide - Solidify design approach of all styles and build out template library 
+of Style Guide.  
+▪ Accessibility Plan - Document outlining fundamental approach and actions to 
+meet WG 2.1 AA specifically for this software product.  
+● Design - Develop & Test Phase  
+o User Experience  
+▪ Wireframes & Flows - Finalized, which annotations help  the product owners 
+understand which info on the screens are controlled  by the CMS, dynamic versus 
+static.  
+▪ Site maps and navigation structures - Finalized  
+o Visual Design  
+▪ UI Component System - Provide list and begin component library of reusable UI 
+components such as buttons, form fields, error handling, etc.  
+▪ Design Templates for each screen type  
+▪ Hi-Fidelity Prototype of key screens to reflect overall flow (could simply be 
+screens strung together in Figma)  
+o User Experience Research  
+▪ Concept Test: Conducting usability tests with real users to gather feedback on 
+design and functionality.  
+● Design - Deliver & Listen Phase  
+o User Experience  
+▪ Error Handling / Onboarding - Document of onscreen user support  as well as 
+messaging for when things go wrong.  
+o Visual Design  
+▪ Design Deliverables/Style Guide: As well as all source files once project 
+complete.  
+o User Experience Research  
+▪ Research Results: Analyzing test results to identify areas for improvement and 
+ensure the design meets user needs.  
+ 
+26 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary   
+Collaboration and Review  
+Throughout the design process, the vendor will collaborate closely with our team to ensure that we are 
+aligned and seamlessly into the development of the final product. Regular check -ins and reviews will be 
+scheduled to maintain alignment with our brand gu idelines and project goals.  
+ 
+Document Deliverables Definitions  
+It is crucial to ensure that you provide comprehensive documentation and deliverables throughout the 
+design process. These deliverables not only help in tracking progress but also ensure that all stakeholders 
+are aligned with the project's vision and goals . 
+ 
+ 
+● Personas:  
+ 
+o Personas are fictional characters created based on research to represent different user types. 
+They help in understanding users' needs, experiences, behaviors, and goals. They ensure we 
+are all on the same page with a user -centered approach.  
+● User Stories:  
+o User Stories are short, simple descriptions of a feature told from the perspective of the end 
+user. They help in understanding what the user wants to achieve and why.  
+o They provide a clear and concise way to capture user requirements and ensure that the 
+design aligns with user needs and will allow us to prioritize features as a team.  
+● User Journeys/Flows:  
+o User Journeys map out the steps a user takes to achieve a specific goal. They help in 
+visualizing the user's experience and identifying potential pain points and opportunities for 
+improvement. User flows that show how real kids will move through the experience  
+o They provide a holistic view of the user's interactions with the product, ensuring that the 
+design supports a seamless and intuitive experience.  
+● Clickable Low -Fidelity Wireframes:  
+o Low -fidelity wireframes are simplified visual representations of the product's layout and 
+structure. They focus on the basic interactive and dynamic elements without getting into 
+detailed design aspects like color and typography.  
+o Clickable wireframes allow for early -stage testing and feedback, helping to validate design 
+concepts and identify issues before investing time and resources into detailed development.  
+● Interaction  
+o Animation examples showing how motion will enhance understanding.  
+● Three Concept Designs (Via Mood Boards or Style Tiles)  
+o Mood boards are visual representations that capture the essence of the desired look and 
+feel of the product. They include images, colors, typography, and other design elements that 
+convey the intended emotional and aesthetic tone. By presenting mood boards , we can 
+explore different visual directions and gather feedback to refine the overall design concept.  
+o Style tiles are more detailed design documents that include color palettes, typography 
+choices, button styles, and other UI components. They are a bridge between the abstract 
+ideas in mood boards and the concrete design specifications needed for developmen t. 
+● Design & Style Guides:  
+o High -fidelity mockups and prototypes demonstrating the visual design and interaction 
+patterns bring the platform to life visually.  
+o Style guides and design systems that ensure consistency across the product, including 
+reusable UI components that captures the personality of JA BizTown  
+o Final Source Files - in layered files that can be used by the internal design team (Figma 
+preferred).  
+● Image Specifications & Tracking  
+o Image Tracking - we will provide an image tracker as well as access to our photo libraries 
+ 
+27 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  for use in the sim.  
+● Usability Test Plans and Reports:  
+o Plans detailing the methodology for usability testing, including participant recruitment and 
+test scenarios.  
+o Reports summarizing the results of usability tests and recommendations for improvements.  
+● Final Deliverables:  
+o Comprehensive documentation of the final design, including all assets and specifications.  
+o Source Files - All layered source files must be provided to JAUSA should a change need to be 
+made in the future.  
+ 
+Product Design Expectations  
+Responsive Design  
+The interface should be responsive and adapt to different screen sizes and orientations, 
+ensuring a seamless experience across various tablet models . 
+Accessibility  
+The design should comply with accessibility standards (e.g., WCAG) to ensure that all 
+users, including those with disabilities, can access and interact with the content. (See 
+Technical section).  
+Touch -Friendly Controls  
+Design  controls and buttons that are touch -friendly and easy to interact with on a tablet 
+screen.  
+Engaging Visuals  
+The learning experience should include engaging visuals, such as images, videos, and 
+animations, to enhance understanding and retention of information.  
+Interactive Elements  
+Incorporate interactive elements to make the learning experience more engaging and 
+participatory  
+Build virtual stores and banks where kids practice every day  financial tasks  
+Give them business tools  that feel like the real thing but with training wheels  (e.g. age-
+appropriate  point of sale system will be simple and to the point)  
+Clear Instructions  
+Provide clear and concise instructions for each activity or module to ensure users 
+understand what is expected of them.  
+Immediate Feedback  
+The system should provide immediate feedback on user actions, such as quiz answers or 
+activity completions, to reinforce learning and guide users.  
+Progress Tracking  
+Include a progress  tracker that allows users to see their advancement through the 
+learning modules and understand their overall progress.  
+Immersive Design (Animation/Motion)  
+Don't just tell kids about compound interest – show them with animations that make the 
+concept click  
+Add those little animated moments of delight when something goes right (or wrong)  
+Break down complex ideas into step -by-step animated tutorials  
+Focused Approach  
+Adopt a design approach  to avoid clutter and focus on essential elements, making the 
+interface clean and easy to navigate. Make it clear where to focus attention – financial 
+concepts can be complex, so visual hierarchy matters and clear “calls -to-actions” are 
+essential.  
+Personalization  
+ 
+28 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  Personalization will include  features such as customizable dashboards, user -specific 
+recommendations, and adaptive content.  
+ 
+Proximity  
+Proximity refers to the strategic placement of related tasks or functions close to one 
+another within the interface. When users can easily find and access related functions, it 
+reduces cognitive load and minimizes the time spent navigating the platform.  
+ 
+Persistence : 
+Persistence is the practice of maintaining the state of user selections and preferences 
+across sessions and interactions. When users know that their settings and choices will be 
+preserved, it builds trust and reduces frustration. Persistence can be achieve d through 
+features such as saved preferences, session continuity, and state retention.  
+ 
+Intuitive Navigation  Patterns  
+The learning experience should have a clear and intuitive navigation system that allows 
+users to easily find and access different sections and features.  
+Clear differentiation between the various steps so that it doesn’t look/feel like students 
+are doing the same thing over and over again.  
+UI Patterns  
+Reduce long scrolling screens and chuck content to reduce cognitive load.  
+Ensure content is short bite -sized snippets like shopping “Quickviews”  
+Utilize real -world interface experiences - like shopping online; don’t reinvent NEW 
+navigation patterns but  use ones that students are already familiar with.  
+ 
+ 
+  
+ 
+29 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  SCOPE OF WORK   
+ 
+The following reflect the scope of work required to launch simulation:  
+• Build front -end student simulation based on requirements defined by Junior Achievement  
+• Build content management system (CMS)  
+• Paper -based solution (CMS takes simulation data and prints out data as PDFs)  
+• Simulation dashboards  
+• Staff Sim Manager  
+• Educator/Volunteer  
+•  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Assumptions:  
+• Build a unified software framework to support the onsite JA BizTown experience  
+ 
+Key Project Milestones  
+ 
+Estimate Project Deadlines  Start  End  
+Vendor Volunteers In -Person 
+for a JA BizTown Simulation  May 2026  May 2026  
+Project Kickoff (in person JA 
+USA and Vendor)  May 2026  June 2026  
+Design & Software 
+Development  May 202 6 May 202 7 
+Clickable prototype for user 
+testing  Sep 202 6 Oct 202 6 
+Pilot Release Ready  Jan 2027  Mar 2027  
+JA Area Training & Site Prep*  Nov 202 6 Dec 202 6 
+Pilot Testing (JA Areas)  Jan 202 7 Mar 202 7 
+Updates  Mar 202 7 Jun 202 7 
+Final testing  Apr 202 7 Jun 202 7 
+Final training documentation   Jun 202 7 
+Initial Release   Jun 202 7 
+ 
+*Video trailer training and pilot documents  ideal  
+  
+ 
+30 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary   
+TECHNICAL REQUIREMENTS   
+Summary  
+● Overview : This document outlines the preferred technical requirements for JA USA's new 
+software project. While specific technologies are recommended, deviations are acceptable if 
+the developer can demonstrate a proven and effective approach.  
+Infrastructure  
+● Cloud Platform : The project will be hosted on Microsoft Azure , leveraging its robust cloud 
+services to ensure scalability, reliability, and security. Azure's comprehensive suite of tools 
+and services will support the development, deployment, and management of the application.  
+● Database : The application will utilize SQL Server for its database needs, providing a 
+powerful, reliable, and secure database management system that integrates seamlessly with 
+Azure.  
+● Ownership and Management : The product will be owned, managed, hosted, and supported 
+by JA USA . 
+Mobile Application Development  
+● Framework : The mobile application will be developed using .NET Core for the backend and 
+React Native for the frontend.  
+● Design : The application will follow a mobile -first design approach, ensuring optimal 
+performance and user experience on mobile devices. A bootstrapper framework, such as 
+Bootstrap or a similar library, will be used to streamline the design process and ensure 
+responsiveness across different screen sizes.  
+● Deployment : The React Native app will be deployed using Expo.dev , a platform that 
+simplifies the deployment process and allows for the creation of native iOS and Android apps. 
+Expo.dev provides tools and services to build, deploy, and manage the app efficiently, 
+ensuring it meets the requirements of both the Apple App Store and Google Play Store.  
+ 
+Backend Development  
+● Architecture : The backend will be designed using a microservices architecture . This 
+approach breaks down the application into smaller, independent services that can be 
+developed, deployed, and scaled individually. Containers will be utilized as part of the 
+deployment and scalability strategy, allowing for consistent environments across 
+development, testing, and production. Containers facilitate efficient resource utilization and 
+simplify the deployment process.  
+● Language : The backend services will be written in C# .NET Core , utilizing .NET 8.0 or .NET 
+9.0 as the primary code framework.  
+● Database Queries : All database queries will be implemented using stored procedures . 
+Stored procedures help optimize performance by taking advantage of cached execution 
+ 
+31 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  plans, reducing the overhead of query parsing and compilation.  
+Frontend Development  
+● Framework : The frontend will be developed using React Native . 
+● Design : The frontend will adhere to a mobile -first design philosophy, ensuring that the user 
+interface is optimized for mobile devices. A bootstrapper framework will be used to ensure 
+responsiveness and consistency across different screen sizes and devices.  
+● Design Pattern : The frontend design pattern will be a single -page application (SPA) . This 
+approach eliminates page reloads and refreshes, maintaining student engagement by 
+providing a faster and more seamless user experience.  
+● Responsive Web Design : The application will implement the three key technical features of 
+responsive web design to ensure cross -mobile device compatibility:  
+● Media Queries and Media Query Listeners : Designed with a mobile -first layout.  
+● Flexible Grid -Based Layout : Uses relative sizing.  
+● Flexible Images and Media : Through dynamic resizing or CSS.  
+Paper -based Version  
+● Purpose : In case of circumstances beyond the control of the facility (e.g. power/internet 
+outages), a paper -based version of the simulation must be an option.  
+● What’s Included : Complete simulations to allow students to have a complete experience 
+without the use of the mobile app.  
+Accessibility  
+● Standards : The application must meet AA compliance with the Web Content Accessibility 
+Guidelines (WCAG) 2.2 A A standards. This ensures that the app is accessible to users with 
+disabilities, providing an inclusive user experience.  
+● Documentation : Comprehensive documentation of all accessibility features and practices 
+will be provided. This documentation will detail how the app meets WCAG standards and will 
+be essential for ensuring compliance in the event of a legal audit.  
+● VPAT : The vendor is expected to provide a Voluntary Product Accessibility Template 
+(VPAT) for each theme or section of the application to demonstrate how it conforms to the 
+WCAG guidelines.  
+Security Data  
+● Privacy: The application must adhere to stringent data privacy standards to protect user 
+information. This includes implementing best practices for data encryption, secure data 
+storage, and user consent management.  
+● Standards Compliance : The product shall adhere to conventional IETF, OWASP, and W3C 
+standards for web applications to ensure security, interoperability, and accessibility.  
+● Student Authentication : Student authentication should be quick and require minimal 
+interaction with their device. This could include methods such as QR code scanning or PIN 
+ 
+32 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  entry, provided to the student at the start of the simulation. Authentication should not be tied 
+to the device to allow for device swaps during the simulation.  
+● Non -Student Authentication : Staff, teacher, and volunteer authentication will be managed 
+through Microsoft's Entra B2C . The application will also incorporate OpenID to allow 
+authentication through additional means.  
+● Documentation : Detailed documentation of all security measures, including data privacy and 
+standards compliance, will be provided. This documentation will outline the steps taken to 
+ensure security and will be crucial for demonstrating compliance during a legal audit.  
+Scalability  
+● Concurrent Users : The application must be designed to support upwards of 5,000 
+concurrent users . Given that the app is a simulation that will run for several hours, it is 
+crucial to ensure that all 5,000 users can use the app simultaneously without performance 
+degradation.  
+● Performance Optimization : The backend services will be optimized for high performance, 
+utilizing Azure's scalable infrastructure to handle the load. This includes auto -scaling 
+features to dynamically allocate resources based on demand, ensuring consistent 
+performance even during peak usage.  
+● Load Balancing : Implementing load balancing strategies will distribute incoming traffic 
+across multiple servers, preventing any single server from becoming a bottleneck. This will 
+enhance the application's reliability and responsiveness.  
+● Database Performance : SQL Server will be configured to handle high volumes of 
+transactions efficiently. Using stored procedures will further optimize database performance 
+by leveraging cached execution plans and reducing query processing time.  
+● Microservices Architecture : The use of a microservices architecture will allow individual 
+services to be scaled independently. This modular approach ensures that specific components 
+can be scaled up or down based on usage patterns, providing greater flexibility and resource 
+efficiency.  
+● Monitoring and Alerts : Continuous monitoring of the application's performance will be 
+implemented using Azure's monitoring tools. Real -time alerts will be set up to detect and 
+respond to any performance issues promptly, ensuring minimal downtime and optimal user 
+experience.  
+● National Data Handling : The application must be capable of handling total national data 
+from 500-600K students in a 9 -month school year. The database architecture must be 
+scalable over time.  
+Boards and Source Control  
+● Azure DevOps: The project will use Azure DevOps to track work items, wiki documentation, 
+source control, automated test plans, and pipelines for builds and releases. The Azure DevOps 
+project will be hosted by JA USA.  
+● Work Items : Work items should be grouped by Epics and Features with individual work items 
+ 
+33 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  in User Stories and Bugs . User Stories and Bugs cannot be worked until refined into a Ready 
+to Work state.  
+● Source Control : Source control will use Git within Azure DevOps. The Git workflow should be 
+modeled off of Gitflow or another popular and documented workflow strategy for Git. All 
+commits and pull requests to the code repository must include informative comments about 
+the code changes. Git should be utilized for all source code including the database, backend, 
+and fron tend.  
+● Code Review : Code review should be performed and documented before any Pull Request is 
+approved. All Pull Requests must be associated with a User Story or Bug. All Pull Requests 
+must be code reviewed before both being merged into the primary branch and before being 
+made available for testing to the product owners.  
+● Automated Test Plans : Automated Test Plans should be used to test as many Feature level 
+functions as possible.  
+● Automated Builds : Automated builds using pipelines should occur to prove out all code 
+merges.  
+Agile Methodology  
+● Scrum : The preferred methodology for Agile development is Scrum. A standard sprint length 
+should be determined based on what the development team finds suitable for the work and 
+staffing.  
+● Work Item Sizing : The development team should decide on the most effective method of 
+effort estimation and communicate this to JA to set expectations.  
+● Sprint Meetings : The development team will collaborate with JA to establish a cadence of 
+scrum meetings during the course of a sprint. These should include:  
+• Pre-Sprint Planning  
+• Stand -up 
+• Refinement  
+• Retrospective  
+• Review/Demo  
+Deployment  
+● Release Pipelines : Release pipelines will be used for all deployments. The release pipeline 
+will need to be automated to work with an Azure Web App for the .NET Core microservices 
+and with Expo.dev for the React Native frontend.  
+● Multi -Platform Deployment : The application should  be deployed as a mobile application 
+for both Android and iOS devices as well as being deployed as a web application . The React 
+Native app will be deployed using Expo.dev to the Apple App Store and Google Play Store.  
+● App Updates : The application should use over -the-air updates through Expo.dev to push 
+immediate app updates to all student tablets. Additionally, the application should be able to 
+check the app store at startup to see if a new version is available.  
+Administrative Capabilities  
+● Content Management System (CMS) : The product will include administrative capabilities to 
+ 
+34 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  manage and monitor the application effectively. A CMS will be provided for JA staff to modify 
+features of the application. Each facility running a simulation will have the ability to modify 
+the features of their simulation. There will be two simulations as  part of this project targeted 
+at different audiences of students. Each facility should have the ability to manage multiple 
+templates for both simulation types from the CMS.  
+● Dashboards : Staff, teachers, and volunteers will need access to dashboards to monitor the 
+simulation while students are using it. Feature sets will vary by user type and will include 
+status and metrics of the simulation as a whole, with the ability to drill down int o individual 
+students. The dashboard will allow users to make updates to the live simulation, such as 
+moving a student to the next phase and awarding XP. Dashboards will also include post -
+simulation surveys for users.  
+● Admin App : A decision will be made on whether the administrative capabilities should be 
+contained in a separate app or as part of the student app behind a login.  
+● Local Sponsorship Updates : The product will include local sponsorship update capabilities 
+via the cloud, with each local JA BizTown facility having unique sponsorship update 
+requirements.  
+Support and Maintenance  
+● Continuing Support Arrangement : The vendor will propose a continuing support 
+arrangement anticipating an annual upgrade/revision cycle.  
+● Performance Standards : Performance standards will be determined by the interactivity of 
+the application, recognizing that student engagement is dramatically impacted by system 
+response time. The user experience will be used as the acceptance criteria when evaluating 
+the perfor mance of the application.  
+● Infrastructure Proposal : The vendor is expected to propose an infrastructure required to 
+support and scale the application. An architecture review will be conducted upon receipt of 
+proposals, prior to development.  
+Localization  
+● Language Translation : The product needs to be programmed and designed to be easily 
+translated into additional languages. This should include English and Spanish translations in 
+XLF files. The future expansion of additional language XLF files should be supported.  
+● Browser -based Translations : All onscreen text and alt text descriptions of images and other 
+assets need to be accessible by browser -based translation services. On -screen text containers 
+should be expandable to accommodate varying amounts of characters, as translations can 
+change th e character count.  
+Reporting  
+● Student Data : All student -related data should be reportable. This includes all data entered 
+about a student, all student interactions with the simulation, and all staff, teacher, and 
+volunteer interactions with a student. Every step a student takes through the simulat ion 
+should be a reportable event to aid in reporting metrics and troubleshooting.  
+ 
+35 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  ● CMS Data : All changes to the simulation through the CMS should be tracked. A history of 
+every change, including what was changed and by whom, should be tracked for reporting, 
+troubleshooting, and audit purposes.  
+● Dashboard Data : All changes to a live simulation through one of the dashboard interfaces 
+should be tracked. A history of the change, including the action taken and the user, should be 
+tracked for reporting and troubleshooting.  
+● Azure : All toolsets available through JA’s Azure portal should be utilized. This includes 
+Application Insights, logs, custom events, exceptions, and more.  
+● Power BI : All student data should be available to Power BI for internal JA reporting needs.  
+Proof of Concept  
+● Initial Proof of Concept : An initial proof of concept of the mobile application using the 
+specified technologies should be made available to JA as soon as possible to ensure proper 
+adoption of the technology stack.  
+● Follow -up Proofs of Concept : Follow -up proofs of concept regarding the CMS and 
+dashboards should follow.  
+Documentation  
+● End User Documentation : Provide end user documentation, including administration 
+manuals and train -the-trainer sessions. Documentation needs to cover all administrative tools 
+to set up a new location, categories, sponsors, daily simulations, and any other admin 
+functionality. S tep-by-step instructions, in a logical order, to walk a facility through setting up 
+and configuring a new simulation in the CMS. Include day -of-simulation troubleshooting 
+guides for using the application.  
+● Engineering Documentation : Provide comprehensive engineering documentation and data 
+schema. Documentation should include all aspects of setting up environments across all 
+technical platforms used for development and delivery. This should be structured in a way to 
+support disaster recovery efforts.  
+Eligible Applicants  
+● Proposals are invited from US -based companies with employees demonstrating experience and 
+capacity in managing and executing six -figure projects involving an interplay of:  
+o RWD -based cross -platform mobile device development  
+o CMS selection and/or creation and implementation  
+o .NET Framework architecture  
+o MS SQL Server database solutions  
+o Mobile app development  
+o Ongoing technical support  
+o User Experience / Service Blueprint Design  
+o Interaction & User Interface design  
+o Visual design (all aspects including layout, illustrations, photography etc.)  
+● Experience in developing educational solutions is desirable.  
+  
+ 
+36 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary   
+SCOPE & PRICING   
+The primary goal and scope of this RFP is to determine vendor capabilities in providing a solution for 
+this project. Pricing is to be provided in the accompanying vendor response.  
+PROCESS  
+JA is looking for written capabilities for the information provided in this RFP. Written responses to 
+this RFP should demonstrate how the vendor would meet JA’s requirements to update the current 
+simulation and build out the new functions and features. Ple ase provide detailed pricing for the level 
+of effort. Please also include relevant work experience. All responses are requested via email.  
+ 
+PROPOSAL SCHEDULE & SUBMISSION PROCEDURES  
+Below are the milestones for the RFP process. Vendors that fail to meet the timelines may be  
+disqualified from the process at JA’s discretion.  
+ 
+Step  Date Due  
+RFP Distributed by JA  3/13/202 6 
+Vendors email JA USA with confirmation that they will 
+participate in the proposal process (email to 
+Jeannine.reilly@ja.org  and julian.arias@ja.org ). 3/18/202 6 
+Vendor Submits Questions to JA (email to 
+Jeannine.reilly@ja.org  and julian.arias@ja.org ) 
+Note: Questions should be delivered as a numbered 
+list sent in the body of an email. The email subject 
+must be ‘JA BT 3.0 RFP Questions’  3/20/2026  
+JA Response to Questions Distributed to Vendors  3/27/202 6 
+Proposals Due to JA Electronically (email to 
+Jeannine.reilly@ja.org  and julian.arias@ja.org ) 4/10/202 6 
+JA Reviews proposals (selects top vendors for 
+interviews)  4/13/2026 -4/17 /202 6 
+Proposal Interviews Scheduled with Vendors (if 
+required)  4/20/2026 -4/24 /202 6 
+Selection of Vendor  4/27/2026 -5/1/ 202 6 
+Contract Terms Negotiated (MSA)  5/1/2026 -5/15/202 6 
+Work Begins  May  
+ 
+Period of Irrevocability.  Proposals will be offers that are irrevocable for a period of sixty (60) days 
+after the time and date proposals are due. Proposals will contain the name, address and telephone 
+number of an individual or individuals with authority to bind the company durin g the period in which 
+the proposal will be evaluated.
+ 
+37 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  EVALUATION  PROCEDURES   
+ 
+Proposal Content and Evaluation Criteria  
+Proposals should be prepared simply and economically, providing a straightforward, concise 
+description of the proposer’s ability to satisfy the requirements of this RFP. Submissions of technical 
+literature, display charts, or other supplemental materials a re the responsibility and within the 
+discretion of the proposer. JA will not be liable for any expense incurred in the preparation of 
+proposals.  
+Proposals will be evaluated by JA’s evaluation team based upon the criteria indicated by the content 
+outline below. Although some of the criteria may be given more weight than others, each proposer is 
+expected to provide a comprehensive proposal which allo ws JA to do a complete evaluation against the 
+criteria. All proposals should be submitted using the JA template provided.  
+1. Executive Overview  
+□ Provide the name, title, mailing address, direct phone number and email address for personnel 
+responsible for answering questions and scheduling meetings regarding the proposal.  
+□ Organization Financial and Contract Information  
+□ High -level overview of your proposal, stating your interest in and qualifications for this project.  
+□ Discuss how your company is positioned to succeed through the following:  
+o Mission, vision, values, goals and strategy  
+o Company ownership – private, public, etc.  
+o People – number of people, skills, experience  
+o Areas of expertise – capabilities and specific skills relevant to the requirements of this 
+RFP  
+□ Briefly provide up to three project examples of similar size and scope to JA’s project that 
+demonstrate your company’s experience and capability providing resources relevant to the 
+requirements of this RFP. Provide client contact information for each examp le. 
+ 
+2. Staffing  
+Discuss your engagement staffing strategy and the proposed engagement team, including resumes 
+of key staff.  
+3. Approach  
+Provide an overview of how you intend to structure and manage the workflow of the entire project. 
+In specific, please outline your intended approach to the various elements of the entire project:  
+□ UX, Visual Design and Prototype Testing process  
+□ Software development process  
+□ User Experience/Design team process and engagement with the Engineering/Dev team  
+□ User testing process  
+□ Quality Assurance process  
+□ Project management process  
+□ Source code control procedures  
+□ Training and documentation  
+ 
+38 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  □ Ongoing requirements and costs for the solution once the application has launched  
+□ Warranties  
+4. Design Evaluation Criteria  
+ 
+We'll be evaluating the following criteria:  
+● Evidence you understand how to design for kids at different ages  
+● Application of student friendly approach to real world business software. Kids love to role 
+play. The. CEOS often show up in suits and that their role seriously. The CMOs tend to be the 
+creative types. The CFO math folks.  Ensure that is reflected in the U I experience to increase 
+engagement  
+● Technical chops to pull off simple relevant structured experiences as well as sophisticated 
+interactions  
+● A track record with animation that actually teaches, not just decorates  
+● Realistic project planning that won't leave us hanging  
+● Ability to collab with in - house design team without feeling like toes are stepped on  
+● Ability to show decisions and flows with wires prior to fully designed screens.  
+● Show us examples of educational platforms you've created, especially ones that show you 
+understand this audience. We want JA BizTown to be the place where business roles and 
+business management  clicks for students, not just another educational requirement they 
+endure.  
+5. Schedule  
+As stated in the section above, we hope to have a functioning Beta for pilot testing for January 2027 
+with intention of launching the product (initial release) the summer of 2027 ( June ). Please provide 
+a set of suggested milestones for achieving these general deadlines. Also outline risk mitigation 
+procedures in the event of un -planned project delays. Note that JA testing requires releasing builds 
+to our advisory group local areas for t esting with the students. This feedback is gathered and 
+applied to updating and ensuring a strong product release.  
+6. Cost/Fees  
+Provide pricing listing staff roles and associated costs or proposed charges for each role. Please 
+provide a reasonable and realistic estimate of the total cost range of this project.  
+ 
+Interviews  
+Selected proposers may be invited to participate in an interview stage of the evaluation process. 
+Proposers should be prepared to respond to questions related specifically to their proposals and other 
+pertinent matters with respect to the RFP. If Interview s are needed they will be scheduled by JA USA 
+once the proposals are received.  
+ 
+ADDITIONAL DETAILS   
+This RFP does not guarantee that a participating respondent will be selected.  
+JA reserves the right to award the project or any subset thereof, and to reject any and all proposals 
+received. Until an award is issued, no communication by the JA or its representatives, whether written 
+ 
+39 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  or oral, shall be interpreted as a promise that an award will be made. Services shall be rendered 
+pursuant to a separate written contract with JA.  
+JA is not offering an exclusive agreement and may contract with more than one party for services.  
+ 
+PROPRIETARY/CONFIDENTIAL INFORMATION  
+Respondents are bound to the provisions of the mutual non -disclosure agreement already signed.  
+OWNERSHIP  
+All materials for both draft and final products are to be considered the sole property of Junior 
+Achievement USA.
+ 
+40 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  APPENDIX   
+The Day in the Town (Current State)  
+Student : 
+ 
+Step  Activity  Description  
+1 High -Energy Welcome  The day kicks off with an energetic student welcome to 
+get everyone excited and ready for the immersive 
+experience ahead.  
+2 Welcome and 
+Orientation  JA staff welcome the students to JA BizTown and orient 
+them to the space and what they will be doing in the town 
+for the day.  
+3 Business Start -Up Students begin reading through their job tasks. CFOs will 
+complete payroll and apply for their business loan. CEOs 
+begin practicing their opening town meeting speech. All 
+students meet their volunteer for the day.  
+4 Opening Town 
+Meeting  CEOs will give their speeches to their fellow citizens 
+sharing what their business will be doing today.  
+5 Lunch Break Rotations 
+(facility dependent)  Students take turns going on their lunch break. Students 
+who are not eating lunch will be working in their business 
+on their list of job tasks.  
+6 Staff Meeting  The CEO will lead the meeting and discuss with their team 
+how much of the business loan they have paid off and 
+discuss any strategies for the rest of the day.  
+7 Shopping Break 
+Rotations  Like lunch break rotations, students will take turns going 
+on their shopping break. Students use the money they 
+have earned during the day to make purchases at the 
+various businesses in JA BizTown. Students who are not 
+shopping will continue working.  
+8 Business Clean -Up Students clean up their space and return any items to 
+their designated spot.  
+9 Closing Town Meeting  One or more CEOs may give a closing town meeting 
+speech at this time.  
+10 Dismissal  Students are dismissed to their buses.  
+   
+Note: The structure of the JA BizTown day will most likely be modified.  
+ 
+ 
+Staff : 
+ 
+Step  Activity  Description  
+1 Simulation Setup  The day begins with the simulation manager activating the 
+simulation in the JA BizTown CMS (typically the simulation 
+manager creates the simulation before the actual 
+simulation day). Staff will also log onto all devices (tablets, 
+laptops, etc.).  
+2 Volunteer Training  Next, the simulation manager conducts a volunteer training 
+ 
+41 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary   session. During this session, they  
+teach volunteers how to facilitate group discussions and 
+guide students through the simulation.  
+• Provide volunteers with a walkthrough of the 
+simulation, showing them the student view and how to 
+use the simulation guide to assist students.  
+• Ensure volunteers understand their roles and feel 
+confident in supporting students throughout the day.  
+ 
+3 Preparing for 
+Students  
+ Once the volunteer training is complete, the simulation 
+manager prepares for the students’ arrival.  
+This includes:  
+• Setting up the physical space (e.g., storefronts, student 
+materials, etc.).  
+• Double -checking that all devices and systems are ready 
+for use.  
+ 
+4 High -Energy Welcome  When the students arrive, the simulation manager kicks off 
+the day with a high -energy welcome to get everyone excited 
+and engaged. They explain the day’s activities and set the 
+tone for an interactive and fun learning experience.  
+5 Facilitating the 
+Simulation  
+ Throughout the day, the simulation manager:  
+• Makes announcements to guide students through each 
+portion of the day (e.g., Business Start -Up, Lunch Break 
+Rotations, Shopping Break Rotations, etc.)  
+• Monitors the progress of students, ensuring the 
+simulation runs smoothly and seamlessly.  
+• Troubleshoots any technical issues or questions that 
+arise, providing support to both students and 
+volunteers.  
+ 
+6 Wrapping Up  At the end of the simulation, the simulation manager guides 
+the students through the Closing Town Meeting and assists 
+the lead educator with the dismissal process. They also 
+thank the volunteers and gather feedback to improve future 
+simulations.  
+ 
+Volunteer : 
+ 
+Step  Activity  Description  
+1 Arrival  Volunteers arrive at the facility and are checked in by JA 
+staff.  
+2   
+3 High -Energy Welcome  The day kicks off with an energetic student welcome to get 
+everyone excited and ready for the immersive experience 
+ 
+42 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  ahead.  
+4 Welcome and 
+Orientation  JA Staff welcomes the students to the space and explains 
+what they will be doing during the simulation. The 
+volunteers are listening either in their storefronts or in 
+town square.  
+5 Business Start -Up Students begin reading through their job tasks, CFOs will 
+complete payroll and apply for their business loan. CEOs 
+begin practicing their opening town meeting speech. The 
+volunteer will introduce themselves to the students and 
+assist them with getting accl imated to their space.  
+6 Opening Town 
+Meeting  CEOs will give their speeches to their fellow citizens sharing 
+what their business will be doing today. The volunteers will 
+be listening to the town meeting.  
+7 Lunch Break 
+Rotations  Students take turns going on their lunch break. Students 
+who are not eating lunch will be working on their job tasks 
+with the support of their volunteer.  
+8 Staff Meeting  The CEO will lead the meeting and discuss with their team 
+how much of the business loan they have paid off and any 
+strategies for the rest of the day. The volunteer will not lead 
+this meeting, but will support where needed.  
+9 Shopping Break 
+Rotations  Like lunch breaks, students take turns going on their 
+shopping break. Students use the money they have earned 
+during the day to make purchases at various businesses in 
+JA BizTown. Students who are not shopping will continue 
+working with the support of thei r volunteer.  
+10 Business Clean -Up Students clean up their space and return any items to their 
+designated spot. Volunteers will collect any items that need 
+to be returned (debit cards, cash, lanyards, etc.).  
+11 Closing Town Meeting  One or more CEOs may give a closing town meeting speech. 
+Volunteers will observe the final portion of the day.  
+12 Dismissal  Students are dismissed to their buses. Volunteers will 
+receive a final thank you from JA staff and have an 
+opportunity to provide feedback.  
+ 
+Teachers : 
+Teachers follow the same schedule as above for students, staff, and volunteers. Teachers primary 
+responsibilities are to check for student understanding and to maintain proper student behavior.  
+Teachers also may serve as a business volunteer if necessary and generally support the learning of the 
+students throughout the day.  
+  
+ 
+43 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  CHARACTER EDUCATION   
+The Lilly Endowment has granted JA USA with a grant to update its Learning Experiences (LE) with 
+Character Education. Lilly Endowment Inc. (LEI) is a private foundation based in Indianapolis, created 
+in 1937 by J.K. Lilly, Sr. and his sons – Eli and J.K. J r. – through gifts of stock in their pharmaceutical 
+business, Eli Lilly and Company. LEI is a completely separate entity from Eli Lilly and Company and 
+operates independently. LEI has a long history of supporting community development, religion and 
+educati on in Indiana and throughout the United States, recognizing that youth -serving organizations 
+are essential in helping youth and their families thrive.  
+Character education is essential for students because it cultivates the integrity, resilience,  
+and social responsibility necessary for success in both life and the workforce. Students must develop 
+ethical decision -making, teamwork, and perseverance —skills that drive personal achievement and 
+contribute to a strong economy. Character education encoura ges a positive school culture, reduces 
+disciplinary issues, and enhances academic performance, preparing students to become responsible 
+citizens and adaptable professionals in a rapidly evolving job market. By promoting values like 
+leadership, empathy, and  accountability, character education not only benefits individual students but 
+also strengthens communities and fuels long -term economic growth.  
+JA is committed to intentionally integrating and amplifying character -driven behaviors and traits to 
+ensure that students are taught positive character traits and have ample opportunities to practice and 
+embody them in JA learning experiences. JA's Character Model includes a definition of character and 
+character ed ucation, along with specific positive character traits to ensure alignment and measurement 
+across our learning experiences.  
+Character  is a composite of cognitive, emotional, and motivational traits, evidenced by behaviors that 
+foster personal growth, benefit others, and contribute to the greater community.  
+Character education  involves cultivating character explicitly and implicitly through educational 
+activities that build young people's skills, abilities, and mindset.  
+It is important to note that these specific traits are aligned to Self, Others, and Community. Developing 
+character traits goes beyond the individual; we nurture future leaders and changemakers who will 
+inspire others and creative positive transformations within their communities.  
+JA's instructional approach to teaching and developing character leverages research -backed best 
+practices from the Jubilee Centre Framework for Character Education in Schools with instructional 
+strategies developed by Wake Forest University.  
+The Jubilee Centre’s Framework:  
+
+ 
+44 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  The program for Leadership  and Character at Wake Forest University’s 7 Strategies:  
+ 
+1. Habituation through 
+practice (Practice)  
+2. Reflection on personal 
+experience (Reflection)  
+3. Engaging with virtuous 
+exemplars (Role models)  
+4. Dialogue that  
+increases virtue literacy 
+(Language)  5. Awareness of situational 
+variables and biases 
+(Systems)  
+6. Moral reminders 
+(Reminders)  
+7. Friendships of mutual 
+accountability 
+(Friendships)  
+ 
+ 
+Character Education Moments in Simulation  
+o Honesty in Business Transactions and Reporting:  Students experience the importance of 
+honesty by accurately recording transactions, reporting revenue and expenses, and approving 
+payroll and invoices, understanding that transparency builds trust within a business and the 
+broader community.  
+o Responsibility for Business Resources:  Students learn to respect shared business resources 
+by making thoughtful decisions about product pricing, inventory, staffing, and loan usage, 
+recognizing that poor stewardship impacts a business’s sustainability.  
+o Accountability for Financial Decisions:  JA BizTown reinforces accountability by requiring 
+students to approve and authorize business decisions, such as paying bills and selling products, 
+understanding that choices have real outcomes.  
+o Ethical Business Practices and Fair Dealing:  Students are encouraged to engage in fair, 
+ethical transactions with other businesses and citizens, learning that ethical behavior supports 
+long -term success and community trust.  
+o Thoughtful Use of Credit and Loans:  JA BizTown teaches responsible borrowing by helping 
+students understand loans and encouraging them to work towards paying off their loans.  
+o Balancing Individual Success with Community Impact:  JA BizTown emphasizes that 
+business decisions affect more than just individual roles, encouraging students to consider the 
+health of the town and its institutions.  
+o Integrity in Role -Based Responsibilities and Value:  Students learn that different roles carry 
+different responsibilities, and that fulfilling one’s role ethically contributes to overall success 
+and value.  
+o Citizenship Through Economic Participation:  Students experience the role of responsible 
+businesses in supporting the broader community through participation in shared systems 
+
+ 
+45 
+Junior Achievement JA BizTown Request for Proposal (RFP) – Confidential and Proprietary  (paying taxes).  
+ 
+Area JA BizTown Videos (examples):  
+Junior Achievement of Georgia - What is JA BizTown?  
+Junior Achievement of Western PA (Pittsburgh) - https://youtu.be/iSbdmmsIogQ  
+Junior Achievement of Eastern Iowa (Cedar Rapids) - 
+https://youtu.be/oTOgBGR3E94?si=o7yl7TKKV9_nMk – 
+Junior Achievement of Georgia - Workforce Development and Impact - 
+https://www.youtube.com/watch?v=mP9a85K6nws  
+Junior Achievement of Georgia - Discovery Center - 
+https://youtu.be/JfFDb2DlKuI?si=4rw6POqtm25BaoRi   
+ 
+ 

@@ -1,0 +1,81 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Page-1" id="pu66KJLZ9btmpet-9ldD">
+    <mxGraphModel dx="1106" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-1" value="Student Tablet (React Native)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;textShadow=1;" vertex="1" parent="1">
+          <mxGeometry x="32" y="50" width="280" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-2" value="&lt;b&gt;UI Controller&lt;/b&gt;&lt;br&gt;(Role-based Dashboards)" style="rounded=1;whiteSpace=wrap;html=1;textShadow=1;" vertex="1" parent="PNfQZ4eRCOdiIXoWzioi-1">
+          <mxGeometry x="60" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-3" value="&lt;b&gt;AI Client Module&lt;/b&gt;&lt;br&gt;(Voice Rec / Prompt UI)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;textShadow=1;" vertex="1" parent="PNfQZ4eRCOdiIXoWzioi-1">
+          <mxGeometry x="60" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-4" value="&lt;b&gt;State Manager&lt;/b&gt;&lt;br&gt;(Redux / Sync Queue)" style="rounded=1;whiteSpace=wrap;html=1;textShadow=1;" vertex="1" parent="PNfQZ4eRCOdiIXoWzioi-1">
+          <mxGeometry x="60" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-5" value="Azure Cloud Backend (.NET Core)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;textShadow=1;" vertex="1" parent="1">
+          <mxGeometry x="432" y="50" width="320" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-6" value="&lt;b&gt;API Gateway / Auth&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;textShadow=1;" vertex="1" parent="PNfQZ4eRCOdiIXoWzioi-5">
+          <mxGeometry x="10" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-7" value="&lt;b&gt;AI Orchestration Svc&lt;/b&gt;&lt;br&gt;(Prompt Eng / Speech Pipe)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;textShadow=1;" vertex="1" parent="PNfQZ4eRCOdiIXoWzioi-5">
+          <mxGeometry x="132" y="149" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-8" value="&lt;b&gt;Economic Engine&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;textShadow=1;" vertex="1" parent="PNfQZ4eRCOdiIXoWzioi-5">
+          <mxGeometry x="131" y="277" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-9" value="&lt;b&gt;SignalR Hub&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;textShadow=1;" vertex="1" parent="PNfQZ4eRCOdiIXoWzioi-5">
+          <mxGeometry x="10" y="410" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-10" value="External / AI &amp; Data Layer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;textShadow=1;" vertex="1" parent="1">
+          <mxGeometry x="832" y="50" width="220" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-11" value="&lt;b&gt;Azure OpenAI&lt;/b&gt;&lt;br&gt;(GPT-4o Slogans)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;textShadow=1;" vertex="1" parent="PNfQZ4eRCOdiIXoWzioi-10">
+          <mxGeometry x="30" y="57" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-12" value="&lt;b&gt;Speech-to-Text&lt;/b&gt;&lt;br&gt;(Cognitive Services)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;textShadow=1;" vertex="1" parent="PNfQZ4eRCOdiIXoWzioi-10">
+          <mxGeometry x="30" y="261" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-13" value="&lt;b&gt;SQL Server&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;textShadow=1;" vertex="1" parent="PNfQZ4eRCOdiIXoWzioi-10">
+          <mxGeometry x="60" y="380" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-14" value="REST / WebSockets" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;textShadow=1;" edge="1" parent="1" source="PNfQZ4eRCOdiIXoWzioi-4" target="PNfQZ4eRCOdiIXoWzioi-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-15" value="Azure SDK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;textShadow=1;" edge="1" parent="1" source="PNfQZ4eRCOdiIXoWzioi-7" target="PNfQZ4eRCOdiIXoWzioi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-16" value="Transcription Stream" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;textShadow=1;" edge="1" parent="1" source="PNfQZ4eRCOdiIXoWzioi-7" target="PNfQZ4eRCOdiIXoWzioi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;textShadow=1;" edge="1" parent="1" source="PNfQZ4eRCOdiIXoWzioi-8" target="PNfQZ4eRCOdiIXoWzioi-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="357" />
+              <mxPoint x="790" y="489" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-18" value="EF Core" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];textShadow=1;" vertex="1" connectable="0" parent="PNfQZ4eRCOdiIXoWzioi-17">
+          <mxGeometry x="0.1235" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PNfQZ4eRCOdiIXoWzioi-19" value="WebSockets (Full Duplex)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;shadow=1;textShadow=1;" edge="1" parent="1" source="PNfQZ4eRCOdiIXoWzioi-9" target="PNfQZ4eRCOdiIXoWzioi-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="420" />
+              <mxPoint x="172" y="420" />
+            </Array>
+            <mxPoint x="1001" y="533" as="sourcePoint" />
+            <mxPoint x="590" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

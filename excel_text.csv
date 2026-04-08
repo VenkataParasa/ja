@@ -1,0 +1,54 @@
+ID,Category,Question,Rationale (Why this matters for proposal)
+G-1,General,What is your current Tech Stack?,
+G-1,General,Who designed and developed the current website?,
+G-1,General,"Could you clarify how the RFP was developed? Specifically, were any external consultants or vendors involved in drafting or providing guidance on its content?",
+G-1,General,What was the cost incurred for the design and development of the current website?,
+G-1,General,What is your current annual spend on hosting?,
+G-1,General,What is your current annual spend on support?,
+G-1,General,"What is the total number of pages currently? More specifically, how many templates do you have currently?",
+G-1,General,What is the allocated budget for this project?,
+G-1,General,"Could you provide more details on the current technical environment or legacy system that the new simulation software will be replacing or integrating with, beyond the new preferred tech stack?",
+G-1,General,Is there an expected budget range or funding allocation for this project that you can share at this stage?,
+G-1,General,Are there any specific performance metrics or SLAs (Service Level Agreements) for uptime and response time that you expect to be met by the new system?,
+G-1,General,"Regarding original content creation, should the vendor anticipate creating new textual content, such as detailed descriptions for businesses, job tasks, or scenarios, or will all such content be provided by JA USA?",
+G-1,General,"Can you provide an estimated number of JA Area staff, simulation managers, and other roles who will require 'train-the-trainer' style training from the vendor?",
+G-1,General,"Beyond the provided photo libraries, are there specific requirements for original video content or interactive multimedia assets to be developed by the vendor?",
+Q-1,Functional,Can you confirm the exact number of businesses (storefronts) expected in a typical simulation instance?,"Helps estimate system entities, UI complexity, and configuration flexibility."
+Q-2,Functional,What is the expected maximum number of students participating in a single simulation session?,Determines concurrency design and capacity planning.
+Q-3,Functional,Should the POS system support inventory management or only sales transactions?,Clarifies scope of POS complexity.
+Q-4,Functional,Will businesses sell predefined products or should the system allow administrators to define products dynamically?,Determines CMS flexibility requirements.
+Q-5,Functional,Should the system allow inter-business purchasing (B2B) between specific business types only or any business?,Impacts transaction rules and simulation logic.
+Q-6,Functional,Are loan approval rules fixed or configurable per simulation site?,Defines whether loan logic must be parameterized in CMS.
+Q-7,Functional,Should payroll taxes and deductions be configurable or predefined?,Impacts financial calculation engine design.
+Q-8,Functional,Should the system simulate inventory depletion and restocking or assume unlimited stock?,Defines operational realism vs simplified simulation.
+Q-9,Gamification,"How is the Experience Points (XP) formula expected to be calculated across financial, civic, and operational activities?",Needed to design leaderboard logic and fairness metrics.
+Q-10,Gamification,Should administrators be able to define new XP events dynamically in the CMS?,Determines extensibility of gamification engine.
+Q-11,Gamification,Are there penalties or negative XP scenarios that must be modeled?,Ensures gamification logic supports ethical decision simulations.
+Q-12,AI,Should the AI slogan generator operate offline or rely on external AI APIs?,"Determines architecture, cost, and privacy considerations."
+Q-13,AI,"Is there a preferred AI provider (Azure OpenAI, OpenAI, etc.) for transcription and content generation?",Ensures compliance with hosting and security constraints.
+Q-14,AI,Should AI-generated content be moderated or filtered before display to students?,Important for child safety and content moderation.
+Q-15,Reporting,"What reports are mandatory for teachers, administrators, and national-level analytics?",Defines reporting architecture and data warehouse needs.
+Q-16,Reporting,Should historical simulations be stored indefinitely for analytics?,Impacts data retention strategy and storage cost.
+Q-17,Reporting,"Should reports be exportable in multiple formats (PDF, CSV, Excel)?",Determines reporting feature scope.
+Q-18,CMS,Should CMS changes during an active simulation propagate immediately to users?,Defines real-time configuration update behavior.
+Q-19,CMS,What level of localization is required beyond English and Spanish?,Determines internationalization strategy.
+Q-20,CMS,Should local administrators be able to override national templates partially or completely?,Impacts configuration inheritance model.
+Q-21,Hosting,Is Azure the mandatory hosting platform or are alternative clouds acceptable if equivalent services are provided?,Clarifies infrastructure constraints.
+Q-22,Hosting,Is the expectation that the vendor provides infrastructure automation (IaC) such as Terraform or ARM templates?,Impacts DevOps scope and reproducibility.
+Q-23,Security,"Are there specific regulatory frameworks (FERPA, COPPA, etc.) that must be adhered to given the age group of students?",Ensures legal compliance for student data.
+Q-24,Security,What is the expected retention policy for student personal and financial simulation data?,Determines data lifecycle management.
+Q-25,Security,Should audit logs be accessible to local administrators or only national administrators?,Defines audit visibility and governance model.
+Q-26,Scalability,Will multiple simulations run concurrently across different facilities nationwide?,Determines multi-tenant architecture design.
+Q-27,Scalability,Should simulations run in isolated environments per facility or share the same infrastructure?,Impacts tenancy model and scaling strategy.
+Q-28,UX,Should the interface support both tablet and desktop experiences simultaneously?,Defines responsive design complexity.
+Q-29,UX,Are there strict limits on reading level or UI complexity due to the 9–12 year-old audience?,Guides UX simplification and accessibility.
+Q-30,Offline Capability,How frequently do power/internet outages occur in simulation environments?,Determines importance of offline synchronization strategy.
+Q-31,Offline Capability,Should offline tablet data synchronize automatically once connectivity is restored?,Impacts data synchronization architecture.
+Q-32,Integration,Will the simulation integrate with existing JA learning systems or LMS platforms?,Determines integration and API scope.
+Q-33,Integration,Should sponsor systems or third-party APIs be integrated into the simulation?,Clarifies integration requirements.
+Q-34,Operations,Who will operate and maintain the platform after launch: vendor or JA internal teams?,Defines support model and documentation depth.
+Q-35,Operations,Is 24/7 system availability required or only during simulation hours?,Helps define SLA and infrastructure costs.
+Q-36,Testing,Will JA provide sample datasets and simulation scripts for testing?,Helps build automated simulation testing framework.
+Q-37,Testing,Is user testing expected with real students before pilot release?,Clarifies usability testing scope.
+Q-38,Future Expansion,Is the platform expected to support additional simulation programs beyond JA BizTown?,Determines extensibility of platform architecture.
+Q-39,Future Expansion,Should the architecture allow additional roles or new business modules in future updates?,Ensures long-term platform scalability.

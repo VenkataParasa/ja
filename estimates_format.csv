@@ -1,0 +1,56 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6
+,,,,,,
+,Phase,Feature,Hours,Cost,Team,Comments
+,Discovery and Design,"Stakeholder Alignment & Data Mapping: Mapping HIDOE PTP, UH Banner SIS, and DLIR LMI datasets.
+Architecture & Security Design: Designing the ""Zero-PII"" Scrubber and Azure Government Cloud setup.",720,46800,"PM, SA, Designer","Designer Full Time, PM and SA Provide Direction"
+,,"DevOps pipelines (CI/CD for Azure, 4 envs)",80,5200,DevOps,"DevOps Owns, SA Directs"
+,,UX/UI and Accessibility (WCAG 2.1 level AA),420,27300,FE,"FE Owns, PM/SA Directs"
+,,"Security, MFA, audit, compliance",120,7800,SA,SA to Deliver involving 1 BE
+,,"Secure HIPAA-Compliant Cloud Setup (Dev, Test, UAT, Prod)
+Automated CI/CD Pipelines for Data & Code",460,29900,"DevOps, BE and SA","DevOps Full Time, BE works on Workflows, Message Queues, Data Mapping, SA Provides direction"
+,Development,"Data Ingestion Pipelines: Building ETL/API connectors for HIDOE PTP, Banner, and DLIR batch/real-time feeds.",1800,117000,"FE, BE, Designer and QA","FE, BE Full time, Designer as needed and QA part time - iteration testing"
+,,"AI Engine & RAG Implementation: Developing the LLM logic, RAG over UH catalogs, and CIP-SOC mapping.",1200,78000,,
+,,"Front-End PWA Development: Building the student portal, advisor dashboard, and mobile-optimized interfaces.",1600,104000,,
+,,XAI & Analytics Dashboard: Building the explainability modules and administrative reporting suite.,700,45500,,
+,,"Episode-of-Care & Price Standardization Logic
+Risk Adjustment Modeling (Elixhauser, CMS-HCC)
+Role-Based Access Control (RBAC) & Site-Specific Logic
+Dashboard Development & Tableau Integration
+Export Services (Standard Analytic Files - SAFs)
+",4300,279500,"FE, BE, Designer and QA","FE, BE Full time, Designer as needed and QA part time - iteration testing"
+,,,,,,
+,Testing & Delivery,"E2E Testing & Accessibility Audit: Full system integration testing, performance tuning, and ADA remediation.",900,58500,QA,"QA Owns, PM and SA Direct"
+,,"Security Hardening & Pentesting: Final security audit, SOC 2 compliance check, and production deployment.",420,27300,,
+,,Architecture documentation (network + topology),120,7800,SA,SA to Deliver
+,,"Technical Documentation & Training: SOPs, Admin Guides, and ""Train-the-Trainer"" sessions for counselors.",160,10400,PM and SA,
+,,"Hardening full System for UAT,
+Planning for Go-Live.
+Go-Live​
+",400,26000,"FE, BE, Designer, QA, PM, SA, DevOps","FE, BE Full time, Designer as needed and QA part time - iteration testing, PM and SA for Direction, DevOps for any last minute tweaks"
+,,Sub- Total,12060,783900,,
+,,PM,1206,78390,,
+,,"Year 1 Support (Hyper-Care & Maintenance: Post-launch monitoring, quarterly model retraining, and DLIR data refreshes.)",2400,156000,2 - FTE(for continuous compliance and SLA management).,
+,,Year 2 Support (Hyper-Care & AI Tuning),2400,156000,"1.5 FTE (Data Eng, AI Eng, PM)",Refining the CIP-SOC Crosswalk based on real student outcomes and retraining models with the first year of live UHCC usage data.
+,,Year 3 Support (Steady State Ops),1800,117000,"1 - FTE (Full-Stack, DevOps)",LMI Refresh: Quarterly updates of Hawaii Department of Labor salary/growth data. Ensuring WCAG 2.1 AA compliance persists through browser updates.
+,,Year 4 Support (Strategic Expansion),1800,117000,"1.0 FTE (Full-stack, SA)","New Integration Points: Adding any new HIDOE or UHCC data nodes (e.g., specific campus-level internship feeds) that emerged since Go-Live."
+,,Year 5 (Optimization and Transition),20000,1300000,"1.2 FTE (PM, SA, Data Engineer)","Transition Readiness: Preparing the ""Model Weights"" and ""Data Sovereignty"" package for handover (as per Q&A #41/42) if the contract ends."
+,,,,,,
+,,Total,15666,1018290,,
+,,,,,,
+,,Man Months,112,,,
+,,,,,,
+,,,FTE,,,
+,,Team,0.5,,,
+,,PM,0.5,,,
+,,Solution Architect,0.5,,,
+,,Front End Dev,2,,,
+,,BackEnd Dev,3,,,
+,,DBA,0.5,,,
+,,QA,2,,,
+,,Designer,1,,,
+,,DevOps,0.5,,,
+,,,10,,,
+,,,,,,
+,,"Total Capacity Hours Available, excluding Support",19200,,,
+,,Total Development Hours,12060,,1507.5,
+,,Available Buffer Time to deal with Contingencies,7140,,,
