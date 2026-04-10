@@ -41,11 +41,24 @@ const App = () => {
 
   useEffect(() => {
     fetchAllData();
+    
+    // Background polling every 5 seconds to catch broadcast incidents (like Tornado alerts)
+    // without requiring manual page refreshes on student devices.
+    let intervalId;
+    if (isLoggedIn) {
+      intervalId = setInterval(() => {
+        fetchAllData(true); // Perform a silent update
+      }, 5000);
+    }
+    
+    return () => {
+      if (intervalId) clearInterval(intervalId);
+    };
   }, [isLoggedIn]);
 
-  const fetchAllData = async () => {
+  const fetchAllData = async (isSilent = false) => {
     try {
-      setLoading(true);
+      if (!isSilent) setLoading(true);
       const [businessesRes, studentsRes, accountsRes, transactionsRes, rolesRes, simulationRes, leaderboardRes] = await Promise.all([
         axios.get(`${API_BASE_URL}/businesses`),
         axios.get(`${API_BASE_URL}/students`),
@@ -85,7 +98,7 @@ const App = () => {
         console.error('Response data:', err.response.data);
       }
     } finally {
-      setLoading(false);
+      if (!isSilent) setLoading(false);
     }
   };
 
@@ -791,7 +804,28 @@ const App = () => {
               <Text style={styles.actionButtonText}>🏁 End Simulation</Text>
             </TouchableOpacity>
           </View>
-          <Text style={{ fontWeight: '700', color: '#22404D', marginBottom: 12 }}>Trigger Dynamic Scenario Events</Text>
+          
+          <View style={{ marginTop: 16, padding: 12, backgroundColor: activeIncident !== 'None' ? '#fde8e8' : '#f4f6f8', borderRadius: 8, borderLeftWidth: 4, borderLeftColor: activeIncident !== 'None' ? '#dc3545' : '#cad9de' }}>
+            <Text style={{ fontWeight: '700', color: activeIncident !== 'None' ? '#721c24' : '#22404D' }}>
+              Current Active Incident: {activeIncident === 'None' ? 'None' : activeIncident}
+            </Text>
+            {activeIncident !== 'None' && (
+              <>
+                <Text style={{ fontSize: 13, color: '#721c24', marginTop: 4 }}>"{incidentMessage}"</Text>
+                <TouchableOpacity 
+                  style={[styles.actionButton, { backgroundColor: '#dc3545', marginTop: 10, alignSelf: 'flex-start', paddingVertical: 6, paddingHorizontal: 12 }]} 
+                  onPress={async () => {
+                    await axios.post(`${API_BASE_URL}/simulation/trigger-incident`, { incidentType: 'None', incidentMessage: '' });
+                    fetchAllData();
+                  }}
+                >
+                  <Text style={[styles.actionButtonText, { fontSize: 12 }]}>🛑 Clear Active Incident</Text>
+                </TouchableOpacity>
+              </>
+            )}
+          </View>
+
+          <Text style={{ fontWeight: '700', color: '#22404D', marginTop: 18, marginBottom: 12 }}>Trigger Dynamic Scenario Events</Text>
           <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginBottom: 10 }}>
             {['Tornado', 'Power Outage', 'News Flash', 'None'].map(type => (
               <TouchableOpacity

@@ -1,0 +1,23 @@
+version: '3'
+services:
+  strapi-poc:
+    # We use a Node container to run the quickstart script on launch
+    image: node:18-alpine
+    container_name: ja-strapi-poc
+    working_dir: /srv/app
+    environment:
+      - NODE_ENV=development
+    # Quickstart bypasses setup prompts and uses SQLite for local fast testing
+    command: >
+      sh -c "if [ ! -f package.json ]; then echo 'n' | npx create-strapi-app@4.10.2 . --quickstart --no-run || true; fi && npm run develop"
+    ports:
+      - "1337:1337"
+    volumes:
+      # Mounts the DB and content types to your local drive so you don't lose them
+      - ./strapi-poc-data:/srv/app
+    networks:
+      - ja-poc-network
+
+networks:
+  ja-poc-network:
+    driver: bridge

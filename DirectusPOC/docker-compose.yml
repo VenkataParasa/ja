@@ -1,0 +1,25 @@
+version: '3'
+services:
+  directus-poc:
+    image: directus/directus:10.10.4
+    container_name: ja-directus-poc
+    ports:
+      - 8055:8055
+    volumes:
+      - ./database:/directus/database
+      - ./uploads:/directus/uploads
+      - ./extensions:/directus/extensions
+    environment:
+      KEY: 'ja-biztown-poc-key'
+      SECRET: 'ja-biztown-poc-secret'
+      ADMIN_EMAIL: 'admin@example.com'
+      ADMIN_PASSWORD: 'password'
+      DB_CLIENT: 'sqlite3'
+      DB_FILENAME: '/directus/database/data.db'
+      WEBSOCKETS_ENABLED: 'true'
+    networks:
+      - ja-directus-network
+
+networks:
+  ja-directus-network:
+    driver: bridge

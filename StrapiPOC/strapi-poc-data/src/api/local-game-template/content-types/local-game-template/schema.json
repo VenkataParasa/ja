@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "local_game_templates",
+  "info": {
+    "singularName": "local-game-template",
+    "pluralName": "local-game-templates",
+    "displayName": "Local Game Template"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "state_code": {
+      "type": "string",
+      "default": "CA"
+    },
+    "duration_minutes": {
+      "type": "integer",
+      "default": 60
+    },
+    "national_game_template": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::national-game-template.national-game-template",
+      "inversedBy": "local_game_templates"
+    }
+  }
+}

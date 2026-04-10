@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "national_simulations",
+  "info": {
+    "singularName": "national-simulation",
+    "pluralName": "national-simulations",
+    "displayName": "National Simulation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "active_version": {
+      "type": "string"
+    },
+    "cfo_salary": {
+      "type": "decimal"
+    },
+    "digital_wallet_enabled": {
+      "type": "boolean"
+    }
+  }
+}
