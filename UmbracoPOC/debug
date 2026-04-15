@@ -1,0 +1,30 @@
+
+[96m+----------------------------------------------------------+
+|  JA BizTown 3.0 -- Marketing Tool Auto-Setup  v9       |
++----------------------------------------------------------+[0m
+
+[96m============================================================[0m
+  PHASE 0: Authentication
+[96m============================================================[0m
+  [92m[OK]  Logged in as: Venkata Satya Siva Dandapani[0m
+
+[96m============================================================[0m
+  PHASE 1: Fetching Data Type Keys
+[96m============================================================[0m
+  [92m[OK]  textstring: 0cc0eba1-9960-42c9-bf9b-60e150b429ae[0m
+  [92m[OK]  textarea: c6bac0dd-4ab9-45b1-8e30-e4b619ee5da3[0m
+  [92m[OK]  numeric: 2e6d3631-066e-44b8-aec4-96f09099b2b5[0m
+  [92m[OK]  datetime: e4d66c0f-b935-4200-81f0-025f7256b89a[0m
+  [92m[OK]  content_picker: fd1e0da5-5606-4862-b679-5d0cf3a52a59[0m
+  [92m[OK]  media_single: 4309a3ea-0d78-4329-a06c-c80b036af19a[0m
+
+[96m============================================================[0m
+  PHASE 3: Triggering uSync Import
+[96m============================================================[0m
+  [96m[->]  Trying: http://localhost:8080/umbraco/backoffice/uSync/uSyncApi/Import[0m
+  [93m[!!]  Import endpoint failed (404). Manual import may be required.[0m
+
+[96mPHASE 4: Create Content Nodes[0m
+  [91m[ERR] Content 'JA BizTown Ad Creator' failed: 500[0m
+
+[92mDone! Check your Umbraco Backoffice at http://localhost:8080/umbraco[0m

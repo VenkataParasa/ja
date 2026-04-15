@@ -1,0 +1,1056 @@
+{
+  "actions": [
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/02_simulationLocal.config",
+      "name": "Local Simulation Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "8c3d9d0e-2e3b-5d4c-9f2a-5f3b4c5d6e7f"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/adTemplate.config",
+      "name": "Ad Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "dimensions",
+          "path": "Property/dimensions",
+          "oldValue": null,
+          "newValue": "Property 'dimensions' cannot be created (missing DataType?)",
+          "change": "Warning"
+        }
+      ],
+      "key": "cc000001-0001-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/designMissionStep.config",
+      "name": "Design Mission Step",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "Property 'componentKey' cannot be created (missing DataType?)",
+          "change": "Warning"
+        }
+      ],
+      "key": "cc000002-0002-0002-0002-000000000002"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/marketingToolConfig.config",
+      "name": "Marketing Tool Configuration",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "cc000003-0003-0003-0003-000000000003"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/studentAdvertisement.config",
+      "name": "Student Advertisement",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "submissionStatus",
+          "path": "Property/submissionStatus",
+          "oldValue": null,
+          "newValue": "Property 'submissionStatus' cannot be created (missing DataType?)",
+          "change": "Warning"
+        }
+      ],
+      "key": "cc000004-0004-0004-0004-000000000004"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "01_national-master.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/national-master-template_q4jnaejg.config",
+      "name": "National Master Template (1)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "4ee5e6cc-9c00-4765-8a67-68fa8d692584",
+          "newValue": "11d09387-6e26-4ddf-969b-2b5c1acdfc25",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/14/2026 1:47:06 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "globalRuleset",
+          "path": "Property/globalRuleset",
+          "oldValue": "null",
+          "newValue": "\"Default JA USA Ruleset Applied.\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "masterSimulationID",
+          "path": "Property/masterSimulationID",
+          "oldValue": "null",
+          "newValue": "\"NAT-2026-v1\"",
+          "change": "Update"
+        }
+      ],
+      "key": "11d09387-6e26-4ddf-969b-2b5c1acdfc25"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "02_local-simulation.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/ja-biztown-ad-creator.config",
+      "name": "JA BizTown Ad Creator",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "50c31d2f-79ba-441e-9f71-d0fb2d6883f5",
+          "newValue": "dd100001-0001-0001-0001-000000000001",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/15/2026 12:00:00 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "toolTitle",
+          "path": "Property/toolTitle",
+          "oldValue": "null",
+          "newValue": "\"JA BizTown Ad Creator\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "welcomeMessage",
+          "path": "Property/welcomeMessage",
+          "oldValue": "null",
+          "newValue": "\"Welcome! Design your business advertisement step by step.\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "simulationYear",
+          "path": "Property/simulationYear",
+          "oldValue": "null",
+          "newValue": "\"2026\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "0",
+          "newValue": "10",
+          "change": "Update"
+        }
+      ],
+      "key": "dd100001-0001-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/template-retail-classic.config",
+      "name": "Retail Classic",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "cff910e1-3e12-45f3-8dc1-36e36eb5c3f9",
+          "newValue": "dd100003-0003-0001-0001-000000000001",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/15/2026 12:10:01 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "templateName",
+          "path": "Property/templateName",
+          "oldValue": "null",
+          "newValue": "\"Retail Classic\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "templateDescription",
+          "path": "Property/templateDescription",
+          "oldValue": "null",
+          "newValue": "\"Clean professional layout for retail.\"",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "dimensions",
+          "path": "Property/dimensions",
+          "oldValue": null,
+          "newValue": "item Retail Classic does not have a property dimensions but it exists in XML",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "0",
+          "newValue": "11",
+          "change": "Update"
+        }
+      ],
+      "key": "dd100003-0003-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/template-food-and-drink.config",
+      "name": "Food and Drink",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "05fbcc52-5201-4dc8-874d-f604d8783087",
+          "newValue": "dd100003-0003-0001-0001-000000000002",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/15/2026 12:10:02 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "templateName",
+          "path": "Property/templateName",
+          "oldValue": "null",
+          "newValue": "\"Food and Drink\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "templateDescription",
+          "path": "Property/templateDescription",
+          "oldValue": "null",
+          "newValue": "\"Vibrant colourful layout for food.\"",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "dimensions",
+          "path": "Property/dimensions",
+          "oldValue": null,
+          "newValue": "item Food and Drink does not have a property dimensions but it exists in XML",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "0",
+          "newValue": "12",
+          "change": "Update"
+        }
+      ],
+      "key": "dd100003-0003-0001-0001-000000000002"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/template-tech-innovation.config",
+      "name": "Tech Innovation",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "fd973793-4ca8-4977-853a-1e9689994b4e",
+          "newValue": "dd100003-0003-0001-0001-000000000003",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/15/2026 12:10:03 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "templateName",
+          "path": "Property/templateName",
+          "oldValue": "null",
+          "newValue": "\"Tech Innovation\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "templateDescription",
+          "path": "Property/templateDescription",
+          "oldValue": "null",
+          "newValue": "\"Sleek minimal layout for tech.\"",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "dimensions",
+          "path": "Property/dimensions",
+          "oldValue": null,
+          "newValue": "item Tech Innovation does not have a property dimensions but it exists in XML",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "0",
+          "newValue": "13",
+          "change": "Update"
+        }
+      ],
+      "key": "dd100003-0003-0001-0001-000000000003"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/student-submissions-ja-san-diego-2026.config",
+      "name": "Student Submissions JA San Diego 2026",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "5c1f3859-c3d2-4ee4-8b72-5d48b3e780f1",
+          "newValue": "dd100004-0004-0001-0001-000000000001",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/15/2026 12:20:00 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "sessionLabel",
+          "path": "Property/sessionLabel",
+          "oldValue": "null",
+          "newValue": "\"JA-SD-2026\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "0",
+          "newValue": "20",
+          "change": "Update"
+        }
+      ],
+      "key": "dd100004-0004-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/step-1-choose-your-template.config",
+      "name": "Choose Your Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,1074,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "f36e4cf2-d8c4-4439-bc5b-dd2bc97f075a",
+          "newValue": "dd100002-0002-0001-0001-000000000001",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/15/2026 12:05:01 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepNumber",
+          "path": "Property/stepNumber",
+          "oldValue": "null",
+          "newValue": "\"1\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepTitle",
+          "path": "Property/stepTitle",
+          "oldValue": "null",
+          "newValue": "\"Choose Your Template\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepInstruction",
+          "path": "Property/stepInstruction",
+          "oldValue": "null",
+          "newValue": "\"Pick a layout for your business.\"",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "item Choose Your Template does not have a property componentKey but it exists in XML",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        }
+      ],
+      "key": "dd100002-0002-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/step-2-pick-a-background.config",
+      "name": "Pick a Background",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,1074,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "9d60cfc9-1a1b-4c2b-913a-5f09f012b7a5",
+          "newValue": "dd100002-0002-0001-0001-000000000002",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/15/2026 12:05:02 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepNumber",
+          "path": "Property/stepNumber",
+          "oldValue": "null",
+          "newValue": "\"2\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepTitle",
+          "path": "Property/stepTitle",
+          "oldValue": "null",
+          "newValue": "\"Pick a Background\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepInstruction",
+          "path": "Property/stepInstruction",
+          "oldValue": "null",
+          "newValue": "\"Select a background image.\"",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "item Pick a Background does not have a property componentKey but it exists in XML",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        }
+      ],
+      "key": "dd100002-0002-0001-0001-000000000002"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/step-3-name-your-business.config",
+      "name": "Name Your Business",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,1074,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "3e1e39b9-ecb6-4fd0-b2f6-86fda3fbc7d5",
+          "newValue": "dd100002-0002-0001-0001-000000000003",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/15/2026 12:05:03 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepNumber",
+          "path": "Property/stepNumber",
+          "oldValue": "null",
+          "newValue": "\"3\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepTitle",
+          "path": "Property/stepTitle",
+          "oldValue": "null",
+          "newValue": "\"Name Your Business\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepInstruction",
+          "path": "Property/stepInstruction",
+          "oldValue": "null",
+          "newValue": "\"Enter your business name.\"",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "item Name Your Business does not have a property componentKey but it exists in XML",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "0",
+          "newValue": "3",
+          "change": "Update"
+        }
+      ],
+      "key": "dd100002-0002-0001-0001-000000000003"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/step-4-create-your-slogan.config",
+      "name": "Create Your Slogan",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,1074,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "747ac53c-26b5-435b-baaf-f2d3f6c9ac7b",
+          "newValue": "dd100002-0002-0001-0001-000000000004",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/15/2026 12:05:04 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepNumber",
+          "path": "Property/stepNumber",
+          "oldValue": "null",
+          "newValue": "\"4\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepTitle",
+          "path": "Property/stepTitle",
+          "oldValue": "null",
+          "newValue": "\"Create Your Slogan\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepInstruction",
+          "path": "Property/stepInstruction",
+          "oldValue": "null",
+          "newValue": "\"Write a catchy tagline.\"",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "item Create Your Slogan does not have a property componentKey but it exists in XML",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "0",
+          "newValue": "4",
+          "change": "Update"
+        }
+      ],
+      "key": "dd100002-0002-0001-0001-000000000004"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/step-5-preview-and-submit.config",
+      "name": "Preview and Submit",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,1074,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "820f2705-f1cb-46f7-90a1-74601c7ccbbb",
+          "newValue": "dd100002-0002-0001-0001-000000000005",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/15/2026 12:05:05 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepNumber",
+          "path": "Property/stepNumber",
+          "oldValue": "null",
+          "newValue": "\"5\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepTitle",
+          "path": "Property/stepTitle",
+          "oldValue": "null",
+          "newValue": "\"Preview and Submit\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepInstruction",
+          "path": "Property/stepInstruction",
+          "oldValue": "null",
+          "newValue": "\"Review your ad and submit.\"",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "item Preview and Submit does not have a property componentKey but it exists in XML",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "0",
+          "newValue": "5",
+          "change": "Update"
+        }
+      ],
+      "key": "dd100002-0002-0001-0001-000000000005"
+    }
+  ],
+  "date": "2026-04-15T09:28:09.154364+00:00",
+  "username": "admin@example.com",
+  "method": "Import",
+  "filePath": null,
+  "changes": 18,
+  "total": 37
+}

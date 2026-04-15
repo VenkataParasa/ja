@@ -1,0 +1,36 @@
+import requests
+
+def nces_robust_lookup(zip_code):
+    # Official NCES EDGE Public School Locations Service
+    url = "https://services1.arcgis.com/Hp6G80PS0S0IBBDv/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query"
+    
+    # We query both ZIP (Physical) and MZIP (Mailing) for better results
+    where_clause = f"ZIP = '{zip_code}' OR MZIP = '{zip_code}'"
+    
+    params = {
+        'where': where_clause,
+        'outFields': 'NCESSCH,NAME,MSTREE,MCITY,MSTATE,ZIP,MZIP',
+        'f': 'json',
+        'resultRecordCount': 20
+    }
+
+    try:
+        response = requests.get(url, params=params)
+        data = response.json()
+        features = data.get('features', [])
+
+        if not features:
+            print(f"No schools found for {zip_code}. Try 10001 or 90210.")
+            return
+
+        print(f"Successfully found {len(features)} schools in Zip {zip_code}:")
+        for f in features:
+            attr = f['attributes']
+            print(f"- [{attr['NCESSCH']}] {attr['NAME']}")
+            print(f"  Location: {attr['MSTREE']}, {attr['MCITY']} {attr['ZIP']}")
+
+    except Exception as e:
+        print(f"Error: {e}")
+
+# Try one of the verified sample Zips
+nces_robust_lookup('10001')

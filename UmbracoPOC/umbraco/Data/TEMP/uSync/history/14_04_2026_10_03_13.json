@@ -1,0 +1,306 @@
+{
+  "actions": [
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/01_simulationMaster.config",
+      "name": "National Simulation Master",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "de265f4a-2569-45c1-9933-2ccf7ae42ea2",
+          "newValue": "7b2b8c9d-1d2a-4c3b-8e1f-4f2a3b4c5d6e",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "National Simulation Master",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Icon",
+          "path": "",
+          "oldValue": "icon-folder",
+          "newValue": "icon-globe-alt color-blue",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Defines the core simulation engine rules (JA USA Standard)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "AllowAtRoot",
+          "path": "",
+          "oldValue": "False",
+          "newValue": "True",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "simTitle/Key",
+          "oldValue": "acf8c935-c1d7-4f40-a9aa-c1ca6afe4308",
+          "newValue": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "simTitle/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Simulation Title",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "simTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Mandatory",
+          "path": "simTitle/Mandatory",
+          "oldValue": "False",
+          "newValue": "True",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "simTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "simTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "simTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "simTitle",
+          "path": "simTitle",
+          "oldValue": "",
+          "newValue": "Simulation Title",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "defaultScenario/Key",
+          "oldValue": "b6e4c8db-f45f-4e08-ad9a-f99bf7943c55",
+          "newValue": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "defaultScenario/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Default Scenario",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "defaultScenario/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "defaultScenario/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "defaultScenario/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "defaultScenario/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "defaultScenario",
+          "path": "defaultScenario",
+          "oldValue": "",
+          "newValue": "Default Scenario",
+          "change": "Create"
+        }
+      ],
+      "key": "7b2b8c9d-1d2a-4c3b-8e1f-4f2a3b4c5d6e"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/02_simulationLocal.config",
+      "name": "Local Simulation Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "940d40e0-930b-4b4b-9c92-391d93164828",
+          "newValue": "8c3d9d0e-2e3b-5d4c-9f2a-5f3b4c5d6e7f",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Local Simulation Template",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Icon",
+          "path": "",
+          "oldValue": "icon-folder",
+          "newValue": "icon-map-location color-green",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Local JA Area overrides for the National Master",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "AllowAtRoot",
+          "path": "",
+          "oldValue": "False",
+          "newValue": "True",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "localSponsor/Key",
+          "oldValue": "b783418f-f6b3-45b9-8010-fe95a8c69289",
+          "newValue": "c3d4e5f6-a7b8-9012-cdef-012345678902",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "localSponsor/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Local Sponsor Logo",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "localSponsor/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "localSponsor/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "localSponsor/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "localSponsor/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "localSponsor",
+          "path": "localSponsor",
+          "oldValue": "",
+          "newValue": "Local Sponsor Logo",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Compositions",
+          "path": "Info",
+          "oldValue": "(Blank)",
+          "newValue": "simulationMaster",
+          "change": "Update"
+        }
+      ],
+      "key": "8c3d9d0e-2e3b-5d4c-9f2a-5f3b4c5d6e7f"
+    }
+  ],
+  "date": "2026-04-14T10:03:13.2223107+00:00",
+  "username": "admin@example.com",
+  "method": "Import",
+  "filePath": null,
+  "changes": 2,
+  "total": 2
+}

@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="ja_biztown_3.0_—_cms_content_t" name="JA BizTown 3.0 — CMS Content Type Hierarchy">
+    <mxGraphModel dx="1106" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n11" value="National CMS (Headless CMS Instance)" style="shape=mxgraph.azure2.api_management;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="350" y="80" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="Business Types (Retail / Bank / Media)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="80" y="220" width="165" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="Owns" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n11" target="n12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="Student Roles (CEO / Sales / Finance)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="290" y="220" width="165" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="Owns" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n11" target="n14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="Simulation Rules (Payment / Scoring)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="500" y="220" width="165" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="Owns" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n11" target="n16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="Media Assets (Images / Video)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="710" y="220" width="165" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="Owns" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n11" target="n18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="Sponsor Business (Area Override)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="380" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="Extends" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n12" target="n20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="Product Catalog (Area SKUs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="230" y="380" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="Extends" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n12" target="n22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="Role Instructions (Age-Specific)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="410" y="380" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="Extends" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n14" target="n24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="XLF Translations (en-US / es-419)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="610" y="380" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="Extends" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n16" target="n26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="National Layer" style="text;html=1;align=left;fontStyle=1;fontSize=10;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="50" width="870" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#0078D4;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="70" width="870" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="Content Type Layer" style="text;html=1;align=left;fontStyle=1;fontSize=10;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="190" width="870" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#d6b656;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="210" width="870" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="Area Variant Layer" style="text;html=1;align=left;fontStyle=1;fontSize=10;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="350" width="870" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#82b366;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="10" y="370" width="870" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

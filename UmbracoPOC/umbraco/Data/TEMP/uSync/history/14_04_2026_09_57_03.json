@@ -1,0 +1,66 @@
+{
+  "actions": [
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: No ContentType matching the passed in Alias: 'simulationMaster' was found",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "No ContentType matching the passed in Alias: 'simulationMaster' was found",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "national-master.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: No ContentType matching the passed in Alias: 'simulationLocal' was found",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "No ContentType matching the passed in Alias: 'simulationLocal' was found",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "local-simulation.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "date": "2026-04-14T09:57:03.4697854+00:00",
+  "username": "admin@example.com",
+  "method": "Import",
+  "filePath": null,
+  "changes": 2,
+  "total": 2
+}

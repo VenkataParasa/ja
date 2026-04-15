@@ -1,0 +1,131 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="ja_biztown_3.0_—_high-level_so" name="JA BizTown 3.0 — High-Level Solution Architecture">
+    <mxGraphModel dx="1106" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n35" value="HTTPS / TLS 1.3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" target="n16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="HTTPS / TLS 1.3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" target="n16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n44" value="Push Balance Update" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#82b366;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RXhD__rJP0DyK8hsQfrG-2" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="44" width="1018" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="Client / Device Layer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="RXhD__rJP0DyK8hsQfrG-2" vertex="1">
+          <mxGeometry y="20" width="200" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="JA Student Tablet (React Native + Expo)" style="shape=mxgraph.azure2.endpoint;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="20" y="40" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="Volunteer Tablet (Unified POS + Storefront)" style="shape=mxgraph.azure2.endpoint;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="20" y="115" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="Local Cache (IndexedDB / SQLite)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="45" y="233" width="110" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="Perimeter Security" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="RXhD__rJP0DyK8hsQfrG-2" vertex="1">
+          <mxGeometry x="220" y="20" width="200" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="Azure Front Door + WAF" style="shape=mxgraph.azure2.front_door;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="n15" vertex="1">
+          <mxGeometry x="20" y="36" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="Azure API Management" style="shape=mxgraph.azure2.api_management;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="n15" vertex="1">
+          <mxGeometry x="20" y="119" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="Microsoft Entra B2C (QR/PIN Session Auth)" style="shape=mxgraph.azure2.azure_active_directory;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="n15" vertex="1">
+          <mxGeometry x="20" y="198" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="Azure Key Vault (Secrets + CMK)" style="shape=mxgraph.azure2.key_vault;whiteSpace=wrap;html=1;fillColor=#f4cccc;strokeColor=#cc0000;fontSize=11;" parent="n15" vertex="1">
+          <mxGeometry x="20" y="298" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="Azure Private VNet" style="text;html=1;align=left;fontStyle=1;fontSize=10;strokeColor=none;fillColor=none;" parent="RXhD__rJP0DyK8hsQfrG-2" vertex="1">
+          <mxGeometry x="438" width="580" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#0078D4;fillColor=none;" parent="RXhD__rJP0DyK8hsQfrG-2" vertex="1">
+          <mxGeometry x="438" y="20" width="580" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="Compute Subnet (AKS)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="RXhD__rJP0DyK8hsQfrG-2" vertex="1">
+          <mxGeometry x="450" y="60" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="Azure Kubernetes Service (Microservices Orchestrator)" style="shape=mxgraph.azure2.aks;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n22" vertex="1">
+          <mxGeometry x="15" y="40" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="Azure SignalR (Real-Time Sync)" style="shape=mxgraph.azure2.signalr_service;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n22" vertex="1">
+          <mxGeometry x="15" y="115" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="Azure Functions (Background Jobs)" style="shape=mxgraph.azure2.function_apps;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n22" vertex="1">
+          <mxGeometry x="135" y="115" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="Secured Data Subnet" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="RXhD__rJP0DyK8hsQfrG-2" vertex="1">
+          <mxGeometry x="730" y="60" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="Azure SQL (Simulation State)" style="shape=mxgraph.azure2.sql_database;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="n26" vertex="1">
+          <mxGeometry x="33" y="40" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="Azure DB for PostgreSQL (CMS Backend)" style="shape=mxgraph.azure2.database_for_postgresql;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="n26" vertex="1">
+          <mxGeometry x="156" y="40" width="115" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="Azure Blob Storage (Media Assets)" style="shape=mxgraph.azure2.storage_blob;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="n26" vertex="1">
+          <mxGeometry x="31" y="120" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="Azure Cache for Redis" style="shape=mxgraph.azure2.cache_redis;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="n26" vertex="1">
+          <mxGeometry x="155" y="120" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="AI Innovation (Azure OpenAI GPT-4o)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="RXhD__rJP0DyK8hsQfrG-2" vertex="1">
+          <mxGeometry x="450" y="275" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="Generative AI — Slogans, Speeches, Adaptive Hints" style="shape=mxgraph.azure2.cognitive_services;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="n31" vertex="1">
+          <mxGeometry x="15" y="30" width="530" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="Observability + Compliance" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="RXhD__rJP0DyK8hsQfrG-2" vertex="1">
+          <mxGeometry x="450" y="385" width="560" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="Azure Monitor + Application Insights (Full Audit Trail)" style="shape=mxgraph.azure2.monitor;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="n33" vertex="1">
+          <mxGeometry x="15" y="22" width="530" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" value="Validated Request" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="RXhD__rJP0DyK8hsQfrG-2" source="n16" target="n17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="API Routing" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="RXhD__rJP0DyK8hsQfrG-2" source="n17" target="n23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="JWT Token Validation" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#cc0000;dashed=1;dashPattern=8 4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="RXhD__rJP0DyK8hsQfrG-2" source="n18" target="n17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="298" />
+              <mxPoint x="220" y="298" />
+              <mxPoint x="220" y="210" />
+              <mxPoint x="420" y="210" />
+              <mxPoint x="420" y="119" />
+              <mxPoint x="320" y="119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n40" value="Read / Write&amp;nbsp;&lt;div&gt;(TDE)&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#b85450;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="RXhD__rJP0DyK8hsQfrG-2" source="n23" target="n27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" value="Cache Lookup" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#b85450;fontStyle=0;fontSize=9;endArrow=block;endFill=1;entryX=0.422;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RXhD__rJP0DyK8hsQfrG-2" source="n23" target="n30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="115" />
+              <mxPoint x="730" y="250" />
+              <mxPoint x="914" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n42" value="Generative AI Calls" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#9673a6;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="RXhD__rJP0DyK8hsQfrG-2" source="n23" target="n32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" value="Offline Queue Sync On Reconnect" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#e69900;dashed=1;dashPattern=8 4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="RXhD__rJP0DyK8hsQfrG-2" source="n14" target="n17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

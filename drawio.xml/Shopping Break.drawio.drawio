@@ -1,0 +1,86 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="ja_biztown_3.0_—_shopping_brea" name="JA BizTown 3.0 — Shopping Break Workflow">
+    <mxGraphModel dx="1106" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sLcHOJ9nHbUNvO8fP7_e-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="47" width="840" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="Simulation Control" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="sLcHOJ9nHbUNvO8fP7_e-1" vertex="1">
+          <mxGeometry width="840" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="Teacher Triggers Shopping Break" style="shape=mxgraph.azure2.endpoint;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="20" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="Azure SignalR (Broadcast Shopping Window)" style="shape=mxgraph.azure2.signalr_service;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="314" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="Countdown Timer (Configurable Duration)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="599" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="Student Device Transition" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="sLcHOJ9nHbUNvO8fP7_e-1" vertex="1">
+          <mxGeometry y="140" width="840" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="Auto-Switch to Payment Mode" style="shape=mxgraph.azure2.endpoint;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n15" vertex="1">
+          <mxGeometry x="20" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="QR Token Displayed (Color-coded Balance)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n15" vertex="1">
+          <mxGeometry x="321" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="Browse Storefronts (Product Catalog)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n15" vertex="1">
+          <mxGeometry x="605" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="Transaction Execution" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="sLcHOJ9nHbUNvO8fP7_e-1" vertex="1">
+          <mxGeometry y="280" width="840" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="Volunteer Scans Student QR" style="shape=mxgraph.azure2.endpoint;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="n19" vertex="1">
+          <mxGeometry x="20" y="35" width="120" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="Payment Processed (Local or Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n19" vertex="1">
+          <mxGeometry x="233" y="35" width="131" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="Balance Updated and Pushed" style="shape=mxgraph.azure2.sql_database;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="n19" vertex="1">
+          <mxGeometry x="470" y="35" width="135" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="Shopping Window Closes Automatically" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="n19" vertex="1">
+          <mxGeometry x="660" y="35" width="149" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="Broadcast Start" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="sLcHOJ9nHbUNvO8fP7_e-1" source="n12" target="n13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="Push Mode Change" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#82b366;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="sLcHOJ9nHbUNvO8fP7_e-1" source="n13" target="n16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="Start Countdown" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="sLcHOJ9nHbUNvO8fP7_e-1" source="n13" target="n14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="Show QR" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="sLcHOJ9nHbUNvO8fP7_e-1" source="n16" target="n17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="Students Shop" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="sLcHOJ9nHbUNvO8fP7_e-1" source="n17" target="n18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="Select Purchase" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="sLcHOJ9nHbUNvO8fP7_e-1" source="n18" target="n20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="Initiate Payment" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="sLcHOJ9nHbUNvO8fP7_e-1" source="n20" target="n21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="Update Ledger" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#b85450;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="sLcHOJ9nHbUNvO8fP7_e-1" source="n21" target="n22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="Time Expired" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#d6b656;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="sLcHOJ9nHbUNvO8fP7_e-1" source="n14" target="n23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="804" y="63" />
+              <mxPoint x="804" y="240" />
+              <mxPoint x="620" y="240" />
+              <mxPoint x="620" y="343" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,87 @@
+<mxfile host="Electron" modified="2026-04-10T14:24:25.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="xxxx" version="21.2.8" type="device">
+  <diagram id="diagram_1" name="High Level Architecture">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    
+    <!-- Boundaries -->
+    <mxCell id="boundary_vnet" value="Azure Private VNet" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 4;strokeColor=#666666;fillColor=none;collapsible=0;recursiveResize=0;expand=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+      <mxGeometry x="280" y="80" width="540" height="520" as="geometry" />
+    </mxCell>
+    
+    <!-- Client Side -->
+    <mxCell id="client_zone" value="Client Ecosystem (On-Site)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;collapsible=0;recursiveResize=0;expand=0;fontStyle=1" parent="1" vertex="1">
+      <mxGeometry x="40" y="160" width="200" height="340" as="geometry" />
+    </mxCell>
+    <mxCell id="student_app" value="Student Tablet&#xa;(React Native + Expo)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="client_zone" vertex="1">
+      <mxGeometry x="20" y="40" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="pos_module" value="Volunteer/Shopkeeper&#xa;Tablet (Unified POS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="client_zone" vertex="1">
+      <mxGeometry x="20" y="120" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="local_db" value="Local Trusted Cache&#xa;(IndexedDB / SQLite)" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" parent="client_zone" vertex="1">
+      <mxGeometry x="50" y="240" width="100" height="80" as="geometry" />
+    </mxCell>
+    
+    <!-- Security Layer -->
+    <mxCell id="perimeter" value="Perimeter Security (WAF / FD / Entra B2C)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" parent="1" vertex="1">
+      <mxGeometry x="320" y="100" width="120" height="480" as="geometry" />
+    </mxCell>
+    
+    <!-- Service Layer -->
+    <mxCell id="aks" value="Azure Kubernetes Service&#xa;(Microservices Layer)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" parent="boundary_vnet" vertex="1">
+      <mxGeometry x="180" y="40" width="340" height="120" as="geometry" />
+    </mxCell>
+    <mxCell id="api_auth" value="API Management (APIM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="aks" vertex="1">
+      <mxGeometry x="10" y="30" width="320" height="30" as="geometry" />
+    </mxCell>
+    
+    <!-- Data Layer -->
+    <mxCell id="data_zone" value="Multi-Tenant Data Layer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;collapsible=0;recursiveResize=0;expand=0;fontStyle=1" parent="boundary_vnet" vertex="1">
+      <mxGeometry x="180" y="220" width="340" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="sql_server" value="Azure SQL&#xa;(Simulation State)" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="data_zone" vertex="1">
+      <mxGeometry x="20" y="50" width="80" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="h_cms" value="Headless CMS&#xa;(PostgreSQL Backend)" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#b85450;" parent="data_zone" vertex="1">
+      <mxGeometry x="130" y="50" width="80" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="blob" value="Blob Storage&#xa;(Media Assets)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fillColor=#ffffff;strokeColor=#b85450;" parent="data_zone" vertex="1">
+      <mxGeometry x="240" y="50" width="80" height="80" as="geometry" />
+    </mxCell>
+    
+    <!-- External AI -->
+    <mxCell id="ai_layer" value="AI Integration Layer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;collapsible=0;recursiveResize=0;expand=0;fontStyle=1" parent="boundary_vnet" vertex="1">
+      <mxGeometry x="180" y="420" width="340" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="openai" value="Azure OpenAI Service (GPT-4o / DALL-E 3)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" parent="ai_layer" vertex="1">
+      <mxGeometry x="20" y="35" width="300" height="30" as="geometry" />
+    </mxCell>
+    
+    <!-- Connectors -->
+    <mxCell id="conn1" value="HTTPS / TLS 1.3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="student_app" target="perimeter" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="conn2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="pos_module" target="perimeter" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="conn3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="perimeter" target="aks" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="conn4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aks" target="data_zone" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="conn5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="data_zone" target="ai_layer" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="conn6" value="Offline Sync" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="client_zone" source="pos_module" target="local_db" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="conn7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="client_zone" source="student_app" target="local_db" edge="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
+  </diagram>
+</mxfile>

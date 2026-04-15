@@ -1,0 +1,800 @@
+{
+  "actions": [
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/02_simulationLocal.config",
+      "name": "Local Simulation Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "8c3d9d0e-2e3b-5d4c-9f2a-5f3b4c5d6e7f"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/adTemplate.config",
+      "name": "Ad Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "Tabs/Layout/Key",
+          "oldValue": "bdbd553e-1cd3-4417-808b-857786ef57c1",
+          "newValue": "4ca9efc3-0e54-4c00-af92-fa8460327213",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "Tabs/Asset Options/Key",
+          "oldValue": "81d590c3-9d30-4372-9a98-0143b9e7091b",
+          "newValue": "12e3c4d4-112b-41a7-b16b-887feaa4bbef",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "templateName/Key",
+          "oldValue": "ff609ea1-8528-41e7-8dff-7321541ab130",
+          "newValue": "8722aa84-f88a-4e91-a8a5-56ae250f26c5",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "templateDescription/Key",
+          "oldValue": "4e17513c-3b2d-4804-a75d-9065a60e1ce8",
+          "newValue": "e32505a5-39d2-4ff7-ab1d-b39712025a0e",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "previewImage/Key",
+          "oldValue": "c9fe44a7-9da2-4e05-bf61-bd24d96f9629",
+          "newValue": "eae4c41c-3999-4c6a-ad42-3dc5fac02d4d",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "dimensions",
+          "path": "Property/dimensions",
+          "oldValue": null,
+          "newValue": "Property 'dimensions' cannot be created (missing DataType?)",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "allowedBackgrounds/Key",
+          "oldValue": "5e8444b0-0968-4ccc-a9bd-0621a9a3db92",
+          "newValue": "34279c3c-ce66-4f7a-80f7-9c9195a53dd9",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "allowedIcons/Key",
+          "oldValue": "8e526b60-f0ed-4efd-9081-844ae5676a09",
+          "newValue": "f11696ad-d796-4cf1-bede-a8b69a2e40e2",
+          "change": "Update"
+        }
+      ],
+      "key": "cc000001-0001-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/designMissionStep.config",
+      "name": "Design Mission Step",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "Tabs/Step Configuration/Key",
+          "oldValue": "6879cbc0-440d-43e4-91a7-4350533ec061",
+          "newValue": "80bb415c-8051-4c68-8b6f-1a6ce64cc87b",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "stepNumber/Key",
+          "oldValue": "3b24ff98-1e17-4301-a873-980fb6ddd241",
+          "newValue": "41087ac8-086a-4c14-a071-19bdbc6ec984",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "stepTitle/Key",
+          "oldValue": "bb41f0de-7fea-4ec0-8eb7-b6103cfe5c7f",
+          "newValue": "59c79581-f6fb-416e-899b-f1b9ad69561f",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "stepInstruction/Key",
+          "oldValue": "693d611a-bd5a-421b-be89-247c665e98fb",
+          "newValue": "3d309480-760d-4273-926f-990fa89b453d",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "Property 'componentKey' cannot be created (missing DataType?)",
+          "change": "Warning"
+        }
+      ],
+      "key": "cc000002-0002-0002-0002-000000000002"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/marketingToolConfig.config",
+      "name": "Marketing Tool Configuration",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "Tabs/General/Key",
+          "oldValue": "dd33630f-8e78-45e7-9319-696b9bf344a8",
+          "newValue": "8af3e1b6-1309-4f30-a32f-8293a61c0240",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "toolTitle/Key",
+          "oldValue": "15a8b146-8e25-4076-802d-9421bc562f1f",
+          "newValue": "167e97ee-b50d-4f65-9d44-985af45ffd22",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "welcomeMessage/Key",
+          "oldValue": "65374bce-3039-4c40-9a93-10dda2878af2",
+          "newValue": "0683d706-b0f9-4913-9acd-a719fbde2409",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "simulationYear/Key",
+          "oldValue": "03235fa6-f390-4213-8ed6-898d7c510366",
+          "newValue": "41fb9265-e671-4ae4-a0ba-0ef90969dcb6",
+          "change": "Update"
+        }
+      ],
+      "key": "cc000003-0003-0003-0003-000000000003"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/studentAdvertisement.config",
+      "name": "Student Advertisement",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "Tabs/Student Info/Key",
+          "oldValue": "7bc4cf54-e800-4c11-85ce-d07486b2c126",
+          "newValue": "d28b7d76-477c-413b-8992-94b5aa9451fe",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "Tabs/Ad Content/Key",
+          "oldValue": "681d4fed-6aea-4e81-9b26-169d52e82036",
+          "newValue": "13aa464f-27c6-42b4-962c-8121c14ffcdb",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "Tabs/Timestamps/Key",
+          "oldValue": "676823f8-f107-435e-be2d-0fd8dc705a77",
+          "newValue": "ee9066e5-82fd-42bc-ae64-11ad91c3de12",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "studentName/Key",
+          "oldValue": "9be55041-0721-421c-a949-d488656dc09b",
+          "newValue": "5dfc92bb-5c08-4ce9-992c-66e9892c923f",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "studentId/Key",
+          "oldValue": "7436a261-d533-4864-86b5-c07f0b5a7abd",
+          "newValue": "3fc342c7-5231-4d50-84c4-c51565904c61",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "simulationSession/Key",
+          "oldValue": "2b24cdf9-047e-4e1d-8f9b-96df15a27239",
+          "newValue": "0d71cb8c-72b7-43ea-99f4-e4e544009390",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "businessName/Key",
+          "oldValue": "8404f8d9-a9ad-4fec-9b7c-568771ce8af6",
+          "newValue": "fd988d08-7741-4cf5-a133-1a10814323ce",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "slogan/Key",
+          "oldValue": "70bcf681-ccfd-4acd-8794-176f4fa6f4b7",
+          "newValue": "9dcb99f9-d5c4-4913-8573-ef6e1cd29048",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "selectedTemplate/Key",
+          "oldValue": "f39f6ec0-1fe6-4b67-9952-a2be8a699f7b",
+          "newValue": "8ccf22fa-ef50-46eb-9c47-3692fd5434a5",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "selectedBackground/Key",
+          "oldValue": "b437df1d-9520-4646-bdf0-626da9da30f9",
+          "newValue": "a1981fb1-c41c-4a75-9f5b-345a4380aeab",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "additionalText/Key",
+          "oldValue": "9decbe86-9a19-4a7b-a52f-f005e0d37777",
+          "newValue": "669c1469-ffd0-4038-9aef-d9c6eede4fcb",
+          "change": "Update"
+        },
+        {
+          "success": false,
+          "name": "submissionStatus",
+          "path": "Property/submissionStatus",
+          "oldValue": null,
+          "newValue": "Property 'submissionStatus' cannot be created (missing DataType?)",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "submittedAt/Key",
+          "oldValue": "9e8ece71-e1c1-4f43-ad03-6e83702f0f92",
+          "newValue": "d8844f62-c4bf-43af-9910-6b4b8835ebc6",
+          "change": "Update"
+        }
+      ],
+      "key": "cc000004-0004-0004-0004-000000000004"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/submissionsFolder.config",
+      "name": "Submissions Folder",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "Tabs/Folder Info/Key",
+          "oldValue": "41558824-3110-48e0-9eca-d60b1a1f57ec",
+          "newValue": "74331879-ea3e-4d1c-87f4-1fb39566def5",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "sessionLabel/Key",
+          "oldValue": "99486fcc-aa5b-40f9-8169-823575033e31",
+          "newValue": "2b91279a-76d9-4148-a05c-805a5f92cf71",
+          "change": "Update"
+        }
+      ],
+      "key": "cc000005-0005-0005-0005-000000000005"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "01_national-master.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/national-master-template_53jnbe20.config",
+      "name": "National Master Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "1",
+          "newValue": "0",
+          "change": "Update"
+        }
+      ],
+      "key": "93c053ff-8d9a-4367-b3b5-af6a13cf91ee"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/national-master-template_q4jnaejg.config",
+      "name": "National Master Template (1)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "d307156b-ed0d-4b07-a3ea-3f10c1f56b75",
+          "newValue": "11d09387-6e26-4ddf-969b-2b5c1acdfc25",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/14/2026 1:47:06 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "globalRuleset",
+          "path": "Property/globalRuleset",
+          "oldValue": "null",
+          "newValue": "\"Default JA USA Ruleset Applied.\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "masterSimulationID",
+          "path": "Property/masterSimulationID",
+          "oldValue": "null",
+          "newValue": "\"NAT-2026-v1\"",
+          "change": "Update"
+        }
+      ],
+      "key": "11d09387-6e26-4ddf-969b-2b5c1acdfc25"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "02_local-simulation.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "ja-biztown-ad-creator.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "template-retail-classic.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "template-food-and-drink.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "template-tech-innovation.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "student-submissions-ja-san-diego-2026.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "step-1-choose-your-template.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "step-2-pick-a-background.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "step-3-name-your-business.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "step-4-create-your-slogan.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "step-5-preview-and-submit.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "",
+      "exception": null,
+      "change": "Delete",
+      "fileName": "uSync/v9/Content/national-master-template-1.config",
+      "name": "National Master Template (1)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "11d09387-6e26-4ddf-969b-2b5c1acdfc25"
+    }
+  ],
+  "date": "2026-04-15T09:15:07.1224047+00:00",
+  "username": "admin@example.com",
+  "method": "Import",
+  "filePath": null,
+  "changes": 21,
+  "total": 38
+}

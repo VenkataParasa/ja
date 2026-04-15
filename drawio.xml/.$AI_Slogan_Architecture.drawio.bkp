@@ -1,0 +1,51 @@
+<mxfile host="Electron" version="21.2.8" type="device">
+  <diagram id="ja_biztown_3.0_—_ai_slogan_gen" name="JA BizTown 3.0 — AI Slogan Generation Architecture">
+    <mxGraphModel dx="1600" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="n11" value="Student Interaction Layer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="1" vertex="1"><mxGeometry x="20" y="180" width="840" height="110" as="geometry"/></mxCell>
+        <mxCell id="n12" value="Student Tablet
+(CEO Role — Business Setup)" style="shape=mxgraph.azure2.endpoint;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n11" vertex="1"><mxGeometry x="20" y="35" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="n13" value="Business Slogan Form
+(Name + Industry + Tone)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n11" vertex="1"><mxGeometry x="220" y="35" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="n14" value="Submit Slogan Request
+(POST /ai/slogan)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n11" vertex="1"><mxGeometry x="420" y="35" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="n15" value="Azure Backend — AI Orchestration" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="1" vertex="1"><mxGeometry x="20" y="320" width="840" height="110" as="geometry"/></mxCell>
+        <mxCell id="n16" value="Azure API Management
+(Rate Limit + Auth)" style="shape=mxgraph.azure2.api_management;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n15" vertex="1"><mxGeometry x="20" y="35" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="n17" value="AKS — AI Gateway
+Microservice" style="shape=mxgraph.azure2.aks;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n15" vertex="1"><mxGeometry x="220" y="35" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="n18" value="Azure Key Vault
+(OpenAI API Secrets)" style="shape=mxgraph.azure2.key_vault;whiteSpace=wrap;html=1;fillColor=#f4cccc;strokeColor=#cc0000;fontSize=11;" parent="n15" vertex="1"><mxGeometry x="420" y="35" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="n19" value="Azure OpenAI — GPT-4o
+(Generates 3 Slogan Options)" style="shape=mxgraph.azure2.cognitive_services;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" parent="n15" vertex="1"><mxGeometry x="625" y="35" width="175" height="55" as="geometry"/></mxCell>
+        <mxCell id="n20" value="Response and Logging" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="1" vertex="1"><mxGeometry x="20" y="460" width="840" height="110" as="geometry"/></mxCell>
+        <mxCell id="n21" value="Slogan Options
+Rendered on Tablet" style="shape=mxgraph.azure2.endpoint;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n20" vertex="1"><mxGeometry x="20" y="35" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="n22" value="Usage Logged
+to Azure Monitor" style="shape=mxgraph.azure2.monitor;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="n20" vertex="1"><mxGeometry x="220" y="35" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="n23" value="Cost Guard:
+Token Budget Enforcement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4cccc;strokeColor=#cc0000;fontSize=11;" parent="n20" vertex="1"><mxGeometry x="420" y="35" width="185" height="55" as="geometry"/></mxCell>
+        <mxCell id="n24" value="User Confirms Request" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n13" target="n14" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n25" value="HTTPS POST" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n14" target="n16" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n26" value="Routed Request" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n16" target="n17" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n27" value="Fetch API Keys" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#9673a6;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n17" target="n18" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n28" value="Prompt + Industry Context" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#9673a6;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n17" target="n19" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n29" value="3 Slogan Choices" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#82b366;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n19" target="n21" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n30" value="Log Token Usage" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#666666;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n17" target="n22" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n31" value="Enforce Budget" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#cc0000;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="1" source="n17" target="n23" edge="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n32" value="Generative AI creates unique
+business identity per student" style="shape=callout;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#e6a817;fontSize=10;fontStyle=2;" parent="1" vertex="1"><mxGeometry x="20" y="595" width="210" height="50" as="geometry"/></mxCell>
+        <mxCell id="n33" value="Token budget prevents
+runaway API costs" style="shape=callout;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#e6a817;fontSize=10;fontStyle=2;" parent="1" vertex="1"><mxGeometry x="420" y="595" width="210" height="50" as="geometry"/></mxCell>
+        <mxCell id="n34" value="Legend" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#555;fontStyle=1;fontSize=12;collapsible=0;" parent="1" vertex="1"><mxGeometry x="870" y="20" width="150" height="225" as="geometry"/></mxCell>
+<mxCell id="n35" value="Azure Service" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;whiteSpace=wrap;html=1;" parent="n34" vertex="1"><mxGeometry x="10" y="35" width="130" height="25" as="geometry"/></mxCell>
+<mxCell id="n36" value="Compute Zone" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;whiteSpace=wrap;html=1;" parent="n34" vertex="1"><mxGeometry x="10" y="70" width="130" height="25" as="geometry"/></mxCell>
+<mxCell id="n37" value="Secured Data" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;whiteSpace=wrap;html=1;" parent="n34" vertex="1"><mxGeometry x="10" y="105" width="130" height="25" as="geometry"/></mxCell>
+<mxCell id="n38" value="Trust Boundary" style="rounded=0;dashed=1;strokeColor=#cc0000;fillColor=none;fontSize=10;whiteSpace=wrap;html=1;" parent="n34" vertex="1"><mxGeometry x="10" y="140" width="130" height="25" as="geometry"/></mxCell>
+<mxCell id="n39" value="Compliance Note" style="shape=callout;fillColor=#fff3cd;strokeColor=#e6a817;fontSize=10;whiteSpace=wrap;html=1;" parent="n34" vertex="1"><mxGeometry x="10" y="175" width="130" height="40" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

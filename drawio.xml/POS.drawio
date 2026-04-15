@@ -1,0 +1,101 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="ja_biztown_3.0_—_unified_pos_(" name="JA BizTown 3.0 — Unified POS (Tablet-as-POS) Architecture">
+    <mxGraphModel dx="1106" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VVW814U_PIbYx33udyv8-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="18" y="49" width="844" height="418" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="Physical Layer (No Dedicated Hardware)" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="VVW814U_PIbYx33udyv8-1" vertex="1">
+          <mxGeometry x="2" width="840" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="Volunteer Tablet (Standard iPad / Android)" style="shape=mxgraph.azure2.endpoint;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="20" y="42" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="Camera Module (QR Code Scanner)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="220" y="42" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="POS UI Module (React Native Screen)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="420" y="42" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="Digital Receipt (On-Screen Confirmation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="625" y="43" width="175" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="POS Application Logic" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="VVW814U_PIbYx33udyv8-1" vertex="1">
+          <mxGeometry x="2" y="140" width="840" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="QR Scan Handler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n16" vertex="1">
+          <mxGeometry x="39" y="35" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="Cart Manager (Add / Remove Products)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n16" vertex="1">
+          <mxGeometry x="260" y="35" width="145" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="Payment Submit (Online / Offline Mode)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n16" vertex="1">
+          <mxGeometry x="455" y="35" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="Local Ledger Fallback (IndexedDB)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="n16" vertex="1">
+          <mxGeometry x="700" y="35" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="Azure Backend" style="text;html=1;align=left;fontStyle=1;fontSize=10;strokeColor=none;fillColor=none;" parent="VVW814U_PIbYx33udyv8-1" vertex="1">
+          <mxGeometry y="278" width="844" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#0078D4;fillColor=none;" parent="VVW814U_PIbYx33udyv8-1" vertex="1">
+          <mxGeometry y="298" width="844" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="Azure Payment Backend" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="VVW814U_PIbYx33udyv8-1" vertex="1">
+          <mxGeometry x="2" y="285" width="840" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="Azure API Management" style="shape=mxgraph.azure2.api_management;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n23" vertex="1">
+          <mxGeometry x="20" y="40" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="Payment Service (AKS)" style="shape=mxgraph.azure2.aks;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n23" vertex="1">
+          <mxGeometry x="308" y="40" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="Azure SQL Ledger" style="shape=mxgraph.azure2.sql_database;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" parent="n23" vertex="1">
+          <mxGeometry x="655" y="40" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="QR Decoded" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="VVW814U_PIbYx33udyv8-1" source="n13" target="n17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="412" y="63" />
+              <mxPoint x="412" y="133" />
+              <mxPoint x="2" y="133" />
+              <mxPoint x="2" y="203" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n28" value="Add to Cart" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="VVW814U_PIbYx33udyv8-1" source="n17" target="n18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="Checkout" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="VVW814U_PIbYx33udyv8-1" source="n18" target="n19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="Online Mode" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="VVW814U_PIbYx33udyv8-1" source="n19" target="n24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="Offline Mode" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#e69900;dashed=1;dashPattern=8 4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="VVW814U_PIbYx33udyv8-1" source="n19" target="n20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="Route Request" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="VVW814U_PIbYx33udyv8-1" source="n24" target="n25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="Commit Txn" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#b85450;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="VVW814U_PIbYx33udyv8-1" source="n25" target="n26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="Confirm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#82b366;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="VVW814U_PIbYx33udyv8-1" source="n26" target="n15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="400" />
+              <mxPoint x="627" y="400" />
+              <mxPoint x="627" y="208" />
+              <mxPoint x="622" y="208" />
+              <mxPoint x="622" y="30" />
+              <mxPoint x="715" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

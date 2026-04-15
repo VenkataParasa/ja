@@ -1,0 +1,105 @@
+{
+  "actions": [
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/01_simulationMaster.config",
+      "name": "National Simulation Master",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "defaultScenario/SortOrder",
+          "oldValue": "1",
+          "newValue": "0",
+          "change": "Update"
+        }
+      ],
+      "key": "7b2b8c9d-1d2a-4c3b-8e1f-4f2a3b4c5d6e"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/02_simulationLocal.config",
+      "name": "Local Simulation Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "8c3d9d0e-2e3b-5d4c-9f2a-5f3b4c5d6e7f"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "01_national-master.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "02_local-simulation.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "date": "2026-04-14T10:16:27.8867638+00:00",
+  "username": "admin@example.com",
+  "method": "Import",
+  "filePath": null,
+  "changes": 4,
+  "total": 6
+}

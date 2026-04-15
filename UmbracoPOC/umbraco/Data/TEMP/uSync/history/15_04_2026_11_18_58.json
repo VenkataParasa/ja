@@ -1,0 +1,422 @@
+{
+  "actions": [
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/02_simulationLocal.config",
+      "name": "Local Simulation Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "8c3d9d0e-2e3b-5d4c-9f2a-5f3b4c5d6e7f"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/adTemplate.config",
+      "name": "Ad Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "dimensions",
+          "path": "Property/dimensions",
+          "oldValue": null,
+          "newValue": "Property 'dimensions' cannot be created (missing DataType?)",
+          "change": "Warning"
+        }
+      ],
+      "key": "cc000001-0001-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/designMissionStep.config",
+      "name": "Design Mission Step",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "Property 'componentKey' cannot be created (missing DataType?)",
+          "change": "Warning"
+        }
+      ],
+      "key": "cc000002-0002-0002-0002-000000000002"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/marketingToolConfig.config",
+      "name": "Marketing Tool Configuration",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "cc000003-0003-0003-0003-000000000003"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/studentAdvertisement.config",
+      "name": "Student Advertisement",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "submissionStatus",
+          "path": "Property/submissionStatus",
+          "oldValue": null,
+          "newValue": "Property 'submissionStatus' cannot be created (missing DataType?)",
+          "change": "Warning"
+        }
+      ],
+      "key": "cc000004-0004-0004-0004-000000000004"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "01_national-master.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/national-master-template_q4jnaejg.config",
+      "name": "National Master Template (1)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "National Master Template (1)",
+          "newValue": "National Master Template",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "SortOrder",
+          "oldValue": "1",
+          "newValue": "0",
+          "change": "Update"
+        }
+      ],
+      "key": "11d09387-6e26-4ddf-969b-2b5c1acdfc25"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "02_local-simulation.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/ja-biztown-ad-creator.config",
+      "name": "JA BizTown Ad Creator",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "dd100001-0001-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/template-retail-classic.config",
+      "name": "Retail Classic",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "dimensions",
+          "path": "Property/dimensions",
+          "oldValue": null,
+          "newValue": "item Retail Classic does not have a property dimensions but it exists in XML",
+          "change": "Warning"
+        }
+      ],
+      "key": "dd100003-0003-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/template-food-and-drink.config",
+      "name": "Food and Drink",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "dimensions",
+          "path": "Property/dimensions",
+          "oldValue": null,
+          "newValue": "item Food and Drink does not have a property dimensions but it exists in XML",
+          "change": "Warning"
+        }
+      ],
+      "key": "dd100003-0003-0001-0001-000000000002"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/template-tech-innovation.config",
+      "name": "Tech Innovation",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "dimensions",
+          "path": "Property/dimensions",
+          "oldValue": null,
+          "newValue": "item Tech Innovation does not have a property dimensions but it exists in XML",
+          "change": "Warning"
+        }
+      ],
+      "key": "dd100003-0003-0001-0001-000000000003"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/student-submissions-ja-san-diego-2026.config",
+      "name": "Student Submissions JA San Diego 2026",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "dd100004-0004-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/step-1-choose-your-template.config",
+      "name": "Choose Your Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "item Choose Your Template does not have a property componentKey but it exists in XML",
+          "change": "Warning"
+        }
+      ],
+      "key": "dd100002-0002-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/step-2-pick-a-background.config",
+      "name": "Pick a Background",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "item Pick a Background does not have a property componentKey but it exists in XML",
+          "change": "Warning"
+        }
+      ],
+      "key": "dd100002-0002-0001-0001-000000000002"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/step-3-name-your-business.config",
+      "name": "Name Your Business",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "item Name Your Business does not have a property componentKey but it exists in XML",
+          "change": "Warning"
+        }
+      ],
+      "key": "dd100002-0002-0001-0001-000000000003"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/step-4-create-your-slogan.config",
+      "name": "Create Your Slogan",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "item Create Your Slogan does not have a property componentKey but it exists in XML",
+          "change": "Warning"
+        }
+      ],
+      "key": "dd100002-0002-0001-0001-000000000004"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published with warning(s)",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/step-5-preview-and-submit.config",
+      "name": "Preview and Submit",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "item Preview and Submit does not have a property componentKey but it exists in XML",
+          "change": "Warning"
+        }
+      ],
+      "key": "dd100002-0002-0001-0001-000000000005"
+    }
+  ],
+  "date": "2026-04-15T11:18:58.0219411+00:00",
+  "username": "admin@example.com",
+  "method": "Import",
+  "filePath": null,
+  "changes": 18,
+  "total": 37
+}

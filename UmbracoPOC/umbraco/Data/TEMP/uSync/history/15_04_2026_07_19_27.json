@@ -1,0 +1,2281 @@
+{
+  "actions": [
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/02_simulationLocal.config",
+      "name": "Local Simulation Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "30f95e7f-9b08-4a19-9e8c-6de1ebaa6d5e",
+          "newValue": "8c3d9d0e-2e3b-5d4c-9f2a-5f3b4c5d6e7f",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Local Simulation Template",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Icon",
+          "path": "",
+          "oldValue": "icon-folder",
+          "newValue": "icon-map-location color-green",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Local JA Area overrides for the National Master",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "AllowAtRoot",
+          "path": "",
+          "oldValue": "False",
+          "newValue": "True",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "localSponsor/Key",
+          "oldValue": "d1d3d622-af90-431a-bef8-10ef675aef6b",
+          "newValue": "c3d4e5f6-a7b8-9012-cdef-012345678902",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "localSponsor/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Local Sponsor Logo",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "localSponsor/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "localSponsor/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "localSponsor/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "localSponsor/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "localSponsor",
+          "path": "localSponsor",
+          "oldValue": "",
+          "newValue": "Local Sponsor Logo",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Compositions",
+          "path": "Info",
+          "oldValue": "(Blank)",
+          "newValue": "simulationMaster",
+          "change": "Update"
+        }
+      ],
+      "key": "8c3d9d0e-2e3b-5d4c-9f2a-5f3b4c5d6e7f"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/adTemplate.config",
+      "name": "Ad Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "54cdb47b-a5f6-48dd-a315-ea3665b85b63",
+          "newValue": "cc000001-0001-0001-0001-000000000001",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Ad Template",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Icon",
+          "path": "",
+          "oldValue": "icon-folder",
+          "newValue": "icon-item-arrangement",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "AllowAtRoot",
+          "path": "",
+          "oldValue": "False",
+          "newValue": "True",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Layout",
+          "path": "Tabs/Layout",
+          "oldValue": "",
+          "newValue": "Layout",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Asset Options",
+          "path": "Tabs/Asset Options",
+          "oldValue": "",
+          "newValue": "Asset Options",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "templateName/Key",
+          "oldValue": "ae342cf2-8112-43bf-9a41-7b37ab806347",
+          "newValue": "ff609ea1-8528-41e7-8dff-7321541ab130",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "templateName/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Template Name",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "templateName/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "templateName/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "templateName/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "templateName/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "templateName",
+          "path": "templateName",
+          "oldValue": "",
+          "newValue": "Template Name",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "templateDescription/Key",
+          "oldValue": "e3330b1f-c61d-4b07-a060-e4f9753b0840",
+          "newValue": "4e17513c-3b2d-4804-a75d-9065a60e1ce8",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "templateDescription/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Template Description",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "templateDescription/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "templateDescription/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "templateDescription/SortOrder",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "templateDescription/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "templateDescription/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "templateDescription",
+          "path": "templateDescription",
+          "oldValue": "",
+          "newValue": "Template Description",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "previewImage/Key",
+          "oldValue": "b6b24f2a-b071-4c90-bc86-c8c8546e5d3e",
+          "newValue": "c9fe44a7-9da2-4e05-bf61-bd24d96f9629",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "previewImage/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Preview Image",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "previewImage/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "previewImage/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "previewImage/SortOrder",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "previewImage/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "previewImage/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "previewImage",
+          "path": "previewImage",
+          "oldValue": "",
+          "newValue": "Preview Image",
+          "change": "Create"
+        },
+        {
+          "success": false,
+          "name": "dimensions",
+          "path": "Property/dimensions",
+          "oldValue": null,
+          "newValue": "Property 'dimensions' cannot be created (missing DataType?)",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "allowedBackgrounds/Key",
+          "oldValue": "8db3f9d2-9339-4cf3-8742-83fc1d7fb38c",
+          "newValue": "5e8444b0-0968-4ccc-a9bd-0621a9a3db92",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "allowedBackgrounds/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Allowed Backgrounds",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "allowedBackgrounds/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "allowedBackgrounds/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "allowedBackgrounds/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "allowedBackgrounds/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "allowedBackgrounds",
+          "path": "allowedBackgrounds",
+          "oldValue": "",
+          "newValue": "Allowed Backgrounds",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "allowedIcons/Key",
+          "oldValue": "9f26fc14-616b-4dff-a54b-897a579d99d2",
+          "newValue": "8e526b60-f0ed-4efd-9081-844ae5676a09",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "allowedIcons/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Allowed Icons",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "allowedIcons/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "allowedIcons/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "allowedIcons/SortOrder",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "allowedIcons/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "allowedIcons/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "allowedIcons",
+          "path": "allowedIcons",
+          "oldValue": "",
+          "newValue": "Allowed Icons",
+          "change": "Create"
+        }
+      ],
+      "key": "cc000001-0001-0001-0001-000000000001"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/designMissionStep.config",
+      "name": "Design Mission Step",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "ff8c2728-479b-4456-811f-0f94bedc2c31",
+          "newValue": "cc000002-0002-0002-0002-000000000002",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Design Mission Step",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Icon",
+          "path": "",
+          "oldValue": "icon-folder",
+          "newValue": "icon-item-arrangement",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Step Configuration",
+          "path": "Tabs/Step Configuration",
+          "oldValue": "",
+          "newValue": "Step Configuration",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "stepNumber/Key",
+          "oldValue": "40051b25-7df8-4030-b2ac-0be089d6c7b5",
+          "newValue": "3b24ff98-1e17-4301-a873-980fb6ddd241",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "stepNumber/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Step Number",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "stepNumber/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "stepNumber/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "stepNumber/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "stepNumber/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepNumber",
+          "path": "stepNumber",
+          "oldValue": "",
+          "newValue": "Step Number",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "stepTitle/Key",
+          "oldValue": "4ebb0db3-0242-4c6e-83bc-41b2db9481c3",
+          "newValue": "bb41f0de-7fea-4ec0-8eb7-b6103cfe5c7f",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "stepTitle/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Step Title",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "stepTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "stepTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "stepTitle/SortOrder",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "stepTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "stepTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepTitle",
+          "path": "stepTitle",
+          "oldValue": "",
+          "newValue": "Step Title",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "stepInstruction/Key",
+          "oldValue": "10a6f896-3837-43ea-ac23-abf8006b6ba2",
+          "newValue": "693d611a-bd5a-421b-be89-247c665e98fb",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "stepInstruction/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Step Instruction",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "stepInstruction/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "stepInstruction/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "stepInstruction/SortOrder",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "stepInstruction/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "stepInstruction/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "stepInstruction",
+          "path": "stepInstruction",
+          "oldValue": "",
+          "newValue": "Step Instruction",
+          "change": "Create"
+        },
+        {
+          "success": false,
+          "name": "componentKey",
+          "path": "Property/componentKey",
+          "oldValue": null,
+          "newValue": "Property 'componentKey' cannot be created (missing DataType?)",
+          "change": "Warning"
+        }
+      ],
+      "key": "cc000002-0002-0002-0002-000000000002"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/marketingToolConfig.config",
+      "name": "Marketing Tool Configuration",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "1598a43e-1650-4485-81a6-801773db5e28",
+          "newValue": "cc000003-0003-0003-0003-000000000003",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Marketing Tool Configuration",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Icon",
+          "path": "",
+          "oldValue": "icon-folder",
+          "newValue": "icon-item-arrangement",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "AllowAtRoot",
+          "path": "",
+          "oldValue": "False",
+          "newValue": "True",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "General",
+          "path": "Tabs/General",
+          "oldValue": "",
+          "newValue": "General",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "toolTitle/Key",
+          "oldValue": "58a62fbe-12a6-4ca0-b0ba-b3df3ef37c68",
+          "newValue": "15a8b146-8e25-4076-802d-9421bc562f1f",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "toolTitle/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Tool Title",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "toolTitle/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "toolTitle/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "toolTitle/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "toolTitle/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "toolTitle",
+          "path": "toolTitle",
+          "oldValue": "",
+          "newValue": "Tool Title",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "welcomeMessage/Key",
+          "oldValue": "62429987-7ba5-49f2-9d97-feadfe312c10",
+          "newValue": "65374bce-3039-4c40-9a93-10dda2878af2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "welcomeMessage/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Welcome Message",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "welcomeMessage/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "welcomeMessage/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "welcomeMessage/SortOrder",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "welcomeMessage/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "welcomeMessage/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "welcomeMessage",
+          "path": "welcomeMessage",
+          "oldValue": "",
+          "newValue": "Welcome Message",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "simulationYear/Key",
+          "oldValue": "1c00f23e-5fb3-43a7-a15d-362c0e13b1fd",
+          "newValue": "03235fa6-f390-4213-8ed6-898d7c510366",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "simulationYear/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Simulation Year",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "simulationYear/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "simulationYear/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "simulationYear/SortOrder",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "simulationYear/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "simulationYear/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "simulationYear",
+          "path": "simulationYear",
+          "oldValue": "",
+          "newValue": "Simulation Year",
+          "change": "Create"
+        }
+      ],
+      "key": "cc000003-0003-0003-0003-000000000003"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "Imported with warnings",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/studentAdvertisement.config",
+      "name": "Student Advertisement",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "476e4e06-f36e-40ce-aeb1-81b0e7e3aaf8",
+          "newValue": "cc000004-0004-0004-0004-000000000004",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Student Advertisement",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Icon",
+          "path": "",
+          "oldValue": "icon-folder",
+          "newValue": "icon-item-arrangement",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Student Info",
+          "path": "Tabs/Student Info",
+          "oldValue": "",
+          "newValue": "Student Info",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Ad Content",
+          "path": "Tabs/Ad Content",
+          "oldValue": "",
+          "newValue": "Ad Content",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Timestamps",
+          "path": "Tabs/Timestamps",
+          "oldValue": "",
+          "newValue": "Timestamps",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "studentName/Key",
+          "oldValue": "e2ba5583-a50b-4156-9ecc-905b03008345",
+          "newValue": "9be55041-0721-421c-a949-d488656dc09b",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "studentName/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Student Name",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "studentName/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "studentName/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "studentName/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "studentName/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "studentName",
+          "path": "studentName",
+          "oldValue": "",
+          "newValue": "Student Name",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "studentId/Key",
+          "oldValue": "99e7264b-83e5-4fb5-898f-7fa5c05d8953",
+          "newValue": "7436a261-d533-4864-86b5-c07f0b5a7abd",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "studentId/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Student ID",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "studentId/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "studentId/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "studentId/SortOrder",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "studentId/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "studentId/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "studentId",
+          "path": "studentId",
+          "oldValue": "",
+          "newValue": "Student ID",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "simulationSession/Key",
+          "oldValue": "fdb5748c-8943-4a70-ac72-7987f3f9e443",
+          "newValue": "2b24cdf9-047e-4e1d-8f9b-96df15a27239",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "simulationSession/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Simulation Session",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "simulationSession/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "simulationSession/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "simulationSession/SortOrder",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "simulationSession/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "simulationSession/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "simulationSession",
+          "path": "simulationSession",
+          "oldValue": "",
+          "newValue": "Simulation Session",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "businessName/Key",
+          "oldValue": "612d68f8-f820-42f2-8a58-6433820698de",
+          "newValue": "8404f8d9-a9ad-4fec-9b7c-568771ce8af6",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "businessName/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Business Name",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "businessName/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "businessName/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "businessName/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "businessName/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "businessName",
+          "path": "businessName",
+          "oldValue": "",
+          "newValue": "Business Name",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "slogan/Key",
+          "oldValue": "cb8e9476-2043-4144-b3b0-e1934052d80a",
+          "newValue": "70bcf681-ccfd-4acd-8794-176f4fa6f4b7",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "slogan/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Slogan",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "slogan/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "slogan/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "slogan/SortOrder",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "slogan/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "slogan/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "slogan",
+          "path": "slogan",
+          "oldValue": "",
+          "newValue": "Slogan",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "selectedTemplate/Key",
+          "oldValue": "f82a8b2d-5890-47e4-8ad4-79e4611713d3",
+          "newValue": "f39f6ec0-1fe6-4b67-9952-a2be8a699f7b",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "selectedTemplate/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Selected Template",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "selectedTemplate/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "selectedTemplate/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "selectedTemplate/SortOrder",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "selectedTemplate/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "selectedTemplate/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "selectedTemplate",
+          "path": "selectedTemplate",
+          "oldValue": "",
+          "newValue": "Selected Template",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "selectedBackground/Key",
+          "oldValue": "d4f2e373-b851-4df5-b46a-609b6a6b2907",
+          "newValue": "b437df1d-9520-4646-bdf0-626da9da30f9",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "selectedBackground/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Selected Background",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "selectedBackground/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "selectedBackground/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "selectedBackground/SortOrder",
+          "oldValue": "0",
+          "newValue": "3",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "selectedBackground/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "selectedBackground/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "selectedBackground",
+          "path": "selectedBackground",
+          "oldValue": "",
+          "newValue": "Selected Background",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "additionalText/Key",
+          "oldValue": "06042842-566e-46f9-96af-9d356e15a577",
+          "newValue": "9decbe86-9a19-4a7b-a52f-f005e0d37777",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "additionalText/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Additional Text",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "additionalText/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "additionalText/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "additionalText/SortOrder",
+          "oldValue": "0",
+          "newValue": "4",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "additionalText/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "additionalText/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "additionalText",
+          "path": "additionalText",
+          "oldValue": "",
+          "newValue": "Additional Text",
+          "change": "Create"
+        },
+        {
+          "success": false,
+          "name": "submissionStatus",
+          "path": "Property/submissionStatus",
+          "oldValue": null,
+          "newValue": "Property 'submissionStatus' cannot be created (missing DataType?)",
+          "change": "Warning"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "submittedAt/Key",
+          "oldValue": "ebb62b1c-cf2f-40a1-b8c1-d958b43af470",
+          "newValue": "9e8ece71-e1c1-4f43-ad03-6e83702f0f92",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "submittedAt/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Submitted At",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "submittedAt/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "submittedAt/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "submittedAt/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "submittedAt/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "submittedAt",
+          "path": "submittedAt",
+          "oldValue": "",
+          "newValue": "Submitted At",
+          "change": "Create"
+        }
+      ],
+      "key": "cc000004-0004-0004-0004-000000000004"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/submissionsFolder.config",
+      "name": "Submissions Folder",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "832b8e0f-d999-428e-a4cf-16acb20ca6f2",
+          "newValue": "cc000005-0005-0005-0005-000000000005",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Submissions Folder",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Icon",
+          "path": "",
+          "oldValue": "icon-folder",
+          "newValue": "icon-item-arrangement",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "AllowAtRoot",
+          "path": "",
+          "oldValue": "False",
+          "newValue": "True",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Folder Info",
+          "path": "Tabs/Folder Info",
+          "oldValue": "",
+          "newValue": "Folder Info",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "sessionLabel/Key",
+          "oldValue": "9787de38-6579-45bb-88ff-160b3ada45c8",
+          "newValue": "99486fcc-aa5b-40f9-8169-823575033e31",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "sessionLabel/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Session Label",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "sessionLabel/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "sessionLabel/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "sessionLabel/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "sessionLabel/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "sessionLabel",
+          "path": "sessionLabel",
+          "oldValue": "",
+          "newValue": "Session Label",
+          "change": "Create"
+        }
+      ],
+      "key": "cc000005-0005-0005-0005-000000000005"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/localsimulationv2.config",
+      "name": "Local SimulationV2",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "7982c406-b807-42cb-b328-2563c3478d52",
+          "newValue": "ae24d739-b2fc-4140-a84f-471115d3c9c6",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Local SimulationV2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Icon",
+          "path": "",
+          "oldValue": "icon-folder",
+          "newValue": "icon-item-arrangement",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Local Overrides",
+          "path": "Tabs/Local Overrides",
+          "oldValue": "",
+          "newValue": "Local Overrides",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "localOfficeName/Key",
+          "oldValue": "4f5977ac-3074-435a-9e09-fc3d9cda2473",
+          "newValue": "bd9201b2-135f-4904-a008-80982e00e7a7",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "localOfficeName/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Local Office Name",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "localOfficeName/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "localOfficeName/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "localOfficeName/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "localOfficeName/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "localOfficeName",
+          "path": "localOfficeName",
+          "oldValue": "",
+          "newValue": "Local Office Name",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Compositions",
+          "path": "Info",
+          "oldValue": "(Blank)",
+          "newValue": "simulationMasterV2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Allowed",
+          "path": "/Structure",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "ae24d739-b2fc-4140-a84f-471115d3c9c6"
+    },
+    {
+      "handlerAlias": "ContentTypeHandler",
+      "success": true,
+      "itemType": "IContentType",
+      "message": "",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/ContentTypes/simulationmasterv2.config",
+      "name": "Simulation MasterV2",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "b3d7008d-e92b-4878-88d9-6ccf94605d0f",
+          "newValue": "c33e2bf6-6081-47dd-a019-c2c5529f3ac0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "Simulation MasterV2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Icon",
+          "path": "",
+          "oldValue": "icon-folder",
+          "newValue": "icon-item-arrangement",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "AllowAtRoot",
+          "path": "",
+          "oldValue": "False",
+          "newValue": "True",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "General Settings",
+          "path": "Tabs/General Settings",
+          "oldValue": "",
+          "newValue": "General Settings",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "globalRuleset/Key",
+          "oldValue": "d725e4c9-8e0c-4f45-a7ea-f906394a5c66",
+          "newValue": "16e03937-4d96-4545-b21f-09979df534f8",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "globalRuleset/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Global Ruleset",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "globalRuleset/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "globalRuleset/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "SortOrder",
+          "path": "globalRuleset/SortOrder",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "globalRuleset/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "globalRuleset/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "globalRuleset",
+          "path": "globalRuleset",
+          "oldValue": "",
+          "newValue": "Global Ruleset",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "masterSimulationID/Key",
+          "oldValue": "e273af9c-af28-4bf3-865a-b7cf290ac98e",
+          "newValue": "5fb6bece-2df7-41ba-a9be-9bd79172e008",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Name",
+          "path": "masterSimulationID/Name",
+          "oldValue": "(Blank)",
+          "newValue": "Master Simulation ID",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Description",
+          "path": "masterSimulationID/Description",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Validation",
+          "path": "masterSimulationID/RegEx",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "MandatoryMessage",
+          "path": "masterSimulationID/MandatoryMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "ValidationRegExpMessage",
+          "path": "masterSimulationID/ValidationRegExpMessage",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "masterSimulationID",
+          "path": "masterSimulationID",
+          "oldValue": "",
+          "newValue": "Master Simulation ID",
+          "change": "Create"
+        },
+        {
+          "success": true,
+          "name": "Allowed",
+          "path": "/Structure",
+          "oldValue": "(Blank)",
+          "newValue": "(Blank)",
+          "change": "Update"
+        }
+      ],
+      "key": "c33e2bf6-6081-47dd-a019-c2c5529f3ac0"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "01_national-master.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/national-master-template_53jnbe20.config",
+      "name": "National Master Template",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "82bcdf1e-8878-466b-8c8a-526c3d2998b4",
+          "newValue": "93c053ff-8d9a-4367-b3b5-af6a13cf91ee",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/14/2026 1:55:37 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "globalRuleset",
+          "path": "Property/globalRuleset",
+          "oldValue": "null",
+          "newValue": "\"Default JA USA Ruleset Applied.\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "masterSimulationID",
+          "path": "Property/masterSimulationID",
+          "oldValue": "null",
+          "newValue": "\"NAT-2026-v1\"",
+          "change": "Update"
+        }
+      ],
+      "key": "93c053ff-8d9a-4367-b3b5-af6a13cf91ee"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/national-master-template_q4jnaejg.config",
+      "name": "National Master Template (1)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "1",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "638e40ce-5748-4de4-a7aa-293f53131a89",
+          "newValue": "11d09387-6e26-4ddf-969b-2b5c1acdfc25",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/14/2026 1:47:06 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "globalRuleset",
+          "path": "Property/globalRuleset",
+          "oldValue": "null",
+          "newValue": "\"Default JA USA Ruleset Applied.\"",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "masterSimulationID",
+          "path": "Property/masterSimulationID",
+          "oldValue": "null",
+          "newValue": "\"NAT-2026-v1\"",
+          "change": "Update"
+        }
+      ],
+      "key": "11d09387-6e26-4ddf-969b-2b5c1acdfc25"
+    },
+    {
+      "handlerAlias": "uSync.BackOffice.SyncHandlers.Handlers.ContentHandler",
+      "success": false,
+      "itemType": "IContent",
+      "message": "ContentHandler Import Fail: Object reference not set to an instance of an object.",
+      "exception": {
+        "ClassName": "System.Exception",
+        "Message": "Object reference not set to an instance of an object.",
+        "Data": {},
+        "InnerException": null,
+        "HelpURL": null,
+        "StackTraceString": null,
+        "RemoteStackTraceString": null,
+        "RemoteStackIndex": 0,
+        "ExceptionMethod": null,
+        "HResult": -2146233088,
+        "Source": null,
+        "WatsonBuckets": null
+      },
+      "change": "Fail",
+      "fileName": "",
+      "name": "02_local-simulation.config",
+      "path": null,
+      "requiresPostProcessing": false,
+      "detailMessage": null,
+      "details": null,
+      "key": "00000000-0000-0000-0000-000000000000"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "Published",
+      "exception": null,
+      "change": "Import",
+      "fileName": "uSync/v9/Content/ja-san-diego-simulation_ggnalvcf.config",
+      "name": "JA San Diego Simulation",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": [
+        {
+          "success": true,
+          "name": "Path",
+          "path": "",
+          "oldValue": "(Blank)",
+          "newValue": "-1,1069,0",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Level",
+          "path": "",
+          "oldValue": "0",
+          "newValue": "2",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "Key",
+          "path": "",
+          "oldValue": "c1245927-5e58-4bb1-9b70-3c10aec0f61a",
+          "newValue": "d4059a31-d745-4cd1-8253-c78cfab7b50b",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "CreateDate",
+          "path": "",
+          "oldValue": "1/1/0001 12:00:00 AM",
+          "newValue": "4/14/2026 1:56:36 PM",
+          "change": "Update"
+        },
+        {
+          "success": true,
+          "name": "localOfficeName",
+          "path": "Property/localOfficeName",
+          "oldValue": "null",
+          "newValue": "\"San Diego Regional Office\"",
+          "change": "Update"
+        }
+      ],
+      "key": "d4059a31-d745-4cd1-8253-c78cfab7b50b"
+    },
+    {
+      "handlerAlias": "ContentHandler",
+      "success": true,
+      "itemType": "IContent",
+      "message": "",
+      "exception": null,
+      "change": "Delete",
+      "fileName": "uSync/v9/Content/national-master-template-1.config",
+      "name": "National Master Template (1)",
+      "path": "v9",
+      "requiresPostProcessing": true,
+      "detailMessage": null,
+      "details": null,
+      "key": "11d09387-6e26-4ddf-969b-2b5c1acdfc25"
+    }
+  ],
+  "date": "2026-04-15T07:19:27.8518635+00:00",
+  "username": "admin@example.com",
+  "method": "Import",
+  "filePath": null,
+  "changes": 14,
+  "total": 28
+}

@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram id="ja_biztown_3.0_—_screen_sharin" name="JA BizTown 3.0 — Screen Sharing and Teacher Monitoring">
+    <mxGraphModel dx="1106" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XtEQQhzfJnA_uQVlOhZR-2" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="20" y="41" width="842" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="XtEQQhzfJnA_uQVlOhZR-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="XtEQQhzfJnA_uQVlOhZR-2" source="n11" target="n18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="Volunteer Layer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="XtEQQhzfJnA_uQVlOhZR-2" vertex="1">
+          <mxGeometry width="840" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="Volunteer Tablet (Monitoring Console)" style="shape=mxgraph.azure2.endpoint;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="34" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="Select Student to Monitor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="352" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="Request Screen Share (POST /monitor/start)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n11" vertex="1">
+          <mxGeometry x="619" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="Azure Real-Time Layer" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="XtEQQhzfJnA_uQVlOhZR-2" vertex="1">
+          <mxGeometry x="2" y="140" width="840" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="Azure API Management" style="shape=mxgraph.azure2.api_management;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n15" vertex="1">
+          <mxGeometry x="20" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="Monitor Session Orchestrator (AKS)" style="shape=mxgraph.azure2.aks;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n15" vertex="1">
+          <mxGeometry x="277" y="41" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="Azure SignalR (Bidirectional Channel)" style="shape=mxgraph.azure2.signalr_service;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" parent="n15" vertex="1">
+          <mxGeometry x="594" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="Student Device Response" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;collapsible=0;recursiveResize=0;" parent="XtEQQhzfJnA_uQVlOhZR-2" vertex="1">
+          <mxGeometry y="280" width="840" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="Student Tablet (Screen Mirrored)" style="shape=mxgraph.azure2.endpoint;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" parent="n19" vertex="1">
+          <mxGeometry x="20" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="Notification: Volunteer is Viewing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="n19" vertex="1">
+          <mxGeometry x="310" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="Auto-End Mirror (After 5 min or on demand)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;" parent="n19" vertex="1">
+          <mxGeometry x="606" y="35" width="185" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="Open Monitor View" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="XtEQQhzfJnA_uQVlOhZR-2" source="n12" target="n13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="Initiate Session" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="XtEQQhzfJnA_uQVlOhZR-2" source="n13" target="n14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="HTTPS POST" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="XtEQQhzfJnA_uQVlOhZR-2" source="n14" target="n16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="Create Session" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="XtEQQhzfJnA_uQVlOhZR-2" source="n16" target="n17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="Establish Channel" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="XtEQQhzfJnA_uQVlOhZR-2" source="n17" target="n18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="Mirror Request (Consent Shown)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#82b366;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="XtEQQhzfJnA_uQVlOhZR-2" source="n18" target="n20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="Show Notification" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0078D4;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="XtEQQhzfJnA_uQVlOhZR-2" source="n20" target="n21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="Stream Screen" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;strokeColor=#82b366;fontStyle=0;fontSize=9;endArrow=block;endFill=1;" parent="XtEQQhzfJnA_uQVlOhZR-2" source="n18" target="n12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="596" y="170" />
+              <mxPoint x="330" y="170" />
+              <mxPoint x="330" y="30" />
+              <mxPoint x="219" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n31" value="Terminate Session" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.005;exitY=0.636;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#cc0000;fontStyle=0;fontSize=9;endArrow=block;endFill=1;exitPerimeter=0;" parent="XtEQQhzfJnA_uQVlOhZR-2" source="n22" target="n17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="350" />
+              <mxPoint x="500" y="260" />
+              <mxPoint x="429" y="260" />
+              <mxPoint x="429" y="170" />
+              <mxPoint x="344" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

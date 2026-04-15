@@ -1,0 +1,26 @@
+services:
+  umbraco:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: umbraco_poc
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - Umbraco__CMS__DeliveryApi__Enabled=true
+      - Umbraco__CMS__DeliveryApi__PublicAccess=true
+    volumes:
+      # Persistent storage for SQLite Database
+      - ./umbraco/Data:/app/umbraco/Data
+      # Persistent storage for logs
+      - ./umbraco/Logs:/app/umbraco/Logs
+      # Persistent storage for media assets (Images/Videos)
+      - ./wwwroot/media:/app/wwwroot/media
+      # uSync folder for automatic configuration and inheritance
+      - ./uSync:/app/uSync
+    restart: unless-stopped
+
+networks:
+  default:
+    name: umbraco_network
